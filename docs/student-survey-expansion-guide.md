@@ -2,6 +2,13 @@
 
 Students can use the paper creator to expand a survey or literature review from a small set of articles:
 
+Useful public routes:
+
+- Start with the QuantumEncryption1 guide: https://quantumencryption1.com/paper-creator-evidence-workflow/
+- Run the live tool in ZeroThink Paper Creator: https://zerothink.talktoai.org/research-paper-creator
+- Use the wider TalkToAI hub for project context: https://talktoai.org/
+- Use CallChat for secure communication and Shield licensing context: https://callchat.org/
+
 1. Collect seed papers, abstracts, notes, or DOIs.
 2. Upload or paste them into the Research Paper Creator.
 3. Run the literature-search plan stage.

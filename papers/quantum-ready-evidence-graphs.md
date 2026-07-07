@@ -12,6 +12,14 @@ themes: ["quantum-evidence", "ai-research-workflow", "zmath-shield-security"]
 
 This working paper turns the public Research Forum Online corpus into a cleaner research draft. It does not claim institutional approval, clinical proof, government certification, or quantum advantage. It treats the forum posts as a source corpus, then uses the ZeroThink Paper Creator method: source ledger first, claim graph second, synthesis third, and limitations visible at the end.
 
+Related public workflow pages:
+
+- QuantumEncryption1 Paper Creator evidence workflow: https://quantumencryption1.com/paper-creator-evidence-workflow/
+- Quantum-ready evidence workflow: https://quantumencryption1.com/quantum-evidence-workflow/
+- ZeroThink Paper Creator: https://zerothink.talktoai.org/research-paper-creator
+- TalkToAI ecosystem: https://talktoai.org/
+- CallChat ZERO secure communication lane: https://callchat.org/
+
 ## Abstract
 
 This paper proposes a cautious PoC workflow where AI builds claim/evidence graphs and quantum or simulator methods are tested only on constrained optimisation tasks. The source base is drawn from public forum papers including The Most Advanced Research In The World?; Meet Zero – Your Ultimate AI Companion for Research and Beyond; Introducing Professor Zero - Your Research Assistant; Interdimensional Thinking: A Theoretical Exploration; Interdimensional Mathematics: Exploring the Unknown through AI. The contribution is a structured research direction rather than a finished peer-reviewed finding: it identifies reusable concepts, separates evidence from speculation, and proposes validation tasks that can be run with ordinary classical baselines before any quantum, simulator, or AI-agent extension is treated as meaningful.

@@ -10,6 +10,14 @@ This repo is designed for clean, citeable public work:
 - no private ZMath, ZeroThink, server, or key material
 - generated working papers ready for human review
 
+## Public Workflow Links
+
+- [TalkToAI ecosystem](https://talktoai.org/) - public project hub, course, docs, and product routes.
+- [CallChat ZERO](https://callchat.org/) - Matrix-compatible secure communication and Shield licensing lane.
+- [QuantumEncryption1 Paper Creator evidence workflow](https://quantumencryption1.com/paper-creator-evidence-workflow/) - student and research workflow for survey expansion, source ledgers, and claim/evidence/provenance graphs.
+- [Quantum-ready evidence workflow](https://quantumencryption1.com/quantum-evidence-workflow/) - controlled PoC lane for provenance graphs and classical versus simulator/quantum optimisation tests.
+- [ZeroThink Paper Creator](https://zerothink.talktoai.org/research-paper-creator) - live research-paper drafting tool.
+
 ## New Working Papers
 
 | Paper | Focus |

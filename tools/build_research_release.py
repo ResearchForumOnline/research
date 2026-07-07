@@ -309,11 +309,24 @@ def build_paper(title: str, slug: str, thesis: str, theme_keys: list[str], theme
     primary_titles = "; ".join(src["title"] for src in matched[:5]) or "the public Research Forum Online corpus"
     note = domain_note(slug)
     method_rows = "\n".join(f"{idx}. {item}" for idx, item in enumerate(note["methods"], 1))
+    related_links = ""
+    if slug == "quantum-ready-evidence-graphs":
+        related_links = """
+Related public workflow pages:
+
+- QuantumEncryption1 Paper Creator evidence workflow: https://quantumencryption1.com/paper-creator-evidence-workflow/
+- Quantum-ready evidence workflow: https://quantumencryption1.com/quantum-evidence-workflow/
+- ZeroThink Paper Creator: https://zerothink.talktoai.org/research-paper-creator
+- TalkToAI ecosystem: https://talktoai.org/
+- CallChat ZERO secure communication lane: https://callchat.org/
+
+"""
     body = paper_front_matter(title, slug, theme_keys)
     body += f"""## Plain-Language Summary
 
 This working paper turns the public Research Forum Online corpus into a cleaner research draft. It does not claim institutional approval, clinical proof, government certification, or quantum advantage. It treats the forum posts as a source corpus, then uses the ZeroThink Paper Creator method: source ledger first, claim graph second, synthesis third, and limitations visible at the end.
 
+{related_links}
 ## Abstract
 
 {thesis} The source base is drawn from public forum papers including {primary_titles}. The contribution is a structured research direction rather than a finished peer-reviewed finding: it identifies reusable concepts, separates evidence from speculation, and proposes validation tasks that can be run with ordinary classical baselines before any quantum, simulator, or AI-agent extension is treated as meaningful.
@@ -498,6 +511,14 @@ Use this protocol for public research drafting:
 6. Add reviewer critique and revision tasks.
 7. Keep speculative, clinical, quantum, security, and government wording cautious unless external evidence supports stronger claims.
 
+Public routes:
+
+- QuantumEncryption1 Paper Creator evidence workflow: https://quantumencryption1.com/paper-creator-evidence-workflow/
+- Quantum-ready evidence workflow: https://quantumencryption1.com/quantum-evidence-workflow/
+- ZeroThink Paper Creator: https://zerothink.talktoai.org/research-paper-creator
+- TalkToAI ecosystem: https://talktoai.org/
+- CallChat ZERO secure communication lane: https://callchat.org/
+
 This public protocol does not include private ZeroThink prompts, private ZMath encryption implementation, keys, server configuration, or proprietary source code.
 """
     (ROOT / "templates" / "zerothink-paper-creator-public-protocol.md").write_text(template, encoding="utf-8")
@@ -505,6 +526,13 @@ This public protocol does not include private ZeroThink prompts, private ZMath e
     guide = """# Student Guide: Survey Expansion With ZeroThink Paper Creator
 
 Students can use the paper creator to expand a survey or literature review from a small set of articles:
+
+Useful public routes:
+
+- Start with the QuantumEncryption1 guide: https://quantumencryption1.com/paper-creator-evidence-workflow/
+- Run the live tool in ZeroThink Paper Creator: https://zerothink.talktoai.org/research-paper-creator
+- Use the wider TalkToAI hub for project context: https://talktoai.org/
+- Use CallChat for secure communication and Shield licensing context: https://callchat.org/
 
 1. Collect seed papers, abstracts, notes, or DOIs.
 2. Upload or paste them into the Research Paper Creator.
@@ -547,6 +575,14 @@ This repo is designed for clean, citeable public work:
 - careful academic wording
 - no private ZMath, ZeroThink, server, or key material
 - generated working papers ready for human review
+
+## Public Workflow Links
+
+- [TalkToAI ecosystem](https://talktoai.org/) - public project hub, course, docs, and product routes.
+- [CallChat ZERO](https://callchat.org/) - Matrix-compatible secure communication and Shield licensing lane.
+- [QuantumEncryption1 Paper Creator evidence workflow](https://quantumencryption1.com/paper-creator-evidence-workflow/) - student and research workflow for survey expansion, source ledgers, and claim/evidence/provenance graphs.
+- [Quantum-ready evidence workflow](https://quantumencryption1.com/quantum-evidence-workflow/) - controlled PoC lane for provenance graphs and classical versus simulator/quantum optimisation tests.
+- [ZeroThink Paper Creator](https://zerothink.talktoai.org/research-paper-creator) - live research-paper drafting tool.
 
 ## New Working Papers
 
