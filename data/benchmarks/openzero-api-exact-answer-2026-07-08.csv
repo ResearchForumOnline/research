@@ -1,0 +1,101 @@
+model,question_id,category,correct,elapsed_seconds,status_code,answer
+glm4:9b-q5,math_001,arithmetic,1,37.435,200,"To find the total cost, calculate the cost of the notebooks and pens separately.
+
+Cost of notebooks:
+3 notebooks * 5 pounds/notebook = 15 pounds
+
+Cost of pens:
+2 pens * 4 pounds/pen = 8 pounds
+
+Total cost:
+15 pounds + 8 pounds = 23 pounds"
+glm4:9b-q5,math_002,arithmetic,1,5.513,200,6
+glm4:9b-q5,math_003,arithmetic,1,3.384,200,102
+glm4:9b-q5,math_004,arithmetic,0,4.966,200,25 minutes
+glm4:9b-q5,math_005,arithmetic,0,20.668,200,"To solve for \( x \) in the equation \( 2x + 7 = 19 \), follow these steps:
+
+1. Subtract 7 from both sides of the equation:
+   \[
+   2x + 7 - 7 = 19 - 7 \\
+   2x ="
+glm4:9b-q5,logic_001,logic,1,7.705,200,No.
+glm4:9b-q5,logic_002,logic,0,4.239,200,Sol
+glm4:9b-q5,logic_003,logic,1,6.293,200,blue
+glm4:9b-q5,logic_004,logic,1,4.0,200,potato
+glm4:9b-q5,knowledge_001,knowledge,0,5.457,200,Oxygen
+qwen2.5:1.5b,math_001,arithmetic,0,4.155,200,15 pounds
+qwen2.5:1.5b,math_002,arithmetic,1,0.692,200,6 teams
+qwen2.5:1.5b,math_003,arithmetic,1,0.795,200,Answer: 102
+qwen2.5:1.5b,math_004,arithmetic,0,0.741,200,25
+qwen2.5:1.5b,math_005,arithmetic,1,1.935,200,\( x = 6 \)
+qwen2.5:1.5b,logic_001,logic,0,0.762,200,Yes.
+qwen2.5:1.5b,logic_002,logic,1,0.966,200,Mira is the oldest.
+qwen2.5:1.5b,logic_003,logic,1,0.887,200,The ball must be blue.
+qwen2.5:1.5b,logic_004,logic,1,0.627,200,Potato.
+qwen2.5:1.5b,knowledge_001,knowledge,1,0.8,200,Carbon dioxide (CO2)
+qwen2.5:3b,math_001,arithmetic,0,6.149,200,19
+qwen2.5:3b,math_002,arithmetic,1,1.376,200,There are 6 teams.
+qwen2.5:3b,math_003,arithmetic,1,0.973,200,102
+qwen2.5:3b,math_004,arithmetic,0,1.154,200,35
+qwen2.5:3b,math_005,arithmetic,1,1.119,200,x = 6
+qwen2.5:3b,logic_001,logic,0,1.2,200,Yes
+qwen2.5:3b,logic_002,logic,1,1.048,200,Mira
+qwen2.5:3b,logic_003,logic,1,1.136,200,Blue.
+qwen2.5:3b,logic_004,logic,1,1.069,200,potato
+qwen2.5:3b,knowledge_001,knowledge,1,0.948,200,Carbon dioxide
+hermes3:8b-llama3.1-q5_K_M,math_001,arithmetic,1,26.993,200,"The total cost is 23 pounds. (3 notebooks at 5 pounds each = 15 pounds, plus 2 pens at 4 pounds each = 8 pounds, for a total of 23 pounds)"
+hermes3:8b-llama3.1-q5_K_M,math_002,arithmetic,1,5.37,200,There will be 6 teams of 3 people each.
+hermes3:8b-llama3.1-q5_K_M,math_003,arithmetic,1,2.255,200,102
+hermes3:8b-llama3.1-q5_K_M,math_004,arithmetic,1,4.496,200,The journey takes 45 minutes.
+hermes3:8b-llama3.1-q5_K_M,math_005,arithmetic,0,16.205,200,"To solve for x in the equation 2x + 7 = 19, follow these steps:
+
+1. Subtract 7 from both sides of the equation:
+   2x + 7 - 7 = 19 - 7
+   2x = 12
+
+2. Divide both sides by"
+hermes3:8b-llama3.1-q5_K_M,logic_001,logic,0,3.793,200,Yes
+hermes3:8b-llama3.1-q5_K_M,logic_002,logic,1,3.875,200,Mira is the oldest.
+hermes3:8b-llama3.1-q5_K_M,logic_003,logic,1,3.423,200,Blue
+hermes3:8b-llama3.1-q5_K_M,logic_004,logic,1,2.551,200,potato
+hermes3:8b-llama3.1-q5_K_M,knowledge_001,knowledge,1,6.086,200,Plants mostly absorb carbon dioxide (CO2) from the air during photosynthesis.
+gemma4:e2b,math_001,arithmetic,0,17.673,200,
+gemma4:e2b,math_002,arithmetic,0,5.953,200,
+gemma4:e2b,math_003,arithmetic,0,5.898,200,
+gemma4:e2b,math_004,arithmetic,0,6.109,200,
+gemma4:e2b,math_005,arithmetic,0,5.945,200,
+gemma4:e2b,logic_001,logic,0,6.075,200,
+gemma4:e2b,logic_002,logic,0,5.946,200,
+gemma4:e2b,logic_003,logic,0,5.85,200,
+gemma4:e2b,logic_004,logic,0,5.885,200,
+gemma4:e2b,knowledge_001,knowledge,0,5.883,200,
+gemma4:e4b,math_001,arithmetic,0,27.402,200,
+gemma4:e4b,math_002,arithmetic,0,10.147,200,
+gemma4:e4b,math_003,arithmetic,0,9.936,200,
+gemma4:e4b,math_004,arithmetic,0,10.84,200,
+gemma4:e4b,math_005,arithmetic,0,10.397,200,
+gemma4:e4b,logic_001,logic,0,10.846,200,
+gemma4:e4b,logic_002,logic,1,1.724,200,Mira
+gemma4:e4b,logic_003,logic,0,10.036,200,
+gemma4:e4b,logic_004,logic,0,9.716,200,
+gemma4:e4b,knowledge_001,knowledge,1,1.831,200,Carbon dioxide
+talktoaizero-q6:latest,math_001,arithmetic,0,15.249,200,15
+talktoaizero-q6:latest,math_002,arithmetic,1,2.628,200,6 teams.
+talktoaizero-q6:latest,math_003,arithmetic,1,1.825,200,102
+talktoaizero-q6:latest,math_004,arithmetic,0,3.187,200,60 minutes.
+talktoaizero-q6:latest,math_005,arithmetic,1,2.773,200,x = 6
+talktoaizero-q6:latest,logic_001,logic,1,3.324,200,No.
+talktoaizero-q6:latest,logic_002,logic,0,2.979,200,Jen.
+talktoaizero-q6:latest,logic_003,logic,1,2.916,200,Blue.
+talktoaizero-q6:latest,logic_004,logic,1,2.718,200,Potato.
+talktoaizero-q6:latest,knowledge_001,knowledge,1,3.364,200,Carbon dioxide (CO2).
+gemma3:12b,math_001,arithmetic,0,24.476,200,29
+gemma3:12b,math_002,arithmetic,1,3.281,200,6
+gemma3:12b,math_003,arithmetic,1,3.646,200,102
+gemma3:12b,math_004,arithmetic,0,4.243,200,25
+gemma3:12b,math_005,arithmetic,1,4.119,200,x = 6
+gemma3:12b,logic_001,logic,1,4.139,200,No
+gemma3:12b,logic_002,logic,1,3.14,200,Mira
+gemma3:12b,logic_003,logic,1,3.728,200,Blue
+gemma3:12b,logic_004,logic,1,3.209,200,potato
+gemma3:12b,knowledge_001,knowledge,1,3.498,200,Carbon dioxide

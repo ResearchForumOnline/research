@@ -1,0 +1,439 @@
+{
+  "snapshot_utc": "2026-07-08T00:00:00Z",
+  "source": "https://huggingface.co/api/models?author=shafire&full=true",
+  "models": [
+    {
+      "modelId": "shafire/talktoai",
+      "createdAt": "2024-09-09T13:19:34.000Z",
+      "lastModified": "2024-09-16T13:53:21.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 0,
+      "likes": 2,
+      "license_tags": [
+        "license:mit"
+      ],
+      "base_model_tags": [
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.1-8B-Instruct"
+      ],
+      "format_tags": [
+        "transformers",
+        "safetensors",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/talktoai"
+    },
+    {
+      "modelId": "shafire/talktoaiZERO",
+      "createdAt": "2024-09-09T16:48:13.000Z",
+      "lastModified": "2024-12-03T16:20:59.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 148,
+      "likes": 5,
+      "license_tags": [
+        "license:mit"
+      ],
+      "base_model_tags": [
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:quantized:meta-llama/Llama-3.1-8B-Instruct"
+      ],
+      "format_tags": [
+        "transformers",
+        "safetensors",
+        "gguf",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/talktoaiZERO"
+    },
+    {
+      "modelId": "shafire/QuantumAI",
+      "createdAt": "2024-09-12T17:51:56.000Z",
+      "lastModified": "2024-09-16T13:53:41.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 0,
+      "likes": 1,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [],
+      "format_tags": [
+        "transformers",
+        "safetensors"
+      ],
+      "url": "https://huggingface.co/shafire/QuantumAI"
+    },
+    {
+      "modelId": "shafire/talktoaiQT",
+      "createdAt": "2024-09-14T15:20:30.000Z",
+      "lastModified": "2024-09-21T18:33:18.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 3,
+      "likes": 1,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [
+        "base_model:meta-llama/Llama-3.1-8B",
+        "base_model:finetune:meta-llama/Llama-3.1-8B"
+      ],
+      "format_tags": [
+        "transformers",
+        "safetensors",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/talktoaiQT"
+    },
+    {
+      "modelId": "shafire/SkynetZero",
+      "createdAt": "2024-09-17T00:30:22.000Z",
+      "lastModified": "2024-09-21T18:34:13.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 8,
+      "likes": 2,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [
+        "base_model:meta-llama/Llama-3.1-8B",
+        "base_model:quantized:meta-llama/Llama-3.1-8B"
+      ],
+      "format_tags": [
+        "transformers",
+        "gguf",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/SkynetZero"
+    },
+    {
+      "modelId": "shafire/talktoaiQuantum",
+      "createdAt": "2024-09-18T20:02:19.000Z",
+      "lastModified": "2024-09-19T12:59:13.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 0,
+      "likes": 1,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [
+        "base_model:meta-llama/Llama-3.1-8B",
+        "base_model:finetune:meta-llama/Llama-3.1-8B"
+      ],
+      "format_tags": [
+        "transformers",
+        "safetensors",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/talktoaiQuantum"
+    },
+    {
+      "modelId": "shafire/talktoaiQ",
+      "createdAt": "2024-09-19T12:59:47.000Z",
+      "lastModified": "2025-06-12T18:52:54.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 5,
+      "likes": 4,
+      "license_tags": [
+        "license:apache-2.0"
+      ],
+      "base_model_tags": [
+        "base_model:meta-llama/Llama-3.1-8B",
+        "base_model:quantized:meta-llama/Llama-3.1-8B"
+      ],
+      "format_tags": [
+        "transformers",
+        "gguf",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/talktoaiQ"
+    },
+    {
+      "modelId": "shafire/AgentZero",
+      "createdAt": "2024-10-02T19:20:26.000Z",
+      "lastModified": "2024-10-07T22:02:02.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 0,
+      "likes": 3,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [
+        "base_model:google/gemma-2-9b-it",
+        "base_model:finetune:google/gemma-2-9b-it"
+      ],
+      "format_tags": [
+        "transformers",
+        "safetensors",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/AgentZero"
+    },
+    {
+      "modelId": "shafire/AgentZeroLLM",
+      "createdAt": "2024-10-08T22:17:17.000Z",
+      "lastModified": "2024-10-10T23:02:10.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 4,
+      "likes": 1,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [
+        "base_model:google/gemma-2-9b-it",
+        "base_model:finetune:google/gemma-2-9b-it"
+      ],
+      "format_tags": [
+        "transformers",
+        "safetensors",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/AgentZeroLLM"
+    },
+    {
+      "modelId": "shafire/AgentZero-F16-GGUF",
+      "createdAt": "2024-11-12T01:09:59.000Z",
+      "lastModified": "2025-06-12T18:52:31.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 7,
+      "likes": 0,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [
+        "base_model:shafire/AgentZero",
+        "base_model:quantized:shafire/AgentZero"
+      ],
+      "format_tags": [
+        "transformers",
+        "gguf",
+        "peft",
+        "llama-cpp"
+      ],
+      "url": "https://huggingface.co/shafire/AgentZero-F16-GGUF"
+    },
+    {
+      "modelId": "shafire/AgentZero-Q8_0-GGUF",
+      "createdAt": "2024-11-12T01:10:28.000Z",
+      "lastModified": "2025-06-12T18:38:14.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 16,
+      "likes": 0,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [
+        "base_model:shafire/AgentZero",
+        "base_model:quantized:shafire/AgentZero"
+      ],
+      "format_tags": [
+        "transformers",
+        "gguf",
+        "peft",
+        "llama-cpp"
+      ],
+      "url": "https://huggingface.co/shafire/AgentZero-Q8_0-GGUF"
+    },
+    {
+      "modelId": "shafire/talktoai-F16-GGUF",
+      "createdAt": "2024-11-13T08:59:49.000Z",
+      "lastModified": "2025-06-12T18:52:41.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 10,
+      "likes": 0,
+      "license_tags": [
+        "license:mit"
+      ],
+      "base_model_tags": [
+        "base_model:shafire/talktoai",
+        "base_model:quantized:shafire/talktoai"
+      ],
+      "format_tags": [
+        "transformers",
+        "gguf",
+        "peft",
+        "llama-cpp"
+      ],
+      "url": "https://huggingface.co/shafire/talktoai-F16-GGUF"
+    },
+    {
+      "modelId": "shafire/SpectraMind",
+      "createdAt": "2024-11-13T12:03:16.000Z",
+      "lastModified": "2025-06-12T18:51:09.000Z",
+      "pipeline_tag": null,
+      "library_name": null,
+      "downloads": 178,
+      "likes": 4,
+      "license_tags": [
+        "license:apache-2.0"
+      ],
+      "base_model_tags": [],
+      "format_tags": [
+        "gguf"
+      ],
+      "url": "https://huggingface.co/shafire/SpectraMind"
+    },
+    {
+      "modelId": "shafire/SpectraMindQ",
+      "createdAt": "2024-11-13T13:37:41.000Z",
+      "lastModified": "2025-06-12T18:52:10.000Z",
+      "pipeline_tag": null,
+      "library_name": null,
+      "downloads": 52,
+      "likes": 1,
+      "license_tags": [
+        "license:apache-2.0"
+      ],
+      "base_model_tags": [],
+      "format_tags": [
+        "gguf"
+      ],
+      "url": "https://huggingface.co/shafire/SpectraMindQ"
+    },
+    {
+      "modelId": "shafire/MicroSpectraMind",
+      "createdAt": "2024-11-15T22:40:02.000Z",
+      "lastModified": "2024-11-16T03:04:25.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 0,
+      "likes": 0,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [
+        "base_model:meta-llama/Llama-3.2-1B",
+        "base_model:finetune:meta-llama/Llama-3.2-1B"
+      ],
+      "format_tags": [
+        "transformers",
+        "safetensors",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/MicroSpectraMind"
+    },
+    {
+      "modelId": "shafire/SpectraMind3",
+      "createdAt": "2024-11-16T03:27:55.000Z",
+      "lastModified": "2024-11-16T13:32:12.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 0,
+      "likes": 0,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [
+        "base_model:meta-llama/Llama-3.2-3B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct"
+      ],
+      "format_tags": [
+        "transformers",
+        "safetensors",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/SpectraMind3"
+    },
+    {
+      "modelId": "shafire/SpectraMindz",
+      "createdAt": "2024-11-16T14:57:03.000Z",
+      "lastModified": "2024-11-17T10:51:00.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 0,
+      "likes": 0,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [
+        "base_model:meta-llama/Llama-3.1-8B",
+        "base_model:finetune:meta-llama/Llama-3.1-8B"
+      ],
+      "format_tags": [
+        "transformers",
+        "safetensors",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/SpectraMindz"
+    },
+    {
+      "modelId": "shafire/spectra",
+      "createdAt": "2024-11-18T15:25:47.000Z",
+      "lastModified": "2024-11-19T16:18:52.000Z",
+      "pipeline_tag": null,
+      "library_name": null,
+      "downloads": 0,
+      "likes": 0,
+      "license_tags": [],
+      "base_model_tags": [],
+      "format_tags": [],
+      "url": "https://huggingface.co/shafire/spectra"
+    },
+    {
+      "modelId": "shafire/SpectraZero",
+      "createdAt": "2024-11-23T20:19:06.000Z",
+      "lastModified": "2024-11-24T21:11:56.000Z",
+      "pipeline_tag": null,
+      "library_name": null,
+      "downloads": 0,
+      "likes": 0,
+      "license_tags": [],
+      "base_model_tags": [],
+      "format_tags": [],
+      "url": "https://huggingface.co/shafire/SpectraZero"
+    },
+    {
+      "modelId": "shafire/Spectra8",
+      "createdAt": "2025-02-09T01:42:32.000Z",
+      "lastModified": "2025-02-10T01:59:04.000Z",
+      "pipeline_tag": null,
+      "library_name": "transformers",
+      "downloads": 7,
+      "likes": 3,
+      "license_tags": [
+        "license:apache-2.0"
+      ],
+      "base_model_tags": [
+        "base_model:deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "base_model:quantized:deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+      ],
+      "format_tags": [
+        "transformers",
+        "gguf"
+      ],
+      "url": "https://huggingface.co/shafire/Spectra8"
+    },
+    {
+      "modelId": "shafire/CryptoAI",
+      "createdAt": "2025-05-20T12:44:20.000Z",
+      "lastModified": "2025-06-05T02:31:02.000Z",
+      "pipeline_tag": "text-generation",
+      "library_name": "transformers",
+      "downloads": 3,
+      "likes": 2,
+      "license_tags": [
+        "license:other"
+      ],
+      "base_model_tags": [
+        "base_model:meta-llama/Llama-3.1-8B",
+        "base_model:finetune:meta-llama/Llama-3.1-8B"
+      ],
+      "format_tags": [
+        "transformers",
+        "safetensors",
+        "peft"
+      ],
+      "url": "https://huggingface.co/shafire/CryptoAI"
+    }
+  ]
+}
