@@ -1,0 +1,191 @@
+{
+  "snapshot_utc": "2026-07-08T23:25:00Z",
+  "artifacts": [
+    {
+      "label": "dataset:shafire/Spectra8",
+      "id": "shafire/Spectra8",
+      "createdAt": "2025-06-13T23:20:07.000Z",
+      "lastModified": "2025-06-29T02:39:41.000Z",
+      "downloads": 6,
+      "likes": 1,
+      "tags": [
+        "license:apache-2.0",
+        "size_categories:n<1K",
+        "format:csv",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us",
+        "recursive-ai, quantum-adaptive, multi-modal, AGI, ai-alignment, ethics, self-learning, deepseek, llama, cryptography, mathematics, neuromorphic"
+      ],
+      "files": [
+        ".gitattributes",
+        "CLEANED_Spectra8__Dataset_FIXED.csv",
+        "README.md"
+      ],
+      "url": "https://huggingface.co/datasets/shafire/Spectra8"
+    },
+    {
+      "label": "dataset:shafire/TalkToAiQ",
+      "id": "shafire/TalkToAiQ",
+      "createdAt": "2025-06-13T23:14:00.000Z",
+      "lastModified": "2025-06-13T23:23:50.000Z",
+      "downloads": 37,
+      "likes": 1,
+      "tags": [
+        "license:apache-2.0",
+        "size_categories:n<1K",
+        "format:csv",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us",
+        "autotrain",
+        "text-generation-inference",
+        "text-generation",
+        "peft"
+      ],
+      "files": [
+        ".gitattributes",
+        "Complete_ZeroLLM_training_data.csv",
+        "README.md",
+        "enhanced_dataset_with_reflections.csv",
+        "zero_super_ai_dataset.csv",
+        "zero_super_ai_expanded_dataset.csv",
+        "zero_super_ai_maximized_dataset.csv"
+      ],
+      "url": "https://huggingface.co/datasets/shafire/TalkToAiQ"
+    },
+    {
+      "label": "dataset:shafire/SpectraMind",
+      "id": "shafire/SpectraMind",
+      "createdAt": "2025-06-13T23:11:28.000Z",
+      "lastModified": "2025-06-13T23:13:19.000Z",
+      "downloads": 21,
+      "likes": 1,
+      "tags": [
+        "license:apache-2.0",
+        "size_categories:100K<n<1M",
+        "format:csv",
+        "modality:text",
+        "library:datasets",
+        "library:dask",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "files": [
+        ".gitattributes",
+        "README.md",
+        "Spectramind_split_10_fixed.csv",
+        "Spectramind_split_1_fixed.csv",
+        "Spectramind_split_2_fixed.csv",
+        "Spectramind_split_3_fixed.csv",
+        "Spectramind_split_4_fixed.csv",
+        "Spectramind_split_5_fixed.csv",
+        "Spectramind_split_6_fixed.csv",
+        "Spectramind_split_7_fixed.csv",
+        "Spectramind_split_8_fixed.csv",
+        "Spectramind_split_9_fixed.csv"
+      ],
+      "url": "https://huggingface.co/datasets/shafire/SpectraMind"
+    },
+    {
+      "label": "model:shafire/Spectra8",
+      "id": "shafire/Spectra8",
+      "createdAt": "2025-02-09T01:42:32.000Z",
+      "lastModified": "2025-02-10T01:59:04.000Z",
+      "downloads": 7,
+      "likes": 3,
+      "tags": [
+        "transformers",
+        "gguf",
+        "recursive-ai, quantum-adaptive, multi-modal, AGI, ai-alignment, ethics, self-learning, deepseek, llama, cryptography, mathematics, neuromorphic",
+        "base_model:deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "base_model:quantized:deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "files": [
+        ".gitattributes",
+        "README.md",
+        "Spectra8-8.0B-Q8_0.gguf",
+        "Spectra8.0B-F16.gguf",
+        "Spectra8.png",
+        "Spectra81.png"
+      ],
+      "url": "https://huggingface.co/shafire/Spectra8"
+    },
+    {
+      "label": "model:shafire/talktoaiQ",
+      "id": "shafire/talktoaiQ",
+      "createdAt": "2024-09-19T12:59:47.000Z",
+      "lastModified": "2025-06-12T18:52:54.000Z",
+      "downloads": 5,
+      "likes": 4,
+      "tags": [
+        "transformers",
+        "gguf",
+        "autotrain",
+        "text-generation-inference",
+        "text-generation",
+        "peft",
+        "base_model:meta-llama/Llama-3.1-8B",
+        "base_model:quantized:meta-llama/Llama-3.1-8B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "files": [
+        ".gitattributes",
+        "Agent",
+        "License.md",
+        "README.md",
+        "Research-Paper-talktoai.txt",
+        "screenshot1.png",
+        "screenshot2.png",
+        "talktoaiAGI.png",
+        "talktoaiQ.png",
+        "talktoaiQuantum.gguf"
+      ],
+      "url": "https://huggingface.co/shafire/talktoaiQ"
+    },
+    {
+      "label": "model:shafire/SpectraMind",
+      "id": "shafire/SpectraMind",
+      "createdAt": "2024-11-13T12:03:16.000Z",
+      "lastModified": "2025-06-12T18:51:09.000Z",
+      "downloads": 178,
+      "likes": 4,
+      "tags": [
+        "gguf",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "files": [
+        ".gitattributes",
+        "License.md",
+        "MicroSpectraMind_f16.gguf",
+        "MicroSpectraMind_q8.gguf",
+        "README.md",
+        "SpectraMind.card.png",
+        "SpectraMind3_f16.gguf",
+        "SpectraMind3_q8.gguf",
+        "SpectraMindLLM.gif",
+        "SpectraMindz_f16.gguf",
+        "SpectraMindz_q8.gguf",
+        "spectramind.png"
+      ],
+      "url": "https://huggingface.co/shafire/SpectraMind"
+    }
+  ]
+}

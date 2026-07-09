@@ -1,0 +1,68 @@
+{
+  "gemma3:12b": {
+    "questions": 10,
+    "correct": 8,
+    "accuracy": 0.8,
+    "avg_latency_seconds": 5.748
+  },
+  "glm4:9b-q5": {
+    "questions": 10,
+    "correct": 6,
+    "accuracy": 0.6,
+    "avg_latency_seconds": 9.966
+  },
+  "hermes3:8b-llama3.1-q5_K_M": {
+    "questions": 10,
+    "correct": 8,
+    "accuracy": 0.8,
+    "avg_latency_seconds": 7.505
+  },
+  "microspectramind-q8:latest": {
+    "questions": 10,
+    "correct": 0,
+    "accuracy": 0.0,
+    "avg_latency_seconds": 4.993
+  },
+  "qwen2.5:1.5b": {
+    "questions": 10,
+    "correct": 7,
+    "accuracy": 0.7,
+    "avg_latency_seconds": 1.236
+  },
+  "qwen2.5:3b": {
+    "questions": 10,
+    "correct": 7,
+    "accuracy": 0.7,
+    "avg_latency_seconds": 1.617
+  },
+  "spectra8-q8:latest": {
+    "questions": 10,
+    "correct": 9,
+    "accuracy": 0.9,
+    "avg_latency_seconds": 15.035
+  },
+  "spectramind3-q8:latest": {
+    "questions": 10,
+    "correct": 1,
+    "accuracy": 0.1,
+    "avg_latency_seconds": 4.945
+  },
+  "spectramindz-q8:latest": {
+    "questions": 10,
+    "correct": 0,
+    "accuracy": 0.0,
+    "avg_latency_seconds": 24.83
+  },
+  "talktoaiq-f16:latest": {
+    "questions": 10,
+    "correct": 0,
+    "accuracy": 0.0,
+    "avg_latency_seconds": 43.258
+  },
+  "talktoaizero-q6:latest": {
+    "questions": 10,
+    "correct": 7,
+    "accuracy": 0.7,
+    "avg_latency_seconds": 4.096
+  }
+}

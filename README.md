@@ -14,6 +14,7 @@ This repo is designed for clean, citeable public work:
 
 - [TalkToAI ecosystem](https://talktoai.org/) - public project hub, course, docs, and product routes.
 - [CallChat ZERO](https://callchat.org/) - Matrix-compatible secure communication and Shield licensing lane.
+- [Benchmark Results](BENCHMARKS.md) - Shafire, Spectra, TalkToAI, and OpenZero public benchmark snapshots.
 - [QuantumEncryption1 Paper Creator evidence workflow](https://quantumencryption1.com/paper-creator-evidence-workflow/) - student and research workflow for survey expansion, source ledgers, and claim/evidence/provenance graphs.
 - [Quantum-ready evidence workflow](https://quantumencryption1.com/quantum-evidence-workflow/) - controlled PoC lane for provenance graphs and classical versus simulator/quantum optimisation tests.
 - [ZeroThink Paper Creator](https://zerothink.talktoai.org/research-paper-creator) - live research-paper drafting tool.
@@ -28,6 +29,7 @@ This repo is designed for clean, citeable public work:
 | [ZMath Shield and Portable Evidence Containers](papers/zmath-shield-evidence-containers.md) | Public behaviour spec, no private encryption code |
 | [Quantum-Ready Evidence Graphs](papers/quantum-ready-evidence-graphs.md) | AI claim graphs plus constrained optimisation tests |
 | [Shafire and OpenZero Local Benchmark Snapshot](papers/shafire-openzero-local-benchmark-2026-07-08.md) | First CPU/API benchmark snapshot for Shafire models and OpenZero |
+| [Spectra8, TalkToAiQ, and SpectraMind OpenZero Benchmark](papers/spectra-talktoaiq-openzero-benchmark-2026-07-08.md) | Requested benchmark pass for Spectra/TalkToAiQ/SpectraMind artifacts |
 | [Probability of Goodness](papers/probability-of-goodness-ethical-routing.md) | Ethical routing heuristic |
 | [Bio-Digital Research Boundaries](papers/bio-digital-research-boundaries.md) | DNA/organic computing caution lane |
 | [Botanical Formula Research Roadmap](papers/botanical-formula-research-roadmap.md) | Safety-first research plan |
