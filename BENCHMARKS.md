@@ -68,7 +68,7 @@ Headline result on the 10-question exact-answer CPU/API suite:
 | `spectramindz-q8:latest` | 0/10 | 0% | 24.830 |
 | `talktoaiq-f16:latest` | 0/10 | 0% | 43.258 |
 
-Important limitation: several SpectraMind/TalkToAiQ variants loaded but mostly echoed the OpenZero API system prompt instead of answering. Those are reported as served-model/template failures on this route, not proof that the underlying training data has no value. Just need to do further tests on the failed parts i got ai to do it for me took hours, so time consuming.
+Important limitation: several SpectraMind/TalkToAiQ variants loaded but mostly echoed the OpenZero API system prompt instead of answering. Those are reported as served-model/template failures on this route, not proof that the underlying training data has no value. The failed routes should be retested with direct Ollama calls and model-specific templates.
 
 ## 2026-07-08: TalkToAI ZERO Initial Snapshot
 
