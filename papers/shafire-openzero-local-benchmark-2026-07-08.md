@@ -94,3 +94,5 @@ This run does not prove that TalkToAI/talktoaiZERO beat frontier models at relea
 ## Security Observation
 
 During benchmarking, the live OpenZero `/api/config` response exposed sensitive operator fields. Public reports must not include those values. The server should rotate exposed credentials and adjust `/api/config` to return only safe public status fields.
+
+Follow-up completed on 2026-07-08: the live OpenZero AIOS node was patched to redact sensitive config fields from `/api/config` and config update responses, the OpenZero API key was rotated, the legacy plaintext key field was cleared, and the exposed sudo/operator value was rotated. No secret values are stored in this public repository.
