@@ -1,0 +1,115 @@
+{
+  "account": {
+    "email": "<redacted-authorized-account>",
+    "is_pro": 1,
+    "plan": "god_mode",
+    "role": "admin",
+    "saved_provider_keys_present": {
+      "gemini": true,
+      "groq": true,
+      "nvidia": true,
+      "openai": true,
+      "serper": true,
+      "xai": true,
+      "zerothink": true
+    },
+    "subscription_status": "active",
+    "token_expires_at": "2026-08-08 06:29:22",
+    "token_hint": "<redacted>",
+    "token_revoked_after_run": true
+  },
+  "base_url": "https://zerothink.talktoai.org",
+  "benchmark": "ZeroThink authenticated intelligence benchmark",
+  "generated_at_utc": "2026-07-09T06:44:31+00:00",
+  "lanes": {
+    "zerothink_openzero_spectra8_chat": {
+      "accuracy": 0.3,
+      "availability_error": "probe_reply_did_not_follow_ok: What is your final answer to the user's request? The user asked if a 9.7% Ashkenazi trace is maternal or paternal and wants to know. After analyzing DNA data, it was determined that this trace comes from the paternal side. - **Step-by-st...",
+      "availability_status": "available",
+      "avg_latency_seconds": 75.70264039999999,
+      "correct": 3,
+      "display_name": "ZeroThink/OpenZero Spectra8 chat-completion lane",
+      "median_latency_seconds": 90.225644,
+      "probe_latency_seconds": 60.96202039998025,
+      "provider": "zerothink",
+      "selected_model": "spectra8-q8",
+      "total": 10
+    }
+  },
+  "method_notes": [
+    "ZeroTrade sources and credentials were excluded.",
+    "Provider keys remained in the ZeroThink account vault/server database and were not printed or exported.",
+    "Calls were made through the live ZeroThink /api_agent.php route with a temporary bearer token for the authorized account.",
+    "Perplexity was not included because no Perplexity key/provider lane was found in this ZeroThink account path.",
+    "This benchmark scores exact final answers; it is not a full MMLU, GSM8K, HumanEval, or Arena replacement."
+  ],
+  "rows": 10,
+  "run_date": "2026-07-09",
+  "secret_leak_checks": {
+    "passed": true,
+    "patterns": [
+      "bearer_token",
+      "google_api_key",
+      "groq_key",
+      "nvidia_key",
+      "openai_key",
+      "openzero_machine_key",
+      "xai_or_generic_secret",
+      "zerothink_api_token",
+      "zerothink_cli_token"
+    ],
+    "rows_with_hits": 0
+  },
+  "tasks": [
+    {
+      "category": "math",
+      "expected": "182",
+      "task_id": "arithmetic_nested"
+    },
+    {
+      "category": "temporal_reasoning",
+      "expected": "Friday",
+      "task_id": "calendar_offset"
+    },
+    {
+      "category": "logic",
+      "expected": "no",
+      "task_id": "syllogism_quantifier"
+    },
+    {
+      "category": "instruction_following",
+      "expected": "-2,0,7,7,14",
+      "task_id": "sort_with_duplicate"
+    },
+    {
+      "category": "code_reasoning",
+      "expected": "[2,5,8]",
+      "task_id": "python_range"
+    },
+    {
+      "category": "word_problem",
+      "expected": "16",
+      "task_id": "marble_inventory"
+    },
+    {
+      "category": "structured_output",
+      "expected": "{\"result\":\"8artceps\"}",
+      "task_id": "json_reverse"
+    },
+    {
+      "category": "time_arithmetic",
+      "expected": "14:17",
+      "task_id": "pause_time"
+    },
+    {
+      "category": "science_reasoning",
+      "expected": "iron",
+      "task_id": "density_mass_trick"
+    },
+    {
+      "category": "classic_reasoning",
+      "expected": "1",
+      "task_id": "mislabeled_boxes"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "account": {
+    "email": "<redacted-authorized-account>",
+    "is_pro": 1,
+    "plan": "god_mode",
+    "role": "admin",
+    "saved_provider_keys_present": {
+      "gemini": true,
+      "groq": true,
+      "nvidia": true,
+      "openai": true,
+      "serper": true,
+      "xai": true,
+      "zerothink": true
+    },
+    "subscription_status": "active",
+    "token_expires_at": "2026-08-08 05:25:53",
+    "token_hint": "<redacted>",
+    "token_revoked_after_run": true
+  },
+  "base_url": "https://zerothink.talktoai.org",
+  "benchmark": "ZeroThink authenticated intelligence benchmark",
+  "combined_run_note": "Cloud/account lanes and GLM4 OpenZero were captured in the full matrix run; ZeroThink/OpenZero Spectra8 was captured in a targeted follow-up run after the full matrix exceeded the tool timeout.",
+  "generated_at_utc": "2026-07-09T06:44:31+00:00",
+  "lanes": {
+    "gemini_account": {
+      "accuracy": 1.0,
+      "availability_error": "",
+      "availability_status": "available",
+      "avg_latency_seconds": 3.2723884,
+      "correct": 10,
+      "display_name": "Gemini via ZeroThink account key",
+      "median_latency_seconds": 3.1180120000000002,
+      "probe_latency_seconds": 3.091618499951437,
+      "provider": "gemini",
+      "selected_model": "gemini-3.5-flash",
+      "total": 10
+    },
+    "groq_account": {
+      "accuracy": 1.0,
+      "availability_error": "",
+      "availability_status": "available",
+      "avg_latency_seconds": 0.8496133,
+      "correct": 10,
+      "display_name": "Groq via ZeroThink account key",
+      "median_latency_seconds": 0.5772035,
+      "probe_latency_seconds": 0.40939050004817545,
+      "provider": "groq",
+      "selected_model": "openai/gpt-oss-120b",
+      "total": 10
+    },
+    "nvidia_account": {
+      "accuracy": 0.7,
+      "availability_error": "",
+      "availability_status": "available",
+      "avg_latency_seconds": 29.481701,
+      "correct": 7,
+      "display_name": "NVIDIA via ZeroThink account key",
+      "median_latency_seconds": 20.564870499999998,
+      "probe_latency_seconds": 14.953388399910182,
+      "provider": "nvidia",
+      "selected_model": "meta/llama-3.3-70b-instruct",
+      "total": 10
+    },
+    "openai_account": {
+      "accuracy": 1.0,
+      "availability_error": "",
+      "availability_status": "available",
+      "avg_latency_seconds": 1.2041603,
+      "correct": 10,
+      "display_name": "OpenAI via ZeroThink account key",
+      "median_latency_seconds": 1.0169234999999999,
+      "probe_latency_seconds": 0.9236647000070661,
+      "provider": "openai",
+      "selected_model": "gpt-5.4",
+      "total": 10
+    },
+    "xai_account": {
+      "accuracy": null,
+      "availability_error": "Request failed: API error (400): {\"code\":\"invalid-argument\",\"error\":\"Incorrect API key provided. You can obtain an API key from https://console.x.ai.\"}",
+      "availability_status": "unavailable",
+      "avg_latency_seconds": null,
+      "correct": 0,
+      "display_name": "xAI via ZeroThink account key",
+      "median_latency_seconds": null,
+      "probe_latency_seconds": 0.23484869999811053,
+      "provider": "xai",
+      "selected_model": "",
+      "total": 0
+    },
+    "zerothink_openzero_agent": {
+      "accuracy": null,
+      "availability_error": "[ERROR] Local brain offline: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=240) [SELF-HEAL] OpenZero has started an automatic local runtime repair cycle.",
+      "availability_status": "unavailable",
+      "avg_latency_seconds": null,
+      "correct": 0,
+      "display_name": "ZeroThink/OpenZero agent lane",
+      "median_latency_seconds": null,
+      "probe_latency_seconds": 240.5195034998469,
+      "provider": "zerothink",
+      "selected_model": "",
+      "total": 0
+    },
+    "zerothink_openzero_chat": {
+      "accuracy": 0.3,
+      "availability_error": "",
+      "availability_status": "available",
+      "avg_latency_seconds": 8.4939886,
+      "correct": 3,
+      "display_name": "ZeroThink/OpenZero GLM4 chat-completion lane",
+      "median_latency_seconds": 8.4852665,
+      "probe_latency_seconds": 78.24269700003788,
+      "provider": "zerothink",
+      "selected_model": "glm4:9b-q5",
+      "total": 10
+    },
+    "zerothink_openzero_spectra8_chat": {
+      "accuracy": 0.3,
+      "availability_error": "probe_reply_did_not_follow_ok: What is your final answer to the user's request? The user asked if a 9.7% Ashkenazi trace is maternal or paternal and wants to know. After analyzing DNA data, it was determined that this trace comes from the paternal side. - **Step-by-st...",
+      "availability_status": "available",
+      "avg_latency_seconds": 75.70264039999999,
+      "correct": 3,
+      "display_name": "ZeroThink/OpenZero Spectra8 chat-completion lane",
+      "median_latency_seconds": 90.225644,
+      "probe_latency_seconds": 60.96202039998025,
+      "provider": "zerothink",
+      "selected_model": "spectra8-q8",
+      "total": 10
+    }
+  },
+  "method_notes": [
+    "ZeroTrade sources and credentials were excluded.",
+    "Provider keys remained in the ZeroThink account vault/server database and were not printed or exported.",
+    "Calls were made through the live ZeroThink /api_agent.php route with a temporary bearer token for the authorized account.",
+    "Perplexity was not included because no Perplexity key/provider lane was found in this ZeroThink account path.",
+    "This benchmark scores exact final answers; it is not a full MMLU, GSM8K, HumanEval, or Arena replacement."
+  ],
+  "rows": 60,
+  "run_date": "2026-07-09",
+  "secret_leak_checks": {
+    "passed": true,
+    "patterns": [
+      "bearer_token",
+      "google_api_key",
+      "groq_key",
+      "nvidia_key",
+      "openai_key",
+      "openzero_machine_key",
+      "xai_or_generic_secret",
+      "zerothink_api_token",
+      "zerothink_cli_token"
+    ],
+    "rows_with_hits": 0
+  },
+  "tasks": [
+    {
+      "category": "math",
+      "expected": "182",
+      "task_id": "arithmetic_nested"
+    },
+    {
+      "category": "temporal_reasoning",
+      "expected": "Friday",
+      "task_id": "calendar_offset"
+    },
+    {
+      "category": "logic",
+      "expected": "no",
+      "task_id": "syllogism_quantifier"
+    },
+    {
+      "category": "instruction_following",
+      "expected": "-2,0,7,7,14",
+      "task_id": "sort_with_duplicate"
+    },
+    {
+      "category": "code_reasoning",
+      "expected": "[2,5,8]",
+      "task_id": "python_range"
+    },
+    {
+      "category": "word_problem",
+      "expected": "16",
+      "task_id": "marble_inventory"
+    },
+    {
+      "category": "structured_output",
+      "expected": "{\"result\":\"8artceps\"}",
+      "task_id": "json_reverse"
+    },
+    {
+      "category": "time_arithmetic",
+      "expected": "14:17",
+      "task_id": "pause_time"
+    },
+    {
+      "category": "science_reasoning",
+      "expected": "iron",
+      "task_id": "density_mass_trick"
+    },
+    {
+      "category": "classic_reasoning",
+      "expected": "1",
+      "task_id": "mislabeled_boxes"
+    }
+  ]
+}

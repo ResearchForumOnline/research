@@ -2,6 +2,27 @@
 
 This page indexes public benchmark snapshots for Shafire, TalkToAI, Spectra, and OpenZero model work.
 
+## 2026-07-09: ZeroThink Authenticated Intelligence Benchmark
+
+Latest authenticated ZeroThink intelligence benchmark:
+
+- [ZeroThink Authenticated Intelligence Benchmark](papers/zerothink-authenticated-intelligence-benchmark-2026-07-09.md)
+- [Scored CSV](data/benchmarks/zerothink-authenticated-intelligence-benchmark-2026-07-09.csv)
+- [Summary JSON](data/benchmarks/zerothink-authenticated-intelligence-benchmark-summary-2026-07-09.json)
+
+Headline result on the 10-item exact-answer suite:
+
+| Lane | Model | Correct | Accuracy |
+| --- | --- | ---: | ---: |
+| Groq via ZeroThink account key | `openai/gpt-oss-120b` | 10/10 | 100% |
+| OpenAI via ZeroThink account key | `gpt-5.4` | 10/10 | 100% |
+| Gemini via ZeroThink account key | `gemini-3.5-flash` | 10/10 | 100% |
+| NVIDIA via ZeroThink account key | `meta/llama-3.3-70b-instruct` | 7/10 | 70% |
+| ZeroThink/OpenZero GLM4 chat lane | `glm4:9b-q5` | 3/10 | 30% |
+| ZeroThink/OpenZero Spectra8 chat lane | `spectra8-q8` | 3/10 | 30% |
+
+Important limitation: this benchmark shows authenticated ZeroThink routing behavior, not ZeroThink beating frontier vendors on raw model intelligence. It also exposed a real tuning gap: direct OpenZero `spectra8-q8:latest` scored 9/10 in the earlier model benchmark, while the current ZeroThink/OpenZero Spectra8 route scored 3/10 with timeouts/context contamination.
+
 ## 2026-07-09: ZeroThink Public System Benchmark
 
 Latest ZeroThink system benchmark:
