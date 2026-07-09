@@ -1,0 +1,384 @@
+{
+  "agent_api": {
+    "tests": [
+      {
+        "http_status": 403,
+        "json_status": "error",
+        "model": "",
+        "name": "unauthenticated OpenZero generation guard",
+        "passed": true,
+        "provider": "",
+        "reply_length": 43,
+        "reply_marker_found": true
+      },
+      {
+        "http_status": 403,
+        "json_status": "error",
+        "model": "",
+        "name": "OpenZero direct-mode unsupported guard",
+        "passed": true,
+        "provider": "",
+        "reply_length": 43,
+        "reply_marker_found": true
+      },
+      {
+        "http_status": 200,
+        "json_status": "success",
+        "model": "zero-direct-identity",
+        "name": "direct identity local branch",
+        "passed": true,
+        "provider": "local",
+        "reply_length": 241,
+        "reply_marker_found": true
+      },
+      {
+        "http_status": 200,
+        "json_status": "success",
+        "model": "zero-direct-capabilities",
+        "name": "direct capabilities local branch",
+        "passed": true,
+        "provider": "local",
+        "reply_length": 561,
+        "reply_marker_found": true
+      }
+    ]
+  },
+  "base_url": "https://zerothink.talktoai.org",
+  "benchmark": "ZeroThink public system benchmark",
+  "categories": {
+    "agent_api": {
+      "failed": 0,
+      "pass_rate": 1.0,
+      "passed": 4,
+      "total": 4
+    },
+    "cli_api": {
+      "failed": 0,
+      "pass_rate": 1.0,
+      "passed": 6,
+      "total": 6
+    },
+    "public_page": {
+      "failed": 0,
+      "pass_rate": 1.0,
+      "passed": 6,
+      "total": 6
+    },
+    "static_code": {
+      "failed": 0,
+      "pass_rate": 1.0,
+      "passed": 7,
+      "total": 7
+    }
+  },
+  "cli_api": {
+    "tests": [
+      {
+        "http_status": 400,
+        "json_keys": [
+          "message",
+          "status"
+        ],
+        "json_status": "error",
+        "message": "Missing action.",
+        "name": "missing action guard",
+        "passed": true
+      },
+      {
+        "http_status": 400,
+        "json_keys": [
+          "message",
+          "status"
+        ],
+        "json_status": "error",
+        "message": "Missing device code.",
+        "name": "missing device code guard",
+        "passed": true
+      },
+      {
+        "http_status": 403,
+        "json_keys": [
+          "message",
+          "status"
+        ],
+        "json_status": "error",
+        "message": "Auth required.",
+        "name": "unauthenticated me guard",
+        "passed": true
+      },
+      {
+        "http_status": 403,
+        "json_keys": [
+          "message",
+          "status"
+        ],
+        "json_status": "error",
+        "message": "Auth required.",
+        "name": "unknown protected action auth guard",
+        "passed": true
+      },
+      {
+        "field_presence": {
+          "has_device_code": true,
+          "has_expires_at": true,
+          "has_expires_in": true,
+          "has_interval": true,
+          "has_user_code": true,
+          "has_verification_url": true
+        },
+        "name": "device_start handshake",
+        "passed": true
+      },
+      {
+        "name": "device_poll pending state",
+        "passed": true
+      }
+    ]
+  },
+  "failed_tests": 0,
+  "generated_at_utc": "2026-07-09T00:23:12+00:00",
+  "iterations_per_public_page": 3,
+  "latency_seconds": {
+    "max": 1.096168,
+    "mean": 0.13377131250000002,
+    "median": 0.061295499999999996,
+    "min": 0.053356
+  },
+  "method_notes": [
+    "No account cookies, real provider keys, or private server credentials were used.",
+    "The direct identity/capabilities probes use a fake key and stop in ZeroThink local code before any external provider call.",
+    "Unauthenticated generation is expected to be blocked; this benchmark records boundary correctness rather than bypassing auth.",
+    "Model answer quality for Shafire/Spectra GGUFs is covered by the separate OpenZero API benchmark snapshot."
+  ],
+  "pass_rate": 1.0,
+  "passed_tests": 23,
+  "public_pages": {
+    "pages": [
+      {
+        "content_type": "text/html; charset=UTF-8",
+        "latency_max": 0.17295109992846847,
+        "latency_mean": 0.10182953323237598,
+        "latency_min": 0.06491019995883107,
+        "passed": true,
+        "path": "/",
+        "required_markers": [
+          "ZeroThink"
+        ],
+        "status_codes": [
+          200,
+          200,
+          200
+        ],
+        "title": "ZeroThink | Real Quantum AI & Sovereign Intelligence"
+      },
+      {
+        "content_type": "text/html; charset=UTF-8",
+        "latency_max": 0.09905990003608167,
+        "latency_mean": 0.08354339996973674,
+        "latency_min": 0.07231119996868074,
+        "passed": true,
+        "path": "/research-paper-creator",
+        "required_markers": [
+          "Research Paper Creator",
+          "paper_creator_action"
+        ],
+        "status_codes": [
+          200,
+          200,
+          200
+        ],
+        "title": "Research Paper Creator | ZeroThink"
+      },
+      {
+        "content_type": "text/html; charset=UTF-8",
+        "latency_max": 0.0805079999845475,
+        "latency_mean": 0.07368333327273528,
+        "latency_min": 0.06901129987090826,
+        "passed": true,
+        "path": "/research",
+        "required_markers": [
+          "ZeroThink",
+          "Research"
+        ],
+        "status_codes": [
+          200,
+          200,
+          200
+        ],
+        "title": "ZeroThink Research | Real Quantum AI"
+      },
+      {
+        "content_type": "text/html; charset=UTF-8",
+        "latency_max": 3.113249799935147,
+        "latency_mean": 1.096168233314529,
+        "latency_min": 0.08349870005622506,
+        "passed": true,
+        "path": "/faq",
+        "required_markers": [
+          "ZeroThink"
+        ],
+        "status_codes": [
+          200,
+          200,
+          200
+        ],
+        "title": "ZeroThink | System Documentation"
+      },
+      {
+        "content_type": "text/html; charset=UTF-8",
+        "latency_max": 0.1397543998900801,
+        "latency_mean": 0.12541749995822707,
+        "latency_min": 0.11355459992773831,
+        "passed": true,
+        "path": "/docs",
+        "required_markers": [
+          "ZeroThink"
+        ],
+        "status_codes": [
+          200,
+          200,
+          200
+        ],
+        "title": "Docs | ZeroThink"
+      },
+      {
+        "content_type": "text/html; charset=UTF-8",
+        "latency_max": 0.055204799864441156,
+        "latency_mean": 0.05373326665721834,
+        "latency_min": 0.0514450001064688,
+        "passed": true,
+        "path": "/cli/connect",
+        "required_markers": [
+          "ZeroThink"
+        ],
+        "status_codes": [
+          200,
+          200,
+          200
+        ],
+        "title": "ZeroThink CLI Connect"
+      }
+    ]
+  },
+  "run_date": "2026-07-09",
+  "secret_leak_checks": {
+    "passed": true,
+    "patterns": [
+      "bearer_token",
+      "github_token",
+      "google_api_key",
+      "huggingface_token",
+      "openai_key",
+      "openzero_api_key_literal",
+      "openzero_machine_key",
+      "server_password_literal"
+    ],
+    "rows_with_hits": 0
+  },
+  "started_at_utc": "2026-07-09T00:23:07+00:00",
+  "static_code": {
+    "files": {
+      "api_agent.php": {
+        "bytes": 135935,
+        "sha256": "fdcdf8b61a020cf93b42c13d32dd91c36e2899bdde7c639722605839ca061dca"
+      },
+      "api_cli.php": {
+        "bytes": 5444,
+        "sha256": "a161c484d28021091fde67d00ad3be31f5cb58ecd1c628c88dc788980e36f4a0"
+      },
+      "research-paper-creator.php": {
+        "bytes": 73950,
+        "sha256": "f472979502edbd34f5d5b844ed239846ed68a49c45683cbcf44fadecd685d748"
+      }
+    },
+    "openzero_local_model_values": [
+      "gemma4:e4b",
+      "glm4:9b-q5",
+      "hermes3:8b-llama3.1-q5_K_M"
+    ],
+    "tests": [
+      {
+        "file": "api_agent.php",
+        "missing_markers": [],
+        "name": "OpenZero agent endpoint route present",
+        "passed": true,
+        "required_markers": [
+          "/v1/agent/runs",
+          "zt_openzero_agent_run_request",
+          "chat_completion_fallback"
+        ]
+      },
+      {
+        "file": "api_agent.php",
+        "missing_markers": [],
+        "name": "OpenZero local model map present",
+        "passed": true,
+        "required_markers": [
+          "zt_openzero_local_model_map",
+          "glm4:9b-q5",
+          "hermes3:8b-llama3.1-q5_K_M",
+          "gemma4:e4b"
+        ]
+      },
+      {
+        "file": "api_agent.php",
+        "missing_markers": [],
+        "name": "auth preflight blocks unauthenticated generation",
+        "passed": true,
+        "required_markers": [
+          "Auth or supported direct key mode required",
+          "$allow_direct_mode",
+          "request_user_is_authenticated"
+        ]
+      },
+      {
+        "file": "api_agent.php",
+        "missing_markers": [],
+        "name": "direct mode limited to supported providers",
+        "passed": true,
+        "required_markers": [
+          "direct_mode",
+          "['groq', 'nvidia']"
+        ]
+      },
+      {
+        "file": "research-paper-creator.php",
+        "missing_markers": [],
+        "name": "research paper workflow actions present",
+        "passed": true,
+        "required_markers": [
+          "search_protocol",
+          "evidence_plan",
+          "claim/evidence",
+          "paper_outline",
+          "full_research_paper",
+          "survey_article"
+        ]
+      },
+      {
+        "file": "research-paper-creator.php",
+        "missing_markers": [],
+        "name": "research paper full-draft validator present",
+        "passed": true,
+        "required_markers": [
+          "validateFullPaperOutput",
+          "buildRepairPrompt",
+          "Validator warning"
+        ]
+      },
+      {
+        "file": "api_cli.php",
+        "missing_markers": [],
+        "name": "CLI device authorization protocol present",
+        "passed": true,
+        "required_markers": [
+          "device_start",
+          "device_poll",
+          "authorization_pending",
+          "request_bearer_token"
+        ]
+      }
+    ]
+  },
+  "total_tests": 23
+}

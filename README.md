@@ -30,6 +30,7 @@ This repo is designed for clean, citeable public work:
 | [Quantum-Ready Evidence Graphs](papers/quantum-ready-evidence-graphs.md) | AI claim graphs plus constrained optimisation tests |
 | [Shafire and OpenZero Local Benchmark Snapshot](papers/shafire-openzero-local-benchmark-2026-07-08.md) | First CPU/API benchmark snapshot for Shafire models and OpenZero |
 | [Spectra8, TalkToAiQ, and SpectraMind OpenZero Benchmark](papers/spectra-talktoaiq-openzero-benchmark-2026-07-08.md) | Requested benchmark pass for Spectra/TalkToAiQ/SpectraMind artifacts |
+| [ZeroThink Public System Benchmark](papers/zerothink-system-benchmark-2026-07-09.md) | Public live-route, API-guard, CLI-device-flow, and OpenZero integration benchmark |
 | [Probability of Goodness](papers/probability-of-goodness-ethical-routing.md) | Ethical routing heuristic |
 | [Bio-Digital Research Boundaries](papers/bio-digital-research-boundaries.md) | DNA/organic computing caution lane |
 | [Botanical Formula Research Roadmap](papers/botanical-formula-research-roadmap.md) | Safety-first research plan |

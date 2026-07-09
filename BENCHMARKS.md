@@ -2,6 +2,26 @@
 
 This page indexes public benchmark snapshots for Shafire, TalkToAI, Spectra, and OpenZero model work.
 
+## 2026-07-09: ZeroThink Public System Benchmark
+
+Latest ZeroThink system benchmark:
+
+- [ZeroThink Public System Benchmark](papers/zerothink-system-benchmark-2026-07-09.md)
+- [Scored CSV](data/benchmarks/zerothink-system-benchmark-2026-07-09.csv)
+- [Summary JSON](data/benchmarks/zerothink-system-benchmark-summary-2026-07-09.json)
+
+Headline result on the public unauthenticated system/API suite:
+
+| Area | Passed | Notes |
+| --- | ---: | --- |
+| Public pages | 6/6 | Live web routes returned expected pages and markers |
+| CLI API | 6/6 | Device login, pending poll, input guards, and auth guards behaved correctly |
+| Agent API | 4/4 | Unauthenticated generation was blocked; safe direct local identity/capability branches worked |
+| Static integration markers | 7/7 | OpenZero routing, Paper Creator workflow, validators, and CLI protocol markers were present |
+| Secret-leak scan | 0 hits | No token-shaped key/secret patterns appeared in benchmark responses |
+
+Important limitation: this is a ZeroThink system-surface benchmark, not a full authenticated generation-quality leaderboard. The benchmark intentionally avoided account cookies, real provider keys, and private server credentials.
+
 ## 2026-07-08: Spectra8, TalkToAiQ, SpectraMind, and OpenZero
 
 Latest benchmark page:
