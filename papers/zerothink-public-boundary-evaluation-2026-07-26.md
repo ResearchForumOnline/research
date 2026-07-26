@@ -1,6 +1,6 @@
 # Boundary-Oriented Evaluation of a Deployed AI Agent Service: A Reproducible Public-Surface Case Study
 
-**Shaf Brady**
+**Shafaet Brady Hussain**
 
 Independent researcher, TalkToAI Research, United Kingdom
 

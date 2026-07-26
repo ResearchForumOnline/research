@@ -1,6 +1,6 @@
 # Separating Model Artifact Performance from Serving-Path Failure: A Small Reproducible Benchmark of Local LLM Routes
 
-**Shaf Brady**
+**Shafaet Brady Hussain**
 
 Independent researcher, TalkToAI Research, United Kingdom
 
