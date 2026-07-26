@@ -30,6 +30,7 @@ This repo is designed for clean, citeable public work:
 | [Quantum-Ready Evidence Graphs](papers/quantum-ready-evidence-graphs.md) | AI claim graphs plus constrained optimisation tests |
 | [Shafire and OpenZero Local Benchmark Snapshot](papers/shafire-openzero-local-benchmark-2026-07-08.md) | First CPU/API benchmark snapshot for Shafire models and OpenZero |
 | [Spectra8, TalkToAiQ, and SpectraMind OpenZero Benchmark](papers/spectra-talktoaiq-openzero-benchmark-2026-07-08.md) | Requested benchmark pass for Spectra/TalkToAiQ/SpectraMind artifacts |
+| [Separating Model Artifact Performance from Serving-Path Failure](papers/local-llm-serving-path-benchmark-2026-07-26.md) | Methods-and-results preprint on local-route template contamination and reproducible exact-answer testing |
 | [ZeroThink Public System Benchmark](papers/zerothink-system-benchmark-2026-07-09.md) | Public live-route, API-guard, CLI-device-flow, and OpenZero integration benchmark |
 | [Boundary-Oriented Evaluation of a Deployed AI Agent Service](papers/zerothink-public-boundary-evaluation-2026-07-26.md) | Methods-and-results preprint built from the reproducible public-surface benchmark; includes limits and conflict disclosure |
 | [ZeroThink Authenticated Intelligence Benchmark](papers/zerothink-authenticated-intelligence-benchmark-2026-07-09.md) | Account-routed exact-answer comparison across ZeroThink/OpenZero and saved provider lanes |
