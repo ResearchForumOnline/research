@@ -1,0 +1,35 @@
+{
+  "schema": "researchforum.claim-risk-triage-benchmark.v1",
+  "boundary": "title-signal review queue; not truth or risk ground truth",
+  "records": 134,
+  "lane_counts": {
+    "excluded-likely-spam": 6,
+    "primary-shaf-corpus": 123,
+    "third-party-forum-source": 5
+  },
+  "structural": {
+    "missing_required_records": 0,
+    "duplicate_url_groups": 0,
+    "duplicate_text_hash_groups": 0,
+    "replacement_character_titles": 0,
+    "nonpositive_word_counts": 0
+  },
+  "triage": {
+    "flagged_records": 50,
+    "category_counts": {
+      "extraordinary": 16,
+      "genetic_biological": 16,
+      "medical": 13,
+      "quantum": 12
+    }
+  },
+  "synthetic_rule_test": {
+    "cases": 12,
+    "true_positive_labels": 12,
+    "false_positive_labels": 0,
+    "false_negative_labels": 0,
+    "micro_precision": 1.0,
+    "micro_recall": 1.0
+  },
+  "deterministic_rerun": true
+}

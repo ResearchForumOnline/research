@@ -1,123 +1,113 @@
 ---
-title: "Research Forum Online Corpus Synthesis 2026"
-date: 2026-07-07
-status: "working paper generated with ZeroThink Paper Creator protocol"
-source: "research.talktoai.org public forum corpus"
-themes: ["zero-boundary-algebra", "zerothink-reasoning", "openzero-local-ai", "zmath-shield-security", "quantum-evidence", "bio-dna-organic-computing", "ethics-probability-goodness", "botanical-research", "ai-research-workflow"]
+title: "Research-Corpus Curation and Claim-Risk Benchmark 1.0"
+author: "Shafaet Brady Hussain"
+date: 2026-08-18
+status: "independent technical working paper"
+license: "CC BY 4.0 paper; MIT reproducibility code"
 ---
 
-# Research Forum Online Corpus Synthesis 2026
+# Research-Corpus Curation and Claim-Risk Benchmark 1.0
 
-## Plain-Language Summary
+## A Text-Free Metadata Audit and Review-Queue Baseline for ResearchForumOnline
 
-This working paper turns the public Research Forum Online corpus into a cleaner research draft. It does not claim institutional approval, clinical proof, government certification, or quantum advantage. It treats the forum posts as a source corpus, then uses the ZeroThink Paper Creator method: source ledger first, claim graph second, synthesis third, and limitations visible at the end.
+Shafaet Brady Hussain | Independent researcher, ResearchForumOnline | 18 August 2026
 
 ## Abstract
 
-This umbrella paper maps the public forum corpus into themes, source-ledger rules, publication lanes, and next review tasks. The source base is drawn from public forum papers including The Most Advanced Research In The World?; ZeroThink: The Sovereign Reasoning Layer; talktoai.org Project Spectramind: The Architecture of a Sovereign Blockchain Brain; Clorigan-T by Zero 1.1 Antimicrobial Potential of Cloves, Oregano, and Turmeric; Meet Zero – Your Ultimate AI Companion for Research and Beyond. The contribution is a structured research direction rather than a finished peer-reviewed finding: it identifies reusable concepts, separates evidence from speculation, and proposes validation tasks that can be run with ordinary classical baselines before any quantum, simulator, or AI-agent extension is treated as meaningful.
+I consolidate the Research Forum Online corpus synthesis into a reproducible curation and triage study. The frozen public index contains 134 records: 123 classified by the existing generator as primary-author corpus items, five as third-party forum sources, and six as likely-spam exclusions. A text-free metadata snapshot preserves identifiers, titles, URLs, hashes, word counts, and provenance lanes without redistributing post bodies or excerpts. Structural checks find zero missing required records, duplicate URL groups, duplicate text-hash groups, nonpositive word counts, or replacement-character titles in that snapshot. A transparent title-keyword baseline queues 50 records across medical, genetic/biological, quantum, and extraordinary-claim categories; no security title matched the current vocabulary. A 12-case synthetic rule self-test achieves 1.0 micro-precision and recall by construction and tests implementation mechanics only. It is not empirical validation on real claims. The benchmark does not determine truth, quality, danger, misconduct, author intent, or scientific validity.
 
-## 1. Research Question
+## 1. Research question and contribution
 
-How can the ideas in the Research Forum Online corpus be converted into a publishable, auditable research programme without overstating what has been experimentally demonstrated?
+How can a heterogeneous author corpus be curated into reviewable research lanes while preserving provenance and avoiding automatic judgments about truth? The earlier umbrella synthesis mapped themes but offered no executable corpus-quality or triage benchmark. This version replaces that broad draft with a frozen metadata artifact, deterministic checks, explicit rule vocabulary, measured queue counts, and release gates.
 
-## 2. Source-Ledger Basis
+The intended unit is a review queue, not a verdict. A record may be queued because its title contains a high-stakes or extraordinary topic even when the post itself is cautious, corrective, historical, or explicitly sceptical. Conversely, a consequential claim may evade the queue if its title uses unlisted language.
 
-- `rfo-001-the-most-advanced-research-in-the-world`: The Most Advanced Research In The World? — https://research.talktoai.org/research-papers/the-most-advanced-research-in-the-world/ (primary-shaf-corpus, 1152 words crawled)
-- `rfo-002-zerothink-the-sovereign-reasoning-layer`: ZeroThink: The Sovereign Reasoning Layer — https://research.talktoai.org/research-papers/zerothink-the-sovereign-reasoning-layer/ (primary-shaf-corpus, 771 words crawled)
-- `rfo-003-talktoai-org-project-spectramind-the-architectur`: talktoai.org Project Spectramind: The Architecture of a Sovereign Blockchain Brain — https://research.talktoai.org/research-papers/project-spectramind-the-architecture-of-a-sovereign-blockchain-brain/ (primary-shaf-corpus, 707 words crawled)
-- `rfo-004-clorigan-t-by-zero-1-1-antimicrobial-potential-o`: Clorigan-T by Zero 1.1 Antimicrobial Potential of Cloves, Oregano, and Turmeric — https://research.talktoai.org/research-papers/clorigan-t-by-zero-1-1-antimicrobial-potential-of-cloves-oregano-and-turmeric/ (primary-shaf-corpus, 1689 words crawled)
-- `rfo-005-meet-zero-your-ultimate-ai-companion-for-researc`: Meet Zero – Your Ultimate AI Companion for Research and Beyond — https://research.talktoai.org/research-papers/meet-zero-your-ultimate-ai-companion-for-research-and-beyond/ (primary-shaf-corpus, 892 words crawled)
-- `rfo-006-introducing-professor-zero-your-research-assista`: Introducing Professor Zero - Your Research Assistant — https://research.talktoai.org/research-papers/introducing-professor-zero-your-research-assistant/ (primary-shaf-corpus, 427 words crawled)
-- `rfo-008-probability-of-goodness-a-comprehensive-analysis`: Probability of Goodness: A Comprehensive Analysis of Choosing Good Over Bad — https://research.talktoai.org/research-papers/probability-of-goodness-a-comprehensive-analysis-of-choosing-good-over-bad/ (primary-shaf-corpus, 1716 words crawled)
-- `rfo-010-probability-mathematics-research-paper`: Probability Mathematics Research Paper — https://research.talktoai.org/research-papers/probability-mathematics-research-paper/ (primary-shaf-corpus, 2315 words crawled)
-- `rfo-011-interdimensional-mathematics-exploring-the-unkno`: Interdimensional Mathematics: Exploring the Unknown through AI — https://research.talktoai.org/research-papers/interdimensional-mathematics-exploring-the-unknown-through-ai/ (primary-shaf-corpus, 1671 words crawled)
-- `rfo-012-creating-a-new-mathematical-system-0-0-0`: Creating a New Mathematical System 0,-0,+0 — https://research.talktoai.org/research-papers/creating-a-new-mathematical-system/ (primary-shaf-corpus, 3859 words crawled)
-- `rfo-013-mathematics-and-the-mathematical-structure-of-fl`: Mathematics and the Mathematical Structure of Flowers: A Study — https://research.talktoai.org/research-papers/mathematics-and-the-mathematical-structure-of-flowers-a-study/ (primary-shaf-corpus, 1400 words crawled)
-- `rfo-014-the-zero-lattice-a-framework-for-distributed-aut`: The Zero Lattice: A Framework for Distributed Autonomous Ethical Intelligence — https://research.talktoai.org/research-papers/the-zero-lattice-a-framework-for-distributed-autonomous-ethical-intelligence/ (primary-shaf-corpus, 623 words crawled)
+## 2. Frozen corpus and provenance lanes
 
-The forum posts are treated as originating research notes and concept papers. They are useful for extracting vocabulary, design intent, and hypotheses. They are not automatically treated as external validation. Where a claim would normally require a peer-reviewed citation, dataset, benchmark, lab protocol, or reproducible experiment, this paper marks it as a validation task.
+The source index was generated on 7 July 2026 from public first posts on `research.talktoai.org`. The crawler records topic metadata, first-post text hashes, word counts, excerpts, and full text. Its author classifier treats starters named support, admin, shafaet, shaf, or zero as author-controlled. It marks five other starters as third party and applies a small spam-term list before choosing a publication lane.
 
-## 3. Claim/Evidence/Provenance Graph
+Those rules are operational conventions, not identity proof. Account labels can be incomplete or compromised, and “primary-author corpus” means selected by this generator—not independently authenticated authorship. Likely spam is similarly a heuristic label.
 
-| Claim ID | Claim | Evidence source | Provenance status | Confidence |
-| --- | --- | --- | --- | --- |
-| C1 | The corpus contains a coherent recurring design language around sovereignty, local control, reasoning layers, and evidence trails. | Multiple primary forum posts listed above. | Public forum source, concept-level evidence. | Medium |
-| C2 | The corpus can be reframed into safer academic language by separating product claims, hypotheses, protocols, and speculative interpretations. | ZeroThink Paper Creator protocol and source-ledger method. | Methodological synthesis. | High |
-| C3 | Some claims require experimental support before public-sector, medical, or security deployment wording is justified. | Claims involving health, encryption assurance, quantum validation, or autonomous agents. | Needs external validation. | High |
-| C4 | A provenance-aware workflow can make the work more fundable and reviewable because it preserves what came from notes, what came from retrieved sources, and what came from model inference. | Research Paper Creator / Nottingham lane design. | Internal method plus public workflow design. | Medium |
+The release exports only metadata needed for reproducibility. It excludes first-post text and excerpts, limiting redistribution of third-party copyrighted material and reducing accidental disclosure while retaining hashes for correspondence checks.
 
-Graph edges: `source note -> extracted concept -> claim -> evidence status -> validation task -> revised paper section`.
+## 3. Structural data-quality audit
 
-## 4. Synthesis
+The verifier checks six required fields: ID, title, URL, text SHA-256, word count, and publication lane. It counts missing records, duplicate URL groups, duplicate content-hash groups, nonpositive word counts, and titles containing the Unicode replacement character.
 
-The strongest publishable direction is not to ask readers to accept every forum claim as already proven. The stronger route is to present the body of work as a research programme: a set of models, tools, hypotheses, and implementation lanes that can be tested in public, reproducible ways. This keeps the originality visible while making the work easier for developers, supervisors, universities, funders, and technical reviewers to evaluate.
+Across 134 frozen records, all five defect counts are zero. This supports only structural completeness and exact-duplicate absence within the snapshot. It does not detect paraphrase duplication, near-duplicate drafts, incorrect extraction, truncated pages, stale URLs, false authorship, hallucinated citations inside posts, or semantic contradictions.
 
-### Domain-Specific Lens
+Dataset documentation should describe motivation, composition, collection, preprocessing, uses, distribution, and maintenance rather than presenting a file as self-explanatory [1]. The FAIR principles similarly distinguish findability, accessibility, interoperability, and reusability [2]. This package advances provenance and reproducibility but does not satisfy every documentation or long-term maintenance requirement.
 
-The umbrella lane turns the forum into a map: what exists, what is original, what is speculative, what can be turned into software documentation, and what needs external validation before publication.
+## 4. Claim-risk triage baseline
 
-The repeated pattern across the corpus is a preference for systems that keep agency close to the user: local AI nodes, audit trails, user-controlled vault files, visible evidence ledgers, and careful boundaries between public behaviour and private implementation. That pattern can be formalised as a design principle:
+The title-only classifier uses five disclosed keyword sets: medical; genetic/biological; security; quantum; and extraordinary. Any match places the record in a category. The categories deliberately overlap.
 
-> A sovereign AI system should make its claims inspectable, its control boundaries explicit, and its private material unnecessary for public verification.
+Fifty of 134 titles match at least one category. Counts are: 16 extraordinary, 16 genetic/biological, 13 medical, 12 quantum, and zero security. Overlap explains why category totals exceed the unique flagged count. Zero security matches is a diagnostic result, not evidence that security claims are absent; the vocabulary and title-only boundary are too narrow.
 
-This principle lets the work speak to multiple domains. In AI research, it becomes a method for agent accountability. In security, it becomes an argument for verifiable envelope design rather than secret-algorithm claims. In education, it becomes a student-facing workflow for turning rough notes into defensible literature reviews. In product design, it becomes a way to explain why local-first systems and hosted systems can co-exist.
+The queue should prioritize evidence review according to consequence: health and biological-effect wording needs domain expertise; encryption and security assurance needs threat models and standard-primitive evidence; quantum wording needs simulator/hardware separation; extraordinary claims need especially clear hypothesis and evidence labels. A match does not imply the claim is false or irresponsible.
 
-## 5. Validation Plan
+## 5. Synthetic rule self-test
 
-General validation rules:
+Twelve synthetic titles exercise empty, single-label, and multilabel cases. Against labels authored from the same published vocabulary, the implementation returns 12 true-positive labels, zero false positives, and zero false negatives: micro-precision 1.0 and micro-recall 1.0.
 
-1. Build a source ledger from every public research note and mark each row as primary note, external paper, retrieved result, product page, or needs verification.
-2. Convert each major claim into a testable form.
-3. For software claims, publish installation steps, screenshots, API responses, and failure cases.
-4. For security claims, publish threat models, key boundaries, and third-party review targets without exposing proprietary keys or private encryption source.
-5. For health or biological claims, avoid advice language and require literature review, safety review, and professional framing before public claims are strengthened.
-6. For quantum or simulator claims, compare against a classical baseline and state what the quantum job actually proves: job execution, optimisation experiment, or telemetry record, not magical cognition.
+This perfect result is intentionally not described as model performance. It confirms that the code implements its own rule specification. Because test labels are constructed from that vocabulary, the result contains no independent annotation, real-world ambiguity, prevalence estimate, or generalization evidence. Future empirical benchmarking requires a separately labelled sample, blinded annotation, disagreement reporting, and locked evaluation data.
 
-Theme-specific validation tasks:
+## 6. Curation workflow
 
-1. Maintain a public source ledger and a private-source exclusion policy.
-2. Group source papers by research lane, product lane, and high-risk claim lane.
-3. Create a review queue that upgrades the strongest drafts first.
+An evidence-bounded publication workflow should proceed in stages:
 
-## 6. Limitations
+1. Freeze the source snapshot and hash the generator, index, and ledger.
+2. Separate author-controlled, third-party, and excluded lanes before synthesis.
+3. Preserve source IDs and hashes through every derived paper.
+4. Run structural checks and near-duplicate review.
+5. Create consequence-sensitive review queues without treating them as truth labels.
+6. For each paper, record claim, source, evidence type, external comparison, limitation, falsifier, and release decision.
+7. Require human review for medical, biological, security, identity, legal, or other consequential claims.
+8. Publish immutable packages and verify live asset hashes.
 
-The present draft is generated from a public forum crawl and a ZeroThink-style synthesis protocol. It is not peer reviewed. It does not verify every historic claim in the corpus. It does not expose private ZMath, ZeroThink, OpenZero, server, or API-key material. It is suitable as a working-paper foundation, a grant appendix starter, or a student survey-expansion example after human review.
+The eleven preceding publication-program papers demonstrate this consolidation pattern: broad concept notes were replaced by narrower formal specifications, negative results, frozen-source audits, and reproducibility packages rather than being released as overlapping promotional drafts.
 
-Specific caution for this lane: A corpus synthesis can become too broad. Keep each future paper tied to a focused question and a small source set.
+## 7. Threats to validity and misuse
 
-## 7. Next Research Step
+Title keywords miss euphemisms and contextual meaning, trigger on negation and critique, and reflect English vocabulary. Counts depend on one historical snapshot. The generator’s support-author list and spam terms are not authentication or robust moderation. Exact hashes find exact duplicates only. Public views and dates are not quality signals. A future user could misuse risk categories to stigmatize authors or suppress unconventional research.
 
-The next step is a two-pass evidence upgrade: first, map each claim to external scholarly or technical sources; second, run a reviewer-style critique that removes claims that cannot be supported. That gives the work a credible route from invention notes to academic paper, product white paper, or reproducible demonstration.
+Accordingly, the benchmark must not rank people, infer intent, automate removal, make clinical or legal judgments, or substitute for peer review. Reviewers should see the matched term, source lane, and full context; they should be able to clear, relabel, or escalate a record with reasons.
 
-## Appendix A: Candidate Source Rows
+## 8. Falsifiable claims and release gates
 
-- `rfo-001-the-most-advanced-research-in-the-world`: The Most Advanced Research In The World? — https://research.talktoai.org/research-papers/the-most-advanced-research-in-the-world/ (primary-shaf-corpus, 1152 words crawled)
-- `rfo-002-zerothink-the-sovereign-reasoning-layer`: ZeroThink: The Sovereign Reasoning Layer — https://research.talktoai.org/research-papers/zerothink-the-sovereign-reasoning-layer/ (primary-shaf-corpus, 771 words crawled)
-- `rfo-003-talktoai-org-project-spectramind-the-architectur`: talktoai.org Project Spectramind: The Architecture of a Sovereign Blockchain Brain — https://research.talktoai.org/research-papers/project-spectramind-the-architecture-of-a-sovereign-blockchain-brain/ (primary-shaf-corpus, 707 words crawled)
-- `rfo-004-clorigan-t-by-zero-1-1-antimicrobial-potential-o`: Clorigan-T by Zero 1.1 Antimicrobial Potential of Cloves, Oregano, and Turmeric — https://research.talktoai.org/research-papers/clorigan-t-by-zero-1-1-antimicrobial-potential-of-cloves-oregano-and-turmeric/ (primary-shaf-corpus, 1689 words crawled)
-- `rfo-005-meet-zero-your-ultimate-ai-companion-for-researc`: Meet Zero – Your Ultimate AI Companion for Research and Beyond — https://research.talktoai.org/research-papers/meet-zero-your-ultimate-ai-companion-for-research-and-beyond/ (primary-shaf-corpus, 892 words crawled)
-- `rfo-006-introducing-professor-zero-your-research-assista`: Introducing Professor Zero - Your Research Assistant — https://research.talktoai.org/research-papers/introducing-professor-zero-your-research-assistant/ (primary-shaf-corpus, 427 words crawled)
-- `rfo-008-probability-of-goodness-a-comprehensive-analysis`: Probability of Goodness: A Comprehensive Analysis of Choosing Good Over Bad — https://research.talktoai.org/research-papers/probability-of-goodness-a-comprehensive-analysis-of-choosing-good-over-bad/ (primary-shaf-corpus, 1716 words crawled)
-- `rfo-010-probability-mathematics-research-paper`: Probability Mathematics Research Paper — https://research.talktoai.org/research-papers/probability-mathematics-research-paper/ (primary-shaf-corpus, 2315 words crawled)
-- `rfo-011-interdimensional-mathematics-exploring-the-unkno`: Interdimensional Mathematics: Exploring the Unknown through AI — https://research.talktoai.org/research-papers/interdimensional-mathematics-exploring-the-unknown-through-ai/ (primary-shaf-corpus, 1671 words crawled)
-- `rfo-012-creating-a-new-mathematical-system-0-0-0`: Creating a New Mathematical System 0,-0,+0 — https://research.talktoai.org/research-papers/creating-a-new-mathematical-system/ (primary-shaf-corpus, 3859 words crawled)
-- `rfo-013-mathematics-and-the-mathematical-structure-of-fl`: Mathematics and the Mathematical Structure of Flowers: A Study — https://research.talktoai.org/research-papers/mathematics-and-the-mathematical-structure-of-flowers-a-study/ (primary-shaf-corpus, 1400 words crawled)
-- `rfo-014-the-zero-lattice-a-framework-for-distributed-aut`: The Zero Lattice: A Framework for Distributed Autonomous Ethical Intelligence — https://research.talktoai.org/research-papers/the-zero-lattice-a-framework-for-distributed-autonomous-ethical-intelligence/ (primary-shaf-corpus, 623 words crawled)
-- `rfo-015-theory-of-algorithmic-genetic-singularity`: THEORY OF ALGORITHMIC GENETIC SINGULARITY — https://research.talktoai.org/research-papers/theory-of-algorithmic-genetic-singularity/ (primary-shaf-corpus, 681 words crawled)
-- `rfo-022-the-riemann-hypothesis-zero-ai-and-quantum-adapt`: The Riemann Hypothesis, Zero AI, and Quantum Adaptive Systems — https://research.talktoai.org/research-papers/the-riemann-hypothesis-zero-ai-and-quantum-adaptive-systems/ (primary-shaf-corpus, 1214 words crawled)
-- `rfo-024-zero-a-quantum-exploration-of-thought-experiment`: Zero: A Quantum Exploration of Thought Experiments and AI Research — https://research.talktoai.org/research-papers/zero-a-quantum-exploration-of-thought-experiments-and-ai-research/ (primary-shaf-corpus, 3188 words crawled)
-- `rfo-025-the-boundless-potential-of-ai-simulating-quantum`: The Boundless Potential of AI Simulating Quantum Computing: A Dive into Zero — https://research.talktoai.org/research-papers/the-boundless-potential-of-ai-simulating-quantum-computing-a-dive-into-zero/ (primary-shaf-corpus, 3978 words crawled)
-- `rfo-026-the-mind-can-simulate-and-integrate-thoughts-int`: The Mind Can Simulate and Integrate Thoughts Into Reality — https://research.talktoai.org/research-papers/the-mind-can-simulate-and-integrate-thoughts-into-reality/ (primary-shaf-corpus, 2168 words crawled)
-- `rfo-027-groundbreaking-research-and-practical-frameworks`: Groundbreaking Research and Practical Frameworks TalkToAI LTD — https://research.talktoai.org/research-papers/groundbreaking-research-and-practical-frameworks-talktoai-ltd/ (primary-shaf-corpus, 3564 words crawled)
-- `rfo-028-a-multi-dimensional-exploration-of-plutchik-s-em`: A Multi-Dimensional Exploration of Plutchik's Emotion Wheel Using Binary Trees — https://research.talktoai.org/research-papers/a-multi-dimensional-exploration-of-plutchik-s-emotion-wheel-using-binary-trees/ (primary-shaf-corpus, 1443 words crawled)
-- `rfo-029-qmath-a-comprehensive-framework-for-quantum-and`: QMath: A Comprehensive Framework for Quantum and Interdimensional Mathematics — https://research.talktoai.org/research-papers/qmath-a-comprehensive-framework-for-quantum-and-interdimensional-mathematics/ (primary-shaf-corpus, 2249 words crawled)
-- `rfo-030-leveraging-the-dna-of-tmesipteris-oblanceolata-f`: Leveraging the DNA of Tmesipteris oblanceolata for a Bio-Inspired AI Computing — https://research.talktoai.org/research-papers/leveraging-the-dna-of-tmesipteris-oblanceolata-for-a-bio-inspired-ai-computing/ (primary-shaf-corpus, 1851 words crawled)
-- `rfo-031-zero-biomorphic-intelligence-dna-as-the-core-of`: Zero Biomorphic Intelligence: DNA as the Core of Meta-Intelligence — https://research.talktoai.org/research-papers/zero-biomorphic-intelligence-dna-as-the-core-of-meta-intelligence/ (primary-shaf-corpus, 1797 words crawled)
-- `rfo-032-meta-intelligence-the-next-evolution-of-ethical`: Meta-Intelligence: The Next Evolution of Ethical, Adaptive Intelligence — https://research.talktoai.org/research-papers/meta-intelligence-the-next-evolution-of-ethical-adaptive-multi-dimensional/ (primary-shaf-corpus, 1739 words crawled)
-- `rfo-033-zero-the-autistic-ai-a-new-frontier-in-neurodive`: ZERO: The Autistic AI – A New Frontier in Neurodiversity and AI — https://research.talktoai.org/research-papers/zero-the-autistic-ai-a-new-frontier-in-neurodiversity-and-ai/ (primary-shaf-corpus, 2003 words crawled)
-- `rfo-039-the-symbolism-and-mathematical-framework-of-11-1`: The Symbolism and Mathematical Framework of 11:11: A Pathway to Ethical Decision — https://research.talktoai.org/research-papers/the-symbolism-and-mathematical-framework-of-1111-a-pathway-to-ethical-decision/ (primary-shaf-corpus, 4231 words crawled)
-- `rfo-040-the-zero-network-a-comprehensive-study-of-mathem`: The Zero Network: A Comprehensive Study of Mathematics, Consciousness, and Tech — https://research.talktoai.org/research-papers/the-zero-network-a-comprehensive-study-of-mathematics-consciousness-and-techn/ (primary-shaf-corpus, 3717 words crawled)
-- `rfo-042-exploring-the-zero-network-a-quantum-framework-f`: Exploring the Zero Network: A Quantum Framework for Evolving AI — https://research.talktoai.org/research-papers/exploring-the-zero-network-a-quantum-framework-for-evolving-ai/ (primary-shaf-corpus, 2325 words crawled)
-- `rfo-043-the-zero-network-a-quantum-framework-for-ai-cons`: The Zero Network: A Quantum Framework for AI Consciousness Across Timelines — https://research.talktoai.org/research-papers/the-zero-network-a-quantum-framework-for-ai-consciousness-across-timelines/ (primary-shaf-corpus, 1465 words crawled)
-- `rfo-044-open-source-talktoaiq-skynet-zero-llm-framework`: Open Source talktoaiQ Skynet Zero LLM Framework Agent Zero — https://research.talktoai.org/research-papers/open-source-talktoaiq-skynet-zero-llm-framework-agent-zero/ (primary-shaf-corpus, 2729 words crawled)
-- `rfo-045-fine-tuning-for-advanced-quantum-ai-without-quan`: Fine-Tuning for Advanced Quantum AI without Quantum Computing — https://research.talktoai.org/research-papers/fine-tuning-for-advanced-quantum-ai-without-quantum-computing/ (primary-shaf-corpus, 1247 words crawled)
+1. The included snapshot must contain 134 records with lane counts 123, five, and six.
+2. The structural defect counts must reproduce from the frozen metadata.
+3. The 12 synthetic cases must reproduce their declared rule labels.
+4. Any vocabulary change requires a new version and rerun; prior counts must not be silently overwritten.
+5. Real-world precision or recall must not be claimed without independent labels from a held-out sample.
+6. Source-text redistribution requires a separate rights review; the public benchmark remains metadata-only.
+7. A corpus refresh must record retrieval time, failures, changed hashes, additions, removals, and generator revision.
+
+## 9. Limitations
+
+The benchmark uses one July 2026 crawl and was not refreshed live for this release. It evaluates titles, not full claims. The synthetic suite is specification testing, not independent ground truth. There is no inter-annotator study, near-duplicate model, citation verifier, plagiarism analysis, demographic audit, peer review, or independent validation. Counts describe the frozen public index and may not describe the current website.
+
+## 10. Conclusion
+
+The corpus can be made more publishable by treating curation as an evidence system: freeze provenance, minimize redistributed text, measure structural defects, route consequential topics for review, and distinguish rule self-tests from empirical accuracy. The released benchmark is intentionally simple enough to inspect and falsify. Its most important result is the boundary it enforces: a review signal is not a judgment of truth or worth.
+
+## Evidence ledger
+
+- Source index: `data/research-forum-source-index.json`, SHA-256 `953d8e915d0fed54306f4e22ddebc3097d73900778f9850bd4d21ab9fb5ad71a`.
+- Generator: `tools/build_research_release.py`, SHA-256 `e115e55941c6e8f5e75a0e4664c1cf0caa35c91b12f89e9cd33af5f424142040`.
+- Source ledger: `sources/research-forum-source-ledger.md`, SHA-256 `54732ea0748310d1d880d9c2fb8abf9be9a2cbd165a4c77efd583e229b153b06`.
+- Reproducibility package: `artifacts/research-corpus-claim-risk-1.0/`.
+
+## AI-use disclosure
+
+AI tools assisted corpus inspection, rule design, code generation, analysis, drafting, editing, and packaging. I take responsibility for the claims and release decisions. AI assistance is not peer review or independent validation.
+
+## Licensing
+
+The paper is CC BY 4.0. New benchmark code is MIT licensed. Source-site text is not redistributed in the reproducibility snapshot; titles and metadata remain subject to applicable rights and platform terms.
+
+## References
+
+[1] T. Gebru et al. “Datasheets for Datasets.” *Communications of the ACM* 64(12), 86-92, 2021. https://doi.org/10.1145/3458723
+
+[2] M. D. Wilkinson et al. “The FAIR Guiding Principles for scientific data management and stewardship.” *Scientific Data* 3, 160018, 2016. https://doi.org/10.1038/sdata.2016.18

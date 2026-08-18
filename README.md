@@ -35,6 +35,7 @@ This repo is designed for clean, citeable public work:
 | [Quantum-Ready Evidence Graphs and QPU-Factor Evaluation 1.0](papers/quantum-ready-evidence-graphs.md) | Exact classical claim-graph baseline, greedy comparison, and synthetic-fixture QPU-factor contract boundary |
 | [Probability of Goodness Decision Routing 1.0](papers/probability-of-goodness-ethical-routing.md) | Frozen substring-score audit, eight synthetic counterexamples, and hard-rule-first routing specification |
 | [Bio-Inspired Recursive Computation 1.0](papers/bio-digital-research-boundaries.md) | Frozen genetic-formula audit, bounded recurrence, and explicit metaphor-to-biology evidence boundaries |
+| [Research-Corpus Curation and Claim-Risk Benchmark 1.0](papers/research-forum-corpus-synthesis-2026.md) | Text-free metadata audit, title-signal review queue, and synthetic rule-specification benchmark |
 | [Zero Boundary Algebra as a Provenance Workflow](papers/zero-boundary-algebra-provenance-workflow.md) | Public mathematical/workflow framing |
 | [ZeroThink as a Sovereign Reasoning Layer](papers/zerothink-sovereign-reasoning-layer.md) | Research writing and audit workflow |
 | [OpenZero and Local-First AI Nodes](papers/openzero-local-first-ai-nodes.md) | CPU-friendly sovereign agents |
@@ -46,7 +47,6 @@ This repo is designed for clean, citeable public work:
 | [Boundary-Oriented Evaluation of a Deployed AI Agent Service](papers/zerothink-public-boundary-evaluation-2026-07-26.md) | Methods-and-results preprint built from the reproducible public-surface benchmark; includes limits and conflict disclosure |
 | [ZeroThink Authenticated Intelligence Benchmark](papers/zerothink-authenticated-intelligence-benchmark-2026-07-09.md) | Account-routed exact-answer comparison across ZeroThink/OpenZero and saved provider lanes |
 | [Botanical Formula Research Roadmap](papers/botanical-formula-research-roadmap.md) | Safety-first research plan |
-| [Research Forum Corpus Synthesis 2026](papers/research-forum-corpus-synthesis-2026.md) | Umbrella map of the corpus |
 
 ## Source Ledger
 
