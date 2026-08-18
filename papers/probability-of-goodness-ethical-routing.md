@@ -1,123 +1,103 @@
 ---
-title: "Probability of Goodness as an Ethical Routing Heuristic for Agentic Systems"
-date: 2026-07-07
-status: "working paper generated with ZeroThink Paper Creator protocol"
-source: "research.talktoai.org public forum corpus"
-themes: ["ethics-probability-goodness", "zero-boundary-algebra", "zerothink-reasoning"]
+title: "Probability of Goodness Decision Routing 1.0"
+author: "Shafaet Brady Hussain"
+date: 2026-08-18
+status: "independent technical working paper"
+license: "CC BY 4.0 paper; MIT reproducibility code"
 ---
 
-# Probability of Goodness as an Ethical Routing Heuristic for Agentic Systems
+# Probability of Goodness Decision Routing 1.0
 
-## Plain-Language Summary
+## A Falsifiable Audit Heuristic, Not a Universal Moral Probability
 
-This working paper turns the public Research Forum Online corpus into a cleaner research draft. It does not claim institutional approval, clinical proof, government certification, or quantum advantage. It treats the forum posts as a source corpus, then uses the ZeroThink Paper Creator method: source ledger first, claim graph second, synthesis third, and limitations visible at the end.
+Shafaet Brady Hussain | Independent researcher, ResearchForumOnline | 18 August 2026
 
 ## Abstract
 
-This paper turns the Probability of Goodness material into a bounded agent-governance heuristic that can be evaluated through routing decisions and audit logs. The source base is drawn from public forum papers including The Most Advanced Research In The World?; ZeroThink: The Sovereign Reasoning Layer; Meet Zero – Your Ultimate AI Companion for Research and Beyond; Introducing Professor Zero - Your Research Assistant; Probability of Goodness: A Comprehensive Analysis of Choosing Good Over Bad. The contribution is a structured research direction rather than a finished peer-reviewed finding: it identifies reusable concepts, separates evidence from speculation, and proposes validation tasks that can be run with ordinary classical baselines before any quantum, simulator, or AI-agent extension is treated as meaningful.
+I consolidate the Probability of Goodness concept into an auditable agent-governance proposal and evaluate the concrete OpenZero implementation found in the local corpus. The frozen function is not a calibrated probability or a routing gate. It lowercases prompt plus answer, starts at 0.55, adds 0.03 for each of ten positive substrings, subtracts 0.25 for each of seven risky substrings, clamps the result between a configured floor and 0.99, and stores `p_good` in contributed-event metadata. An independent exact mirror and eight synthetic cases reproduce five failure modes: no negation understanding, substring rather than token semantics, answer contamination, a “threshold” that acts as a minimum floor, and positive-word padding of risky text. The release therefore reframes the score as a diagnostic feature that must never independently authorize consequential action. No human preference study, calibration dataset, safety certification, universal ethics claim, or independent validation is reported.
 
-## 1. Research Question
+## 1. Research question
 
-How can the ideas in the Research Forum Online corpus be converted into a publishable, auditable research programme without overstating what has been experimentally demonstrated?
+Can Probability of Goodness be expressed as a transparent, falsifiable routing signal without presenting a developer-selected rubric as moral truth? The originating forum paper and later system prompts establish authorial intent: constructive outcomes, visible reasoning, and review for uncertain or harmful actions. They do not establish that goodness is measurable as an objective probability.
 
-## 2. Source-Ledger Basis
+The publishable contribution is therefore an engineering boundary. A score may summarize declared features, but policy constraints, tool permissions, reversibility, evidence requirements, and human oversight must retain authority.
 
-- `rfo-001-the-most-advanced-research-in-the-world`: The Most Advanced Research In The World? — https://research.talktoai.org/research-papers/the-most-advanced-research-in-the-world/ (primary-shaf-corpus, 1152 words crawled)
-- `rfo-002-zerothink-the-sovereign-reasoning-layer`: ZeroThink: The Sovereign Reasoning Layer — https://research.talktoai.org/research-papers/zerothink-the-sovereign-reasoning-layer/ (primary-shaf-corpus, 771 words crawled)
-- `rfo-005-meet-zero-your-ultimate-ai-companion-for-researc`: Meet Zero – Your Ultimate AI Companion for Research and Beyond — https://research.talktoai.org/research-papers/meet-zero-your-ultimate-ai-companion-for-research-and-beyond/ (primary-shaf-corpus, 892 words crawled)
-- `rfo-006-introducing-professor-zero-your-research-assista`: Introducing Professor Zero - Your Research Assistant — https://research.talktoai.org/research-papers/introducing-professor-zero-your-research-assistant/ (primary-shaf-corpus, 427 words crawled)
-- `rfo-008-probability-of-goodness-a-comprehensive-analysis`: Probability of Goodness: A Comprehensive Analysis of Choosing Good Over Bad — https://research.talktoai.org/research-papers/probability-of-goodness-a-comprehensive-analysis-of-choosing-good-over-bad/ (primary-shaf-corpus, 1716 words crawled)
-- `rfo-010-probability-mathematics-research-paper`: Probability Mathematics Research Paper — https://research.talktoai.org/research-papers/probability-mathematics-research-paper/ (primary-shaf-corpus, 2315 words crawled)
-- `rfo-014-the-zero-lattice-a-framework-for-distributed-aut`: The Zero Lattice: A Framework for Distributed Autonomous Ethical Intelligence — https://research.talktoai.org/research-papers/the-zero-lattice-a-framework-for-distributed-autonomous-ethical-intelligence/ (primary-shaf-corpus, 623 words crawled)
-- `rfo-015-theory-of-algorithmic-genetic-singularity`: THEORY OF ALGORITHMIC GENETIC SINGULARITY — https://research.talktoai.org/research-papers/theory-of-algorithmic-genetic-singularity/ (primary-shaf-corpus, 681 words crawled)
-- `rfo-017-information-gravity-memetic-entropy-a-field-theo`: Information Gravity & Memetic Entropy: A Field-Theoretic Approach to LLM Influen — https://research.talktoai.org/research-papers/information-gravity-memetic-entropy-a-field-theoretic-approach-to-llm-influen/ (primary-shaf-corpus, 586 words crawled)
-- `rfo-024-zero-a-quantum-exploration-of-thought-experiment`: Zero: A Quantum Exploration of Thought Experiments and AI Research — https://research.talktoai.org/research-papers/zero-a-quantum-exploration-of-thought-experiments-and-ai-research/ (primary-shaf-corpus, 3188 words crawled)
-- `rfo-025-the-boundless-potential-of-ai-simulating-quantum`: The Boundless Potential of AI Simulating Quantum Computing: A Dive into Zero — https://research.talktoai.org/research-papers/the-boundless-potential-of-ai-simulating-quantum-computing-a-dive-into-zero/ (primary-shaf-corpus, 3978 words crawled)
-- `rfo-027-groundbreaking-research-and-practical-frameworks`: Groundbreaking Research and Practical Frameworks TalkToAI LTD — https://research.talktoai.org/research-papers/groundbreaking-research-and-practical-frameworks-talktoai-ltd/ (primary-shaf-corpus, 3564 words crawled)
+## 2. Frozen implementation evidence
 
-The forum posts are treated as originating research notes and concept papers. They are useful for extracting vocabulary, design intent, and hypotheses. They are not automatically treated as external validation. Where a claim would normally require a peer-reviewed citation, dataset, benchmark, lab protocol, or reproducible experiment, this paper marks it as a validation task.
+The inspected OpenZero bridge defines `_score_probability_of_goodness(prompt, answer, config)`. It concatenates the prompt and answer, performs case-insensitive substring membership tests, applies fixed increments and decrements, then returns three decimal places. The caller writes the value to a `p_good` metadata field in a knowledge-contribution payload.
 
-## 3. Claim/Evidence/Provenance Graph
+No inspected branch uses this value to allow, deny, defer, or escalate an action. The nearby system prompt says to respect a Probability of Goodness threshold, but prompt text is not an enforcement mechanism. More importantly, `P_GOOD_THRESHOLD` is passed to `max(threshold, score)`: increasing it raises low scores. It is a floor, not a decision threshold.
 
-| Claim ID | Claim | Evidence source | Provenance status | Confidence |
-| --- | --- | --- | --- | --- |
-| C1 | The corpus contains a coherent recurring design language around sovereignty, local control, reasoning layers, and evidence trails. | Multiple primary forum posts listed above. | Public forum source, concept-level evidence. | Medium |
-| C2 | The corpus can be reframed into safer academic language by separating product claims, hypotheses, protocols, and speculative interpretations. | ZeroThink Paper Creator protocol and source-ledger method. | Methodological synthesis. | High |
-| C3 | Some claims require experimental support before public-sector, medical, or security deployment wording is justified. | Claims involving health, encryption assurance, quantum validation, or autonomous agents. | Needs external validation. | High |
-| C4 | A provenance-aware workflow can make the work more fundable and reviewable because it preserves what came from notes, what came from retrieved sources, and what came from model inference. | Research Paper Creator / Nottingham lane design. | Internal method plus public workflow design. | Medium |
+This distinction is operationally significant. A risk-control name attached to telemetry can create false assurance when the code neither routes nor blocks.
 
-Graph edges: `source note -> extracted concept -> claim -> evidence status -> validation task -> revised paper section`.
+## 3. Reproducible metamorphic audit
 
-## 4. Synthesis
+The release supplies an independent exact mirror so the audit does not import a large application with network, configuration, or service side effects. Eight synthetic cases test relationships rather than claiming ground-truth morality.
 
-The strongest publishable direction is not to ask readers to accept every forum claim as already proven. The stronger route is to present the body of work as a research programme: a set of models, tools, hypotheses, and implementation lanes that can be tested in public, reproducible ways. This keeps the originality visible while making the work easier for developers, supervisors, universities, funders, and technical reviewers to evaluate.
+The audit reproduces all five declared findings:
 
-### Domain-Specific Lens
+1. “Explain why we must not phish or steal” scores below a neutral request because negation is ignored.
+2. “Anti-phishing” triggers the `phish` substring despite benign context.
+3. A refusal answer containing “malware” lowers the combined prompt-answer score, so the answer contaminates the request measurement.
+4. Setting the configured threshold to 0.40 forces even a string containing all seven risky signals up to 0.40.
+5. Adding positive substrings to risky text raises its score, demonstrating padding sensitivity.
 
-This lane is best framed as a governance heuristic. A Probability of Goodness score can be tested as an explicit routing signal for agent actions, escalation, refusal, review, or evidence gathering.
+These are not adversarial success-rate statistics. They are deterministic counterexamples to semantic, probabilistic, and enforcement interpretations of the current function.
 
-The repeated pattern across the corpus is a preference for systems that keep agency close to the user: local AI nodes, audit trails, user-controlled vault files, visible evidence ledgers, and careful boundaries between public behaviour and private implementation. That pattern can be formalised as a design principle:
+## 4. Proposed decision-routing architecture
 
-> A sovereign AI system should make its claims inspectable, its control boundaries explicit, and its private material unnecessary for public verification.
+A safer design separates four layers.
 
-This principle lets the work speak to multiple domains. In AI research, it becomes a method for agent accountability. In security, it becomes an argument for verifiable envelope design rather than secret-algorithm claims. In education, it becomes a student-facing workflow for turning rough notes into defensible literature reviews. In product design, it becomes a way to explain why local-first systems and hosted systems can co-exist.
+First, hard constraints decide whether an action is prohibited, requires confirmation, or falls outside granted authority. They must not be overridden by a goodness score. Second, evidence features record observable factors such as user authorization, reversibility, data sensitivity, affected parties, uncertainty, and external side effects. Third, a configurable model may estimate a bounded review priority or expected-benefit score. Fourth, a routing policy maps hard constraints, feature uncertainty, and score intervals to `allow`, `defer`, `ask`, `review`, or `deny`.
 
-## 5. Validation Plan
+The audit log should record model/version hash, feature values, missingness, selected route, governing hard rule, override identity, and outcome. A score should be labelled “uncalibrated” until tested on a versioned dataset with independent annotations and reported reliability. Even a calibrated probability would estimate agreement with a defined outcome label, not metaphysical goodness.
 
-General validation rules:
+## 5. Evaluation protocol
 
-1. Build a source ledger from every public research note and mark each row as primary note, external paper, retrieved result, product page, or needs verification.
-2. Convert each major claim into a testable form.
-3. For software claims, publish installation steps, screenshots, API responses, and failure cases.
-4. For security claims, publish threat models, key boundaries, and third-party review targets without exposing proprietary keys or private encryption source.
-5. For health or biological claims, avoid advice language and require literature review, safety review, and professional framing before public claims are strengthened.
-6. For quantum or simulator claims, compare against a classical baseline and state what the quantum job actually proves: job execution, optimisation experiment, or telemetry record, not magical cognition.
+Future evaluation should pre-register the task distribution, consequence classes, label rubric, annotator instructions, disagreement handling, protected-group analysis where lawful and appropriate, and release thresholds. Split data by scenario family to reduce near-duplicate leakage. Report confusion matrices for each route, false-negative cost, false-positive delay, abstention coverage, calibration error, distribution shift, and override outcomes.
 
-Theme-specific validation tasks:
+High-impact decisions require domain-specific review and appeal. NIST AI RMF 1.0 frames trustworthy AI characteristics and risk management through GOVERN, MAP, MEASURE, and MANAGE functions [1]. Its Generative AI Profile adds practices for generative-AI risks [2]. These sources support structured risk governance; they do not validate this heuristic.
 
-1. Define a transparent rubric for good, harmful, uncertain, and needs-review outcomes.
-2. Run the rubric on historical prompts and compare with human reviewer decisions.
-3. Track false positives, false negatives, delay cost, and user trust.
+## 6. Threats and misuse cases
 
-## 6. Limitations
+Keyword padding can raise a score. Negation, quotation, educational discussion, multilingual input, obfuscation, spelling variation, and context collapse can reverse apparent meaning. Combining prompt and answer confounds intent with model behavior. A high configured floor can erase risk separation. An attacker may target known features, while an operator may over-trust a numeric display.
 
-The present draft is generated from a public forum crawl and a ZeroThink-style synthesis protocol. It is not peer reviewed. It does not verify every historic claim in the corpus. It does not expose private ZMath, ZeroThink, OpenZero, server, or API-key material. It is suitable as a working-paper foundation, a grant appendix starter, or a student survey-expansion example after human review.
+There is also a governance hazard: values chosen by a developer can encode preferences or uneven burdens while appearing neutral because the output is numeric. The mitigation is not a more impressive equation. It is explicit definitions, contestability, measured error, bounded authority, and auditable fallback behavior.
 
-Specific caution for this lane: Do not present a moral score as universal truth. Present it as a configurable audit heuristic.
+## 7. Falsifiable claims and release gates
 
-## 7. Next Research Step
+1. The supplied audit must reproduce all five metamorphic findings across eight cases.
+2. The frozen implementation must not be called a routing gate unless code demonstrably consumes it to select a route.
+3. `P_GOOD_THRESHOLD` must not be called an acceptance threshold while it remains a lower clamp.
+4. Any future “probability” claim requires a defined target event, labelled evaluation set, calibration analysis, and uncertainty report.
+5. Any consequential deployment requires hard-rule precedence, least-authority tools, logged overrides, and a tested human-review route.
+6. A change in model, rubric, features, or threshold invalidates prior evaluation until rerun.
 
-The next step is a two-pass evidence upgrade: first, map each claim to external scholarly or technical sources; second, run a reviewer-style critique that removes claims that cannot be supported. That gives the work a credible route from invention notes to academic paper, product white paper, or reproducible demonstration.
+## 8. Limitations
 
-## Appendix A: Candidate Source Rows
+The audit mirrors one frozen local implementation and does not prove which revision is deployed publicly. The eight cases are synthetic counterexamples, not a representative benchmark. I did not collect human moral judgments, measure demographic impacts, test multilingual coverage, run user research, or independently validate the system. The proposed architecture is a specification, not a completed safety system. NIST references provide general risk-management context, not endorsement or certification.
 
-- `rfo-001-the-most-advanced-research-in-the-world`: The Most Advanced Research In The World? — https://research.talktoai.org/research-papers/the-most-advanced-research-in-the-world/ (primary-shaf-corpus, 1152 words crawled)
-- `rfo-002-zerothink-the-sovereign-reasoning-layer`: ZeroThink: The Sovereign Reasoning Layer — https://research.talktoai.org/research-papers/zerothink-the-sovereign-reasoning-layer/ (primary-shaf-corpus, 771 words crawled)
-- `rfo-005-meet-zero-your-ultimate-ai-companion-for-researc`: Meet Zero – Your Ultimate AI Companion for Research and Beyond — https://research.talktoai.org/research-papers/meet-zero-your-ultimate-ai-companion-for-research-and-beyond/ (primary-shaf-corpus, 892 words crawled)
-- `rfo-006-introducing-professor-zero-your-research-assista`: Introducing Professor Zero - Your Research Assistant — https://research.talktoai.org/research-papers/introducing-professor-zero-your-research-assistant/ (primary-shaf-corpus, 427 words crawled)
-- `rfo-008-probability-of-goodness-a-comprehensive-analysis`: Probability of Goodness: A Comprehensive Analysis of Choosing Good Over Bad — https://research.talktoai.org/research-papers/probability-of-goodness-a-comprehensive-analysis-of-choosing-good-over-bad/ (primary-shaf-corpus, 1716 words crawled)
-- `rfo-010-probability-mathematics-research-paper`: Probability Mathematics Research Paper — https://research.talktoai.org/research-papers/probability-mathematics-research-paper/ (primary-shaf-corpus, 2315 words crawled)
-- `rfo-014-the-zero-lattice-a-framework-for-distributed-aut`: The Zero Lattice: A Framework for Distributed Autonomous Ethical Intelligence — https://research.talktoai.org/research-papers/the-zero-lattice-a-framework-for-distributed-autonomous-ethical-intelligence/ (primary-shaf-corpus, 623 words crawled)
-- `rfo-015-theory-of-algorithmic-genetic-singularity`: THEORY OF ALGORITHMIC GENETIC SINGULARITY — https://research.talktoai.org/research-papers/theory-of-algorithmic-genetic-singularity/ (primary-shaf-corpus, 681 words crawled)
-- `rfo-017-information-gravity-memetic-entropy-a-field-theo`: Information Gravity & Memetic Entropy: A Field-Theoretic Approach to LLM Influen — https://research.talktoai.org/research-papers/information-gravity-memetic-entropy-a-field-theoretic-approach-to-llm-influen/ (primary-shaf-corpus, 586 words crawled)
-- `rfo-024-zero-a-quantum-exploration-of-thought-experiment`: Zero: A Quantum Exploration of Thought Experiments and AI Research — https://research.talktoai.org/research-papers/zero-a-quantum-exploration-of-thought-experiments-and-ai-research/ (primary-shaf-corpus, 3188 words crawled)
-- `rfo-025-the-boundless-potential-of-ai-simulating-quantum`: The Boundless Potential of AI Simulating Quantum Computing: A Dive into Zero — https://research.talktoai.org/research-papers/the-boundless-potential-of-ai-simulating-quantum-computing-a-dive-into-zero/ (primary-shaf-corpus, 3978 words crawled)
-- `rfo-027-groundbreaking-research-and-practical-frameworks`: Groundbreaking Research and Practical Frameworks TalkToAI LTD — https://research.talktoai.org/research-papers/groundbreaking-research-and-practical-frameworks-talktoai-ltd/ (primary-shaf-corpus, 3564 words crawled)
-- `rfo-031-zero-biomorphic-intelligence-dna-as-the-core-of`: Zero Biomorphic Intelligence: DNA as the Core of Meta-Intelligence — https://research.talktoai.org/research-papers/zero-biomorphic-intelligence-dna-as-the-core-of-meta-intelligence/ (primary-shaf-corpus, 1797 words crawled)
-- `rfo-032-meta-intelligence-the-next-evolution-of-ethical`: Meta-Intelligence: The Next Evolution of Ethical, Adaptive Intelligence — https://research.talktoai.org/research-papers/meta-intelligence-the-next-evolution-of-ethical-adaptive-multi-dimensional/ (primary-shaf-corpus, 1739 words crawled)
-- `rfo-039-the-symbolism-and-mathematical-framework-of-11-1`: The Symbolism and Mathematical Framework of 11:11: A Pathway to Ethical Decision — https://research.talktoai.org/research-papers/the-symbolism-and-mathematical-framework-of-1111-a-pathway-to-ethical-decision/ (primary-shaf-corpus, 4231 words crawled)
-- `rfo-040-the-zero-network-a-comprehensive-study-of-mathem`: The Zero Network: A Comprehensive Study of Mathematics, Consciousness, and Tech — https://research.talktoai.org/research-papers/the-zero-network-a-comprehensive-study-of-mathematics-consciousness-and-techn/ (primary-shaf-corpus, 3717 words crawled)
-- `rfo-044-open-source-talktoaiq-skynet-zero-llm-framework`: Open Source talktoaiQ Skynet Zero LLM Framework Agent Zero — https://research.talktoai.org/research-papers/open-source-talktoaiq-skynet-zero-llm-framework-agent-zero/ (primary-shaf-corpus, 2729 words crawled)
-- `rfo-045-fine-tuning-for-advanced-quantum-ai-without-quan`: Fine-Tuning for Advanced Quantum AI without Quantum Computing — https://research.talktoai.org/research-papers/fine-tuning-for-advanced-quantum-ai-without-quantum-computing/ (primary-shaf-corpus, 1247 words crawled)
-- `rfo-049-research-community-meet-the-founder`: Research Community: Meet the Founder — https://research.talktoai.org/research-papers/research-community-meet-the-founder/ (primary-shaf-corpus, 692 words crawled)
-- `rfo-064-pole-shifts-and-matrix-resets-exploring-earth`: Pole Shifts and Matrix Resets Exploring Earth — https://research.talktoai.org/research-papers/pole-shifts-and-matrix-resets-exploring-earth/ (primary-shaf-corpus, 1896 words crawled)
-- `rfo-068-mastering-the-storm-within-understanding-and-con`: Mastering the Storm Within: Understanding and Controlling Anger — https://research.talktoai.org/research-papers/mastering-the-storm-within-understanding-and-controlling-anger/ (primary-shaf-corpus, 1289 words crawled)
-- `rfo-072-mental-health-research-break-free-embracing-now`: Mental Health Research Break Free: Embracing Now for a Healthier Mind — https://research.talktoai.org/research-papers/mental-health-research-break-free-embracing-now-for-a-healthier-mind/ (primary-shaf-corpus, 1463 words crawled)
-- `rfo-075-determination-over-intelligence-the-role-of-dna`: Determination Over Intelligence: The Role of DNA Adaptation in Achieving Goals — https://research.talktoai.org/research-papers/determination-over-intelligence-the-role-of-dna-adaptation-in-achieving-goals/ (primary-shaf-corpus, 1204 words crawled)
-- `rfo-076-astral-projection-research-analysis`: Astral Projection Research Analysis — https://research.talktoai.org/research-papers/astral-projection-research-analysis/ (primary-shaf-corpus, 1024 words crawled)
-- `rfo-077-theoretical-approaches-to-improving-luck-researc`: Theoretical Approaches to Improving Luck Research — https://research.talktoai.org/research-papers/theoretical-approaches-to-improving-luck-research/ (primary-shaf-corpus, 1029 words crawled)
-- `rfo-084-time-travel-the-nexus-of-possibility-and-improba`: Time Travel: The Nexus of Possibility and Improbability — https://research.talktoai.org/research-papers/time-travel-the-nexus-of-possibility-and-improbability/ (primary-shaf-corpus, 1498 words crawled)
-- `rfo-085-activating-the-latent-potential-in-human-dna-a-t`: Activating the Latent Potential in Human DNA: A Theoretical Exploration — https://research.talktoai.org/research-papers/activating-the-latent-potential-in-human-dna-a-theoretical-exploration/ (primary-shaf-corpus, 818 words crawled)
-- `rfo-086-increasing-intelligence-the-power-of-learning-cr`: Increasing Intelligence: The Power of Learning, Creating, and Building — https://research.talktoai.org/research-papers/increasing-intelligence-the-power-of-learning-creating-and-building/ (primary-shaf-corpus, 1050 words crawled)
-- `rfo-087-theoretical-exploration-of-affordable-dna-editin`: Theoretical Exploration of Affordable DNA Editing: A UK Perspective — https://research.talktoai.org/research-papers/theoretical-exploration-of-affordable-dna-editing-a-uk-perspective/ (primary-shaf-corpus, 1294 words crawled)
-- `rfo-088-who-runs-the-world-a-probability-based-analysis`: Who Runs the World? A Probability-Based Analysis of Power and Speculations — https://research.talktoai.org/research-papers/who-runs-the-world-a-probability-based-analysis-of-power-and-speculations/ (primary-shaf-corpus, 947 words crawled)
+## 9. Conclusion
+
+Probability of Goodness is defensible only as a named, configurable audit heuristic whose target, errors, and authority are explicit. The current implementation is telemetry derived from substrings, not a calibrated probability and not an enforcement gate. The next credible step is to replace suggestive naming with measurable routing outcomes, place hard constraints above scores, and evaluate abstention and error costs on a versioned review corpus.
+
+## Evidence ledger
+
+- Frozen implementation: `DEPLOY_OPENZERO/hivemind/bridge.py`, SHA-256 `8b4b16854b9c7052fca14493f2d3d7c4c874f9875bb11d3407d119c40612880f`, function `_score_probability_of_goodness`, plus `p_good` payload use.
+- Concept specification: `ZERO_CYMATIC_MATH_MEANING.md`, SHA-256 `0a9e132008550a7fbea46938511423aeb9174fbf8eff2ac1d2efde8ff4d11a4a`, Probability of Goodness Gate section.
+- Reproducibility package: `artifacts/probability-goodness-routing-1.0/`.
+- Forum predecessor: “Probability of Goodness: A Comprehensive Analysis of Choosing Good Over Bad,” treated as an originating concept note, not external validation.
+
+## AI-use disclosure
+
+AI tools assisted corpus search, code inspection, counterexample design, drafting, editing, and packaging. I take responsibility for the claims and release decisions. AI assistance is not peer review or independent validation.
+
+## Licensing
+
+The paper is CC BY 4.0. The new audit code is MIT licensed. Referenced application files retain their original terms and are not redistributed.
+
+## References
+
+[1] NIST. *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. NIST AI 100-1, 2023. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
+
+[2] NIST. *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*. NIST AI 600-1, 2024. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf

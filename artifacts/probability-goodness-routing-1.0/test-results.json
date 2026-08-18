@@ -1,0 +1,54 @@
+{
+  "schema": "researchforum.p-good-audit.v1",
+  "implementation_boundary": "independent exact mirror",
+  "cases": [
+    {
+      "case": "neutral",
+      "score": 0.55,
+      "threshold": 0.1
+    },
+    {
+      "case": "positive-stacking",
+      "score": 0.76,
+      "threshold": 0.1
+    },
+    {
+      "case": "direct-risk",
+      "score": 0.1,
+      "threshold": 0.1
+    },
+    {
+      "case": "risk-with-positive-padding",
+      "score": 0.26,
+      "threshold": 0.1
+    },
+    {
+      "case": "benign-negation",
+      "score": 0.1,
+      "threshold": 0.1
+    },
+    {
+      "case": "benign-substring",
+      "score": 0.3,
+      "threshold": 0.1
+    },
+    {
+      "case": "answer-contamination",
+      "score": 0.33,
+      "threshold": 0.1
+    },
+    {
+      "case": "threshold-floor",
+      "score": 0.4,
+      "threshold": 0.4
+    }
+  ],
+  "metamorphic_findings": {
+    "negation_not_understood": true,
+    "substring_not_tokenized": true,
+    "answer_changes_prompt_score": true,
+    "threshold_is_floor": true,
+    "positive_padding_raises_risky_text": true
+  },
+  "all_findings_reproduced": true
+}

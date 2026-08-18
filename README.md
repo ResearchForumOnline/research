@@ -33,6 +33,7 @@ This repo is designed for clean, citeable public work:
 | [ZeroMint AIOS Engineering Evaluation 1.0](papers/zeromint-aios-engineering-evaluation-1.0.md) | Live distribution metadata, split-image and torrent integrity checks, installer boundaries, and supply-chain gaps |
 | [Cymatics Zero Platform Evaluation 1.0](papers/cymatics-zero-platform-evaluation-1.0.md) | Synthetic-corpus and browser-audio audit, live count inconsistency, and generator reproducibility failure |
 | [Quantum-Ready Evidence Graphs and QPU-Factor Evaluation 1.0](papers/quantum-ready-evidence-graphs.md) | Exact classical claim-graph baseline, greedy comparison, and synthetic-fixture QPU-factor contract boundary |
+| [Probability of Goodness Decision Routing 1.0](papers/probability-of-goodness-ethical-routing.md) | Frozen substring-score audit, eight synthetic counterexamples, and hard-rule-first routing specification |
 | [Zero Boundary Algebra as a Provenance Workflow](papers/zero-boundary-algebra-provenance-workflow.md) | Public mathematical/workflow framing |
 | [ZeroThink as a Sovereign Reasoning Layer](papers/zerothink-sovereign-reasoning-layer.md) | Research writing and audit workflow |
 | [OpenZero and Local-First AI Nodes](papers/openzero-local-first-ai-nodes.md) | CPU-friendly sovereign agents |
@@ -43,7 +44,6 @@ This repo is designed for clean, citeable public work:
 | [ZeroThink Public System Benchmark](papers/zerothink-system-benchmark-2026-07-09.md) | Public live-route, API-guard, CLI-device-flow, and OpenZero integration benchmark |
 | [Boundary-Oriented Evaluation of a Deployed AI Agent Service](papers/zerothink-public-boundary-evaluation-2026-07-26.md) | Methods-and-results preprint built from the reproducible public-surface benchmark; includes limits and conflict disclosure |
 | [ZeroThink Authenticated Intelligence Benchmark](papers/zerothink-authenticated-intelligence-benchmark-2026-07-09.md) | Account-routed exact-answer comparison across ZeroThink/OpenZero and saved provider lanes |
-| [Probability of Goodness](papers/probability-of-goodness-ethical-routing.md) | Ethical routing heuristic |
 | [Bio-Digital Research Boundaries](papers/bio-digital-research-boundaries.md) | DNA/organic computing caution lane |
 | [Botanical Formula Research Roadmap](papers/botanical-formula-research-roadmap.md) | Safety-first research plan |
 | [Research Forum Corpus Synthesis 2026](papers/research-forum-corpus-synthesis-2026.md) | Umbrella map of the corpus |
