@@ -23,6 +23,7 @@ This repo is designed for clean, citeable public work:
 
 | Paper | Focus |
 | --- | --- |
+| [Zero Boundary Algebra 1.0: Formal Specification](papers/zero-boundary-algebra-formal-specification-1.0.md) | Typed state calculus, axioms, proofs, threat model, conformance levels, and falsifiable evaluation protocol |
 | [Zero Boundary Algebra as a Provenance Workflow](papers/zero-boundary-algebra-provenance-workflow.md) | Public mathematical/workflow framing |
 | [ZeroThink as a Sovereign Reasoning Layer](papers/zerothink-sovereign-reasoning-layer.md) | Research writing and audit workflow |
 | [OpenZero and Local-First AI Nodes](papers/openzero-local-first-ai-nodes.md) | CPU-friendly sovereign agents |

@@ -1,0 +1,5 @@
+ad9a6fb0ef1a07343c40d4a7ad286d6eac9c229fbfca2aa87a1b406e921ba7f9  papers/zero-boundary-algebra-formal-specification-1.0.md
+b7dd568df834be5678f34e0bb9a6dd9f48c19dc7ba9baac53d9bbfbfd15a1e2e  artifacts/zba-1.0/zba.schema.json
+b85f03afca1be85462ef57ac8bce6c632eb60d36f983da5cfb1a9f2fc54342f0  artifacts/zba-1.0/CITATION.cff
+948d287af3eabbade72533a301c6897085287b2f20ece38a833f332bb3467289  Zero-Boundary-Algebra-1.0-Shafaet-Brady-Hussain.pdf
+0eca774fba5062ccb497ad63b737c8c79a10b48489748fd2a8c4d94344bb3735  Zero-Boundary-Algebra-1.0-Shafaet-Brady-Hussain.docx
