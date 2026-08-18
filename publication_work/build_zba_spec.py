@@ -16,10 +16,10 @@ from reportlab.lib.units import inch
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, KeepTogether
 
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "papers" / "zero-boundary-algebra-formal-specification-1.0.md"
-OUTDIR = ROOT / "publication_work" / "zba-1.0"
-DOCX = OUTDIR / "Zero-Boundary-Algebra-1.0-Shafaet-Brady-Hussain.docx"
-PDF = OUTDIR / "Zero-Boundary-Algebra-1.0-Shafaet-Brady-Hussain.pdf"
+SRC = ROOT / "papers" / "zero-boundary-algebra-formal-specification-1.1.md"
+OUTDIR = ROOT / "publication_work" / "zba-1.1"
+DOCX = OUTDIR / "Zero-Boundary-Algebra-1.1-Shafaet-Brady-Hussain.docx"
+PDF = OUTDIR / "Zero-Boundary-Algebra-1.1-Shafaet-Brady-Hussain.pdf"
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
 NAVY = RGBColor(11, 37, 69)
@@ -119,7 +119,7 @@ def build_docx(blocks):
     for name,size,color,before,after in (("Heading 1",16,BLUE,18,10),("Heading 2",13,BLUE,12,6),("Heading 3",12,RGBColor(31,77,120),8,4)):
         s=doc.styles[name]; s.font.name="Calibri"; s._element.rPr.rFonts.set(qn("w:ascii"),"Calibri"); s.font.size=Pt(size); s.font.bold=True; s.font.color.rgb=color; s.paragraph_format.space_before=Pt(before); s.paragraph_format.space_after=Pt(after)
     header=sec.header.paragraphs[0]; header.alignment=WD_ALIGN_PARAGRAPH.RIGHT
-    set_font(header.add_run("ZERO BOUNDARY ALGEBRA 1.0 | PUBLIC PREPRINT"),size=8,color=MUTED)
+    set_font(header.add_run("ZERO BOUNDARY ALGEBRA 1.1 | PUBLIC PREPRINT"),size=8,color=MUTED)
     footer=sec.footer.paragraphs[0]; footer.alignment=WD_ALIGN_PARAGRAPH.CENTER
     set_font(footer.add_run("Shafaet Brady Hussain  |  "),size=8,color=MUTED); add_page_number(footer)
     first_h1=True
@@ -201,8 +201,8 @@ def build_pdf(blocks):
                 t=Table(data,colWidths=[6.5*inch/len(data[0])]*len(data[0]),repeatRows=1,hAlign="LEFT")
                 t.setStyle(TableStyle([("GRID",(0,0),(-1,-1),.4,colors.HexColor("#B9C3CF")),("BACKGROUND",(0,0),(-1,0),colors.HexColor("#F4F6F9")),("FONTNAME",(0,0),(-1,0),"Helvetica-Bold"),("VALIGN",(0,0),(-1,-1),"TOP"),("LEFTPADDING",(0,0),(-1,-1),5),("RIGHTPADDING",(0,0),(-1,-1),5),("TOPPADDING",(0,0),(-1,-1),4),("BOTTOMPADDING",(0,0),(-1,-1),4)])); story += [t,Spacer(1,6)]
     def footer(canvas,doc):
-        canvas.saveState(); canvas.setFont("Helvetica",7.5); canvas.setFillColor(colors.HexColor("#595959")); canvas.drawString(inch,.55*inch,"ZERO BOUNDARY ALGEBRA 1.0 | PUBLIC PREPRINT"); canvas.drawRightString(7.5*inch,.55*inch,f"Shafaet Brady Hussain | {doc.page}"); canvas.restoreState()
-    pdf=SimpleDocTemplate(str(PDF),pagesize=letter,rightMargin=inch,leftMargin=inch,topMargin=.85*inch,bottomMargin=.8*inch,title="Zero Boundary Algebra 1.0",author="Shafaet Brady Hussain",subject="Typed state calculus and provenance specification")
+        canvas.saveState(); canvas.setFont("Helvetica",7.5); canvas.setFillColor(colors.HexColor("#595959")); canvas.drawString(inch,.55*inch,"ZERO BOUNDARY ALGEBRA 1.1 | PUBLIC PREPRINT"); canvas.drawRightString(7.5*inch,.55*inch,f"Shafaet Brady Hussain | {doc.page}"); canvas.restoreState()
+    pdf=SimpleDocTemplate(str(PDF),pagesize=letter,rightMargin=inch,leftMargin=inch,topMargin=.85*inch,bottomMargin=.8*inch,title="Zero Boundary Algebra 1.1",author="Shafaet Brady Hussain",subject="Typed state calculus, executable verification, encryption-profile audit, and provenance specification")
     pdf.build(story,onFirstPage=footer,onLaterPages=footer)
 
 blocks=parse_markdown(); build_docx(blocks); build_pdf(blocks)

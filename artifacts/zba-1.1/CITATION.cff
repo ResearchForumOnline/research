@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use Zero Boundary Algebra 1.1, please cite this preprint and versioned release."
+title: "Zero Boundary Algebra 1.1: A Typed State Calculus for Directional Boundaries, Mirror Symmetry, and Tamper-Evident Provenance"
+version: 1.1.0
+date-released: 2026-08-18
+type: article
+authors:
+  - family-names: Hussain
+    given-names: Shafaet Brady
+email: shaf@talktoai.org
+repository-code: "https://github.com/ResearchForumOnline/research"
+url: "https://quantumencryption1.com/zero-boundary-algebra/"
+license: CC-BY-4.0
+abstract: "A typed state calculus with executable verification, finite-domain property checks, tamper-evident provenance, and an evidence-bounded audit of ZMath encryption profiles."

@@ -1,0 +1,137 @@
+{
+  "spec": "zba-evidence/1.1",
+  "properties": {
+    "state_count": 144,
+    "mirror_involution_pass": 144,
+    "reset_idempotence_pass": 144,
+    "mirror_reset_commutation_pass": 144
+  },
+  "positive_chain": {
+    "valid": true,
+    "records_checked": 6,
+    "failed_sequence": null,
+    "errors": []
+  },
+  "mutation_count": 14,
+  "mutations_detected": 14,
+  "mutation_results": {
+    "phase": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 2,
+      "errors": [
+        "commitment_mismatch"
+      ]
+    },
+    "polarity": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 2,
+      "errors": [
+        "commitment_mismatch"
+      ]
+    },
+    "operation": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 2,
+      "errors": [
+        "commitment_mismatch"
+      ]
+    },
+    "policy_version": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 2,
+      "errors": [
+        "commitment_mismatch"
+      ]
+    },
+    "previous_commitment": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 2,
+      "errors": [
+        "commitment_mismatch"
+      ]
+    },
+    "payload_commitment": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 2,
+      "errors": [
+        "commitment_mismatch"
+      ]
+    },
+    "recursion_depth": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 2,
+      "errors": [
+        "commitment_mismatch"
+      ]
+    },
+    "evidence_status": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 2,
+      "errors": [
+        "commitment_mismatch"
+      ]
+    },
+    "asset_id": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 2,
+      "errors": [
+        "commitment_mismatch"
+      ]
+    },
+    "sequence": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 9,
+      "errors": [
+        "commitment_mismatch"
+      ]
+    },
+    "commitment": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 2,
+      "errors": [
+        "commitment_mismatch"
+      ]
+    },
+    "deletion": {
+      "valid": false,
+      "records_checked": 2,
+      "failed_sequence": 3,
+      "errors": [
+        "sequence_discontinuity",
+        "predecessor_mismatch",
+        "phase_order_violation"
+      ]
+    },
+    "reordering": {
+      "valid": false,
+      "records_checked": 1,
+      "failed_sequence": 2,
+      "errors": [
+        "sequence_discontinuity",
+        "predecessor_mismatch",
+        "phase_order_violation"
+      ]
+    },
+    "duplication": {
+      "valid": false,
+      "records_checked": 3,
+      "failed_sequence": 2,
+      "errors": [
+        "sequence_discontinuity",
+        "predecessor_mismatch",
+        "phase_order_violation"
+      ]
+    }
+  }
+}
