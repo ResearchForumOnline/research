@@ -1,0 +1,6 @@
+1c69a77b507d86ad695b56ac722199e2d8e8d91e0e7eb24b86977aa1ceddc702  papers/openzero-local-first-agent-runtime-1.0.md
+9820f9281408c66f7da06b5ad373999a01c1ac7216dfedf4e3c739a08dbd05c9  OpenZero-Local-First-Agent-Runtime-1.0-Shafaet-Brady-Hussain.pdf
+83ec259b375bca53a2bda856812bd2f87149da953a81d136636a8a3c180a2c72  OpenZero-Local-First-Agent-Runtime-1.0-Shafaet-Brady-Hussain.docx
+2437b840d1e467b0c822995425c101c2383259238be201b8275e393dde7c3de9  artifacts/openzero-runtime-1.0/action-boundaries.json
+aff188ab7afc59182bc7dc6aa903690ca34d7e56d1974537699fab6e421e43b4  artifacts/openzero-runtime-1.0/verify_boundaries.py
+58b621bf2463d04fd475c6005805efdc341c654de0de9c5cbbab3b10b9243acd  artifacts/openzero-runtime-1.0/test-results.json

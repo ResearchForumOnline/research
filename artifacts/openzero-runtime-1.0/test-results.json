@@ -1,0 +1,1 @@
+{"run_date":"2026-08-18","python_compile":{"files":6,"passed":6,"failed":0},"boundary_companion":{"action_classes":8,"passed":true},"historical_route_benchmark":{"date":"2026-07-08","routes":11,"items_per_route":10,"best_exact":9,"worst_exact":0},"scope":"Source parseability, boundary schema, and historical serving-path evidence; no live runtime or tools executed."}
