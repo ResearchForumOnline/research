@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "ZeroMint AIOS Engineering Evaluation 1.0"
+message: "If you use this evaluation, please cite this working paper."
+type: article
+authors:
+  - family-names: Hussain
+    given-names: Shafaet Brady
+date-released: 2026-08-18
+license: CC-BY-4.0
+repository-code: "https://github.com/ResearchForumOnline/research"

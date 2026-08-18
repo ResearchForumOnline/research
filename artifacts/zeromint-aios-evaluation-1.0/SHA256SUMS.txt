@@ -1,0 +1,5 @@
+f4caae56724e550ea4830d89e0a4d8aa2ea046ac683012fd19e185c3cb2211b1  papers/zeromint-aios-engineering-evaluation-1.0.md
+effd4775242c66fe7eef9ca27d4ceeb97f4a29e55f4a1af0637dc9031a57da90  ZeroMint-AIOS-Engineering-Evaluation-1.0-Shafaet-Brady-Hussain.pdf
+7c9f1f73161afcf9aad1213906a9e8acd20ae9af11e5259d5daae71994359f29  ZeroMint-AIOS-Engineering-Evaluation-1.0-Shafaet-Brady-Hussain.docx
+c7b3b8539bad4a791dc98cb703c655c9975c7a5d295c54c914d76796c64a1f0f  artifacts/zeromint-aios-evaluation-1.0/release-evidence.json
+707fc40ea34104cd2e06611e7e5a6ee84d6ed746d3ce6ce194e63a9eafed7ecc  artifacts/zeromint-aios-evaluation-1.0/verify_release.py

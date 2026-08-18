@@ -189,7 +189,7 @@ def build_pdf(blocks):
     h3=ParagraphStyle("H3Z",parent=styles["Heading3"],fontName="Helvetica-Bold",fontSize=10.5,leading=13,textColor=colors.HexColor("#1F4D78"),spaceBefore=8,spaceAfter=4)
     title=ParagraphStyle("TitleZ",parent=styles["Title"],fontName="Helvetica-Bold",fontSize=23,leading=27,textColor=colors.HexColor("#0B2545"),alignment=TA_CENTER,spaceAfter=12)
     subtitle=ParagraphStyle("SubZ",parent=body,fontName="Helvetica",fontSize=13,leading=17,textColor=colors.HexColor("#2E74B5"),alignment=TA_CENTER,spaceAfter=20)
-    bullet=ParagraphStyle("BulletZ",parent=body,leftIndent=18,firstLineIndent=-10,spaceAfter=4)
+    bullet=ParagraphStyle("BulletZ",parent=body,leftIndent=18,firstLineIndent=-10,spaceAfter=4,alignment=TA_LEFT)
     story=[]; first=True
     for block in blocks:
         if block[0]=="heading":
@@ -198,7 +198,9 @@ def build_pdf(blocks):
                 story += [Spacer(1,1.2*inch),Paragraph(clean_pdf_text(text),title)]; first=False
             elif level==2 and len(story)<5:
                 story.append(Paragraph(clean_pdf_text(text),subtitle))
-            else: story.append(Paragraph(clean_pdf_text(text),{1:h1,2:h2,3:h3}[min(level,3)]))
+            else:
+                story.append(Paragraph(clean_pdf_text(text),{1:h1,2:h2,3:h3}[min(level,3)]))
+                story.append(Spacer(1, 3))
         elif block[0]=="paragraph":
             text = block[1]
             style = ParagraphStyle("BodyLeftCode", parent=body, alignment=TA_LEFT) if re.search(r"[0-9a-f]{40,}|https?://", text) else body
@@ -206,6 +208,7 @@ def build_pdf(blocks):
         elif block[0]=="list":
             _,ordered,items=block
             for i,item in enumerate(items,1): story.append(Paragraph((f"{i}. " if ordered else "&#8226; ")+clean_pdf_text(item),bullet))
+            story.append(Spacer(1, 4))
         elif block[0]=="table":
             rows=block[1]
             data=[[Paragraph(clean_pdf_text(c),ParagraphStyle("Cell",parent=body,fontSize=7.6,leading=9.4,spaceAfter=0,alignment=TA_LEFT)) for c in row] for row in rows]

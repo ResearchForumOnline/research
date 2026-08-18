@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "release_url": "https://github.com/ResearchForumOnline/OpenZero/releases/tag/zeromint-os-v1.0",
+  "published_at": "2026-07-04T01:39:22Z",
+  "iso": {"name": "ZeroMint_OS_v1.0.iso", "size": 5945425920, "sha256": "52f2d62f7f286484b28f7c5128b398c1ddb87ca354efa997965f5eef98263668"},
+  "torrent": {"size": 56944, "sha256": "04c02071a827b9af0a5b8883b2627edfb26b6f98e6907b5bc737fabdf66185e7", "piece_length": 2097152, "piece_hash_count": 2835},
+  "parts": [
+    {"name": "ZeroMint_OS_v1.0.iso.part001", "size": 1992294400, "sha256": "95cbb9afd3841b6c2c0dcfca107fe05b389c5345dbbfc757d58e153482f51308"},
+    {"name": "ZeroMint_OS_v1.0.iso.part002", "size": 1992294400, "sha256": "d3fcad548bec2ea3c844e2e73cfba7ac83a4502778bce5b204d7c14f963567f3"},
+    {"name": "ZeroMint_OS_v1.0.iso.part003", "size": 1960837120, "sha256": "c76d919b7f3b186c3310bfd50d1f9ad194ed5a541723ca46ab4dc25f844e6a3c"}
+  ],
+  "evaluation_boundary": "distribution_metadata_only_no_iso_boot_or_install"
+}
