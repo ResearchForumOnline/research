@@ -8,8 +8,9 @@ license: "CC BY 4.0"
 
 # OpenZero 1.0: A Local-First Agent Runtime with Observable Serving-Path Boundaries
 
-**Shafaet Brady Hussain**  
-Independent researcher and developer, United Kingdom  
+**Shafaet Brady Hussain**
+
+Independent researcher and developer, United Kingdom
 18 August 2026
 
 ## Abstract
