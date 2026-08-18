@@ -1,0 +1,1 @@
+{"run_date":"2026-08-18","zmail_protected_mail":{"passed":6,"failed":0},"zmath_browser_vault":{"passed":6,"failed":0},"callchat_profile_programs":{"passed_programs":2,"failed_programs":0},"callchat_media_verifier":{"reported_pass_contracts":6,"live_parity":false},"scope":"Author-run local regression and package checks; not independent validation or production verification."}

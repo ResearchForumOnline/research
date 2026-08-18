@@ -1,0 +1,6 @@
+aebc9017eb39f35853918367778ab368bb0465b9c6092a8ae04d20d6637bccf1  papers/zmail-callchat-protected-communications-1.0.md
+9cae5d611f7f18ca33842699f0334532a358996a4bfd568f6f7e8b06850c3e98  Zmail-CallChat-Protected-Communications-1.0-Shafaet-Brady-Hussain.pdf
+76481d790847653023eb6de8a1d8ec509a0891af2e4817101ba8c56911cc387d  Zmail-CallChat-Protected-Communications-1.0-Shafaet-Brady-Hussain.docx
+7b3b6e18c199ed5b2adb120ac1c2f4707f145dfc188fa79930e9493655c61b8e  artifacts/protected-communications-1.0/layer-model.json
+75977a4d011d633226833faca5b5afd27ffae8b1fd73df759274e73f12218fd4  artifacts/protected-communications-1.0/test-results.json
+385b88f2df0f86c607cad8dac54b93aa6c9251a19d0b79e55e2765c027f4dcdb  artifacts/protected-communications-1.0/verify_claims.py
