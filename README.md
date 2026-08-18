@@ -32,11 +32,11 @@ This repo is designed for clean, citeable public work:
 | [OpenZero Model and Dataset Methodology 1.0](papers/openzero-model-dataset-methodology-1.0.md) | Deterministic private-corpus curation, prompt-group isolation, QLoRA experiment gates, and rights-bounded release controls |
 | [ZeroMint AIOS Engineering Evaluation 1.0](papers/zeromint-aios-engineering-evaluation-1.0.md) | Live distribution metadata, split-image and torrent integrity checks, installer boundaries, and supply-chain gaps |
 | [Cymatics Zero Platform Evaluation 1.0](papers/cymatics-zero-platform-evaluation-1.0.md) | Synthetic-corpus and browser-audio audit, live count inconsistency, and generator reproducibility failure |
+| [Quantum-Ready Evidence Graphs and QPU-Factor Evaluation 1.0](papers/quantum-ready-evidence-graphs.md) | Exact classical claim-graph baseline, greedy comparison, and synthetic-fixture QPU-factor contract boundary |
 | [Zero Boundary Algebra as a Provenance Workflow](papers/zero-boundary-algebra-provenance-workflow.md) | Public mathematical/workflow framing |
 | [ZeroThink as a Sovereign Reasoning Layer](papers/zerothink-sovereign-reasoning-layer.md) | Research writing and audit workflow |
 | [OpenZero and Local-First AI Nodes](papers/openzero-local-first-ai-nodes.md) | CPU-friendly sovereign agents |
 | [ZMath Shield and Portable Evidence Containers](papers/zmath-shield-evidence-containers.md) | Public behaviour spec, no private encryption code |
-| [Quantum-Ready Evidence Graphs](papers/quantum-ready-evidence-graphs.md) | AI claim graphs plus constrained optimisation tests |
 | [Shafire and OpenZero Local Benchmark Snapshot](papers/shafire-openzero-local-benchmark-2026-07-08.md) | First CPU/API benchmark snapshot for Shafire models and OpenZero |
 | [Spectra8, TalkToAiQ, and SpectraMind OpenZero Benchmark](papers/spectra-talktoaiq-openzero-benchmark-2026-07-08.md) | Requested benchmark pass for Spectra/TalkToAiQ/SpectraMind artifacts |
 | [Separating Model Artifact Performance from Serving-Path Failure](papers/local-llm-serving-path-benchmark-2026-07-26.md) | Methods-and-results preprint on local-route template contamination and reproducible exact-answer testing |

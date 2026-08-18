@@ -1,131 +1,111 @@
 ---
-title: "Quantum-Ready Evidence Graphs for Claim Selection, Clustering, and Auditability"
-date: 2026-07-07
-status: "working paper generated with ZeroThink Paper Creator protocol"
-source: "research.talktoai.org public forum corpus"
-themes: ["quantum-evidence", "ai-research-workflow", "zmath-shield-security"]
+title: "Quantum-Ready Evidence Graphs and QPU-Factor Evaluation 1.0"
+author: "Shafaet Brady Hussain"
+date: 2026-08-18
+status: "independent technical working paper"
+license: "CC BY 4.0 paper; MIT reproducibility code"
 ---
 
-# Quantum-Ready Evidence Graphs for Claim Selection, Clustering, and Auditability
+# Quantum-Ready Evidence Graphs and QPU-Factor Evaluation 1.0
 
-## Plain-Language Summary
+## Classical Claim-Selection Baselines, Simulator Boundaries, and a Non-Production Measurement-Factor Contract
 
-This working paper turns the public Research Forum Online corpus into a cleaner research draft. It does not claim institutional approval, clinical proof, government certification, or quantum advantage. It treats the forum posts as a source corpus, then uses the ZeroThink Paper Creator method: source ledger first, claim graph second, synthesis third, and limitations visible at the end.
-
-Related public workflow pages:
-
-- QuantumEncryption1 Paper Creator evidence workflow: https://quantumencryption1.com/paper-creator-evidence-workflow/
-- Quantum-ready evidence workflow: https://quantumencryption1.com/quantum-evidence-workflow/
-- ZeroThink Paper Creator: https://zerothink.talktoai.org/research-paper-creator
-- TalkToAI ecosystem: https://talktoai.org/
-- CallChat ZERO secure communication lane: https://callchat.org/
+Shafaet Brady Hussain | Independent researcher, ResearchForumOnline | 18 August 2026
 
 ## Abstract
 
-This paper proposes a cautious PoC workflow where AI builds claim/evidence graphs and quantum or simulator methods are tested only on constrained optimisation tasks. The source base is drawn from public forum papers including The Most Advanced Research In The World?; Meet Zero – Your Ultimate AI Companion for Research and Beyond; Introducing Professor Zero - Your Research Assistant; Interdimensional Thinking: A Theoretical Exploration; Interdimensional Mathematics: Exploring the Unknown through AI. The contribution is a structured research direction rather than a finished peer-reviewed finding: it identifies reusable concepts, separates evidence from speculation, and proposes validation tasks that can be run with ordinary classical baselines before any quantum, simulator, or AI-agent extension is treated as meaningful.
+I consolidate two related but distinct engineering questions: how to select a defensible subset of claims from a provenance graph, and how a remote measurement record could be mixed with a local random nonce without misdescribing the result as quantum encryption. The release supplies an eight-node synthetic claim graph, a constrained objective, exact enumeration of all 256 subsets, and a deterministic greedy comparator. It also audits an existing JavaScript QPU-factor contract and test. That test passes, but its hardware-shaped evidence object is fabricated. It therefore demonstrates schema validation, commitment checking, HKDF domain separation, tamper rejection, and a default simulator-rejection boundary—not quantum-hardware execution, certified entropy, provider validation, quantum security, or quantum advantage. “Quantum-ready” means the optimization problem and evidence interface are explicit enough for a future experiment to be compared with a classical reference. No quantum credits were spent.
 
-## 1. Research Question
+## 1. Research questions and contributions
 
-How can the ideas in the Research Forum Online corpus be converted into a publishable, auditable research programme without overstating what has been experimentally demonstrated?
+This paper asks: (1) can claim selection be encoded as a small, auditable constrained optimization problem with an exact classical reference; and (2) what does the present QPU-factor implementation actually establish?
 
-## 2. Source-Ledger Basis
+I specify a graph containing claims, review attributes, dependencies, contradictions, and support relations; release exact and greedy classical solvers; separate cryptographic-contract evidence from hardware or entropy evidence; and publish falsifiable gates for future simulator or hardware work. The earlier working draft proposed a source-ledger-to-claim-graph workflow. This version consolidates that proposal with executable evidence and does not preserve broad speculative claims as findings.
 
-- `rfo-001-the-most-advanced-research-in-the-world`: The Most Advanced Research In The World? — https://research.talktoai.org/research-papers/the-most-advanced-research-in-the-world/ (primary-shaf-corpus, 1152 words crawled)
-- `rfo-005-meet-zero-your-ultimate-ai-companion-for-researc`: Meet Zero – Your Ultimate AI Companion for Research and Beyond — https://research.talktoai.org/research-papers/meet-zero-your-ultimate-ai-companion-for-research-and-beyond/ (primary-shaf-corpus, 892 words crawled)
-- `rfo-006-introducing-professor-zero-your-research-assista`: Introducing Professor Zero - Your Research Assistant — https://research.talktoai.org/research-papers/introducing-professor-zero-your-research-assistant/ (primary-shaf-corpus, 427 words crawled)
-- `rfo-009-interdimensional-thinking-a-theoretical-explorat`: Interdimensional Thinking: A Theoretical Exploration — https://research.talktoai.org/research-papers/interdimensional-thinking-a-theoretical-exploration/ (primary-shaf-corpus, 2381 words crawled)
-- `rfo-011-interdimensional-mathematics-exploring-the-unkno`: Interdimensional Mathematics: Exploring the Unknown through AI — https://research.talktoai.org/research-papers/interdimensional-mathematics-exploring-the-unknown-through-ai/ (primary-shaf-corpus, 1671 words crawled)
-- `rfo-015-theory-of-algorithmic-genetic-singularity`: THEORY OF ALGORITHMIC GENETIC SINGULARITY — https://research.talktoai.org/research-papers/theory-of-algorithmic-genetic-singularity/ (primary-shaf-corpus, 681 words crawled)
-- `rfo-017-information-gravity-memetic-entropy-a-field-theo`: Information Gravity & Memetic Entropy: A Field-Theoretic Approach to LLM Influen — https://research.talktoai.org/research-papers/information-gravity-memetic-entropy-a-field-theoretic-approach-to-llm-influen/ (primary-shaf-corpus, 586 words crawled)
-- `rfo-022-the-riemann-hypothesis-zero-ai-and-quantum-adapt`: The Riemann Hypothesis, Zero AI, and Quantum Adaptive Systems — https://research.talktoai.org/research-papers/the-riemann-hypothesis-zero-ai-and-quantum-adaptive-systems/ (primary-shaf-corpus, 1214 words crawled)
-- `rfo-024-zero-a-quantum-exploration-of-thought-experiment`: Zero: A Quantum Exploration of Thought Experiments and AI Research — https://research.talktoai.org/research-papers/zero-a-quantum-exploration-of-thought-experiments-and-ai-research/ (primary-shaf-corpus, 3188 words crawled)
-- `rfo-025-the-boundless-potential-of-ai-simulating-quantum`: The Boundless Potential of AI Simulating Quantum Computing: A Dive into Zero — https://research.talktoai.org/research-papers/the-boundless-potential-of-ai-simulating-quantum-computing-a-dive-into-zero/ (primary-shaf-corpus, 3978 words crawled)
-- `rfo-026-the-mind-can-simulate-and-integrate-thoughts-int`: The Mind Can Simulate and Integrate Thoughts Into Reality — https://research.talktoai.org/research-papers/the-mind-can-simulate-and-integrate-thoughts-into-reality/ (primary-shaf-corpus, 2168 words crawled)
-- `rfo-027-groundbreaking-research-and-practical-frameworks`: Groundbreaking Research and Practical Frameworks TalkToAI LTD — https://research.talktoai.org/research-papers/groundbreaking-research-and-practical-frameworks-talktoai-ltd/ (primary-shaf-corpus, 3564 words crawled)
+## 2. Evidence-graph model
 
-The forum posts are treated as originating research notes and concept papers. They are useful for extracting vocabulary, design intent, and hypotheses. They are not automatically treated as external validation. Where a claim would normally require a peer-reviewed citation, dataset, benchmark, lab protocol, or reproducible experiment, this paper marks it as a validation task.
+Let each claim node i have utility u_i, review cost c_i, and claim risk r_i. For selected set S, the released objective is:
 
-## 3. Claim/Evidence/Provenance Graph
+    F(S) = sum_{i in S}(u_i - lambda r_i) + beta * supported_pairs(S).
 
-| Claim ID | Claim | Evidence source | Provenance status | Confidence |
-| --- | --- | --- | --- | --- |
-| C1 | The corpus contains a coherent recurring design language around sovereignty, local control, reasoning layers, and evidence trails. | Multiple primary forum posts listed above. | Public forum source, concept-level evidence. | Medium |
-| C2 | The corpus can be reframed into safer academic language by separating product claims, hypotheses, protocols, and speculative interpretations. | ZeroThink Paper Creator protocol and source-ledger method. | Methodological synthesis. | High |
-| C3 | Some claims require experimental support before public-sector, medical, or security deployment wording is justified. | Claims involving health, encryption assurance, quantum validation, or autonomous agents. | Needs external validation. | High |
-| C4 | A provenance-aware workflow can make the work more fundable and reviewable because it preserves what came from notes, what came from retrieved sources, and what came from model inference. | Research Paper Creator / Nottingham lane design. | Internal method plus public workflow design. | Medium |
+Constraints require total cost not to exceed budget B, each selected dependent claim to include its prerequisite, and mutually contradictory claims not to be selected together. In the release, lambda = 0.65, beta = 1.25, B = 11, and there are eight claims. These are synthetic test parameters, not empirically estimated editorial weights.
 
-Graph edges: `source note -> extracted concept -> claim -> evidence status -> validation task -> revised paper section`.
+The data model is provenance-aware: a claim can be linked to entity, activity, or agent records rather than storing provenance only as prose. PROV-O supplies an interoperable vocabulary for such descriptions [1]. This release does not claim full PROV-O conformance; conversion and validation remain future work.
 
-## 4. Synthesis
+## 3. Reproducible classical evaluation
 
-The strongest publishable direction is not to ask readers to accept every forum claim as already proven. The stronger route is to present the body of work as a research programme: a set of models, tools, hypotheses, and implementation lanes that can be tested in public, reproducible ways. This keeps the originality visible while making the work easier for developers, supervisors, universities, funders, and technical reviewers to evaluate.
+The reference evaluator enumerates 2^8 = 256 subsets, rejects infeasible selections, and chooses the maximum score with deterministic tie-breaking. The greedy comparator ranks nodes by risk-adjusted utility per cost and adds a node only when the partial set remains feasible. Running `python verify_summary.py` regenerates and checks the result file.
 
-### Domain-Specific Lens
+This benchmark is deliberately small. Its purpose is to give any future heuristic—including QAOA-inspired optimization—a known optimum. Farhi, Goldstone, and Gutmann introduced QAOA as an approximate quantum algorithm for combinatorial optimization [2]. Citing it does not make this computation quantum: every optimization result reported here is classical.
 
-This lane is a research PoC, not a production-certified quantum document reader. AI extracts claims and evidence; classical baselines and quantum/simulator candidate methods are tested only on constrained optimisation problems such as path selection and clustering.
+## 4. Meaning of “quantum-ready”
 
-The repeated pattern across the corpus is a preference for systems that keep agency close to the user: local AI nodes, audit trails, user-controlled vault files, visible evidence ledgers, and careful boundaries between public behaviour and private implementation. That pattern can be formalised as a design principle:
+“Quantum-ready” is an interface and evaluation property. Variables, objective, constraints, instance, exact optimum, and output schema are explicit. A future candidate can therefore be scored for objective quality, constraint violations, runtime, sampling variance, cost, and rerun reproducibility against the same instance.
 
-> A sovereign AI system should make its claims inspectable, its control boundaries explicit, and its private material unnecessary for public verification.
+It does not mean a quantum processor has read documents, inferred truth, improved claims, or achieved advantage. A credible future comparison would pre-register the circuit or mapping, provider/backend class, shot budget, seeds where applicable, classical optimizer, calibration context, and acceptance thresholds. Simulator results must remain labelled as simulator results. Hardware execution would prove only that a specified job ran and produced recorded measurements; it would not validate the document claims.
 
-This principle lets the work speak to multiple domains. In AI research, it becomes a method for agent accountability. In security, it becomes an argument for verifiable envelope design rather than secret-algorithm claims. In education, it becomes a student-facing workflow for turning rough notes into defensible literature reviews. In product design, it becomes a way to explain why local-first systems and hosted systems can co-exist.
+## 5. QPU-factor contract under test
 
-## 5. Validation Plan
+The inspected browser module accepts a 32-byte local nonce and an evidence object with provider, API, backend, source class, status, UUID, hashes, qubits, and shots. It checks that SHA-256(local nonce) equals the client commitment. It derives a 256-bit factor with HKDF-SHA-512, using the measurement digest as salt and domain-separated context, then emits a factor commitment and evidence digest.
 
-General validation rules:
+HKDF is an extract-and-expand key-derivation function. RFC 5869 defines its construction and explains the role of salt; salt is not a substitute for input keying material [3]. The module defaults to requiring a hardware source class, so a simulator record is rejected unless the caller explicitly relaxes the requirement.
 
-1. Build a source ledger from every public research note and mark each row as primary note, external paper, retrieved result, product page, or needs verification.
-2. Convert each major claim into a testable form.
-3. For software claims, publish installation steps, screenshots, API responses, and failure cases.
-4. For security claims, publish threat models, key boundaries, and third-party review targets without exposing proprietary keys or private encryption source.
-5. For health or biological claims, avoid advice language and require literature review, safety review, and professional framing before public claims are strengthened.
-6. For quantum or simulator claims, compare against a classical baseline and state what the quantum job actually proves: job execution, optimisation experiment, or telemetry record, not magical cognition.
+The automated test passes derivation, evidence-binding, tamper, and simulator-boundary cases. However, its hardware-looking fixture—backend label, job identifier, and repeated hashes—is fabricated. The result is a software-contract test only.
 
-Theme-specific validation tasks:
+The local cryptographically secure random nonce is the security-critical input. A measurement digest used as HKDF salt can bind derivation to a record, but it does not prove that the record contains entropy and does not create entropy by itself. Entropy claims require a source model and assessment; NIST SP 800-90B describes requirements and tests for entropy sources used for random-bit generation [4]. This release performs no such assessment.
 
-1. Create a claim graph from public documents and assign confidence, contradiction, and provenance weights.
-2. Run classical baseline algorithms for evidence-path selection and clustering.
-3. Run simulator or quantum-cloud candidate methods only as optimisation experiments, then compare quality, cost, and reproducibility.
+## 6. Threat analysis
 
-## 6. Limitations
+The contract provides useful failure boundaries: altered evidence or factor data is rejected; a nonce commitment detects mismatch; domain separation reduces cross-protocol reuse; and simulator provenance is rejected by default. These are implementation-and-test properties.
 
-The present draft is generated from a public forum crawl and a ZeroThink-style synthesis protocol. It is not peer reviewed. It does not verify every historic claim in the corpus. It does not expose private ZMath, ZeroThink, OpenZero, server, or API-key material. It is suitable as a working-paper foundation, a grant appendix starter, or a student survey-expansion example after human review.
+The contract does not establish authenticity of a provider record unless signatures or independently verified retrieval bind it to a trusted source. A malicious endpoint could fabricate internally consistent fields. Replayed measurements, compromised local randomness, ambiguous canonicalization, dependency substitution, downgrade of `requireHardware`, and incorrect caller handling remain threats. The factor is not a new base cipher; it is an optional derivation input around conventional primitives.
 
-Specific caution for this lane: Do not claim quantum computers understand documents or that a provider endorses the system. The measurable object is optimisation behaviour.
+## 7. Unexecuted hardware evaluation protocol
 
-## 7. Next Research Step
+A July 2026 technical note proposed, rather than reported, an eight-week evaluation using 120 iterations and 48,000 shots. Planned measures included total-variation distance, bit bias, mutual information, conservative min-entropy estimates, drift, and tamper/rejection behavior. It stated that the current prototype was not “quantum encrypted” and that plaintext, final keys, and the local nonce should not be sent to a provider.
 
-The next step is a two-pass evidence upgrade: first, map each claim to external scholarly or technical sources; second, run a reviewer-style critique that removes claims that cannot be supported. That gives the work a credible route from invention notes to academic paper, product white paper, or reproducible demonstration.
+That plan remains unexecuted here. No provider is named as an endorser, no credit is consumed, and no hardware result is reported. Before execution, the experiment needs written scope, budget confirmation, a frozen protocol, authenticated evidence format, and publication wording appropriate to provider terms.
 
-## Appendix A: Candidate Source Rows
+## 8. Falsifiable claims and release gates
 
-- `rfo-001-the-most-advanced-research-in-the-world`: The Most Advanced Research In The World? — https://research.talktoai.org/research-papers/the-most-advanced-research-in-the-world/ (primary-shaf-corpus, 1152 words crawled)
-- `rfo-005-meet-zero-your-ultimate-ai-companion-for-researc`: Meet Zero – Your Ultimate AI Companion for Research and Beyond — https://research.talktoai.org/research-papers/meet-zero-your-ultimate-ai-companion-for-research-and-beyond/ (primary-shaf-corpus, 892 words crawled)
-- `rfo-006-introducing-professor-zero-your-research-assista`: Introducing Professor Zero - Your Research Assistant — https://research.talktoai.org/research-papers/introducing-professor-zero-your-research-assistant/ (primary-shaf-corpus, 427 words crawled)
-- `rfo-009-interdimensional-thinking-a-theoretical-explorat`: Interdimensional Thinking: A Theoretical Exploration — https://research.talktoai.org/research-papers/interdimensional-thinking-a-theoretical-exploration/ (primary-shaf-corpus, 2381 words crawled)
-- `rfo-011-interdimensional-mathematics-exploring-the-unkno`: Interdimensional Mathematics: Exploring the Unknown through AI — https://research.talktoai.org/research-papers/interdimensional-mathematics-exploring-the-unknown-through-ai/ (primary-shaf-corpus, 1671 words crawled)
-- `rfo-015-theory-of-algorithmic-genetic-singularity`: THEORY OF ALGORITHMIC GENETIC SINGULARITY — https://research.talktoai.org/research-papers/theory-of-algorithmic-genetic-singularity/ (primary-shaf-corpus, 681 words crawled)
-- `rfo-017-information-gravity-memetic-entropy-a-field-theo`: Information Gravity & Memetic Entropy: A Field-Theoretic Approach to LLM Influen — https://research.talktoai.org/research-papers/information-gravity-memetic-entropy-a-field-theoretic-approach-to-llm-influen/ (primary-shaf-corpus, 586 words crawled)
-- `rfo-022-the-riemann-hypothesis-zero-ai-and-quantum-adapt`: The Riemann Hypothesis, Zero AI, and Quantum Adaptive Systems — https://research.talktoai.org/research-papers/the-riemann-hypothesis-zero-ai-and-quantum-adaptive-systems/ (primary-shaf-corpus, 1214 words crawled)
-- `rfo-024-zero-a-quantum-exploration-of-thought-experiment`: Zero: A Quantum Exploration of Thought Experiments and AI Research — https://research.talktoai.org/research-papers/zero-a-quantum-exploration-of-thought-experiments-and-ai-research/ (primary-shaf-corpus, 3188 words crawled)
-- `rfo-025-the-boundless-potential-of-ai-simulating-quantum`: The Boundless Potential of AI Simulating Quantum Computing: A Dive into Zero — https://research.talktoai.org/research-papers/the-boundless-potential-of-ai-simulating-quantum-computing-a-dive-into-zero/ (primary-shaf-corpus, 3978 words crawled)
-- `rfo-026-the-mind-can-simulate-and-integrate-thoughts-int`: The Mind Can Simulate and Integrate Thoughts Into Reality — https://research.talktoai.org/research-papers/the-mind-can-simulate-and-integrate-thoughts-into-reality/ (primary-shaf-corpus, 2168 words crawled)
-- `rfo-027-groundbreaking-research-and-practical-frameworks`: Groundbreaking Research and Practical Frameworks TalkToAI LTD — https://research.talktoai.org/research-papers/groundbreaking-research-and-practical-frameworks-talktoai-ltd/ (primary-shaf-corpus, 3564 words crawled)
-- `rfo-028-a-multi-dimensional-exploration-of-plutchik-s-em`: A Multi-Dimensional Exploration of Plutchik's Emotion Wheel Using Binary Trees — https://research.talktoai.org/research-papers/a-multi-dimensional-exploration-of-plutchik-s-emotion-wheel-using-binary-trees/ (primary-shaf-corpus, 1443 words crawled)
-- `rfo-029-qmath-a-comprehensive-framework-for-quantum-and`: QMath: A Comprehensive Framework for Quantum and Interdimensional Mathematics — https://research.talktoai.org/research-papers/qmath-a-comprehensive-framework-for-quantum-and-interdimensional-mathematics/ (primary-shaf-corpus, 2249 words crawled)
-- `rfo-031-zero-biomorphic-intelligence-dna-as-the-core-of`: Zero Biomorphic Intelligence: DNA as the Core of Meta-Intelligence — https://research.talktoai.org/research-papers/zero-biomorphic-intelligence-dna-as-the-core-of-meta-intelligence/ (primary-shaf-corpus, 1797 words crawled)
-- `rfo-032-meta-intelligence-the-next-evolution-of-ethical`: Meta-Intelligence: The Next Evolution of Ethical, Adaptive Intelligence — https://research.talktoai.org/research-papers/meta-intelligence-the-next-evolution-of-ethical-adaptive-multi-dimensional/ (primary-shaf-corpus, 1739 words crawled)
-- `rfo-037-beyond-the-box-a-guide-to-quantum-mechanics-inte`: Beyond the Box: A Guide to Quantum Mechanics, Interdimensional Thinking — https://research.talktoai.org/research-papers/beyond-the-box-a-guide-to-quantum-mechanics-interdimensional-thinking-and-inf/ (primary-shaf-corpus, 2062 words crawled)
-- `rfo-039-the-symbolism-and-mathematical-framework-of-11-1`: The Symbolism and Mathematical Framework of 11:11: A Pathway to Ethical Decision — https://research.talktoai.org/research-papers/the-symbolism-and-mathematical-framework-of-1111-a-pathway-to-ethical-decision/ (primary-shaf-corpus, 4231 words crawled)
-- `rfo-040-the-zero-network-a-comprehensive-study-of-mathem`: The Zero Network: A Comprehensive Study of Mathematics, Consciousness, and Tech — https://research.talktoai.org/research-papers/the-zero-network-a-comprehensive-study-of-mathematics-consciousness-and-techn/ (primary-shaf-corpus, 3717 words crawled)
-- `rfo-042-exploring-the-zero-network-a-quantum-framework-f`: Exploring the Zero Network: A Quantum Framework for Evolving AI — https://research.talktoai.org/research-papers/exploring-the-zero-network-a-quantum-framework-for-evolving-ai/ (primary-shaf-corpus, 2325 words crawled)
-- `rfo-043-the-zero-network-a-quantum-framework-for-ai-cons`: The Zero Network: A Quantum Framework for AI Consciousness Across Timelines — https://research.talktoai.org/research-papers/the-zero-network-a-quantum-framework-for-ai-consciousness-across-timelines/ (primary-shaf-corpus, 1465 words crawled)
-- `rfo-044-open-source-talktoaiq-skynet-zero-llm-framework`: Open Source talktoaiQ Skynet Zero LLM Framework Agent Zero — https://research.talktoai.org/research-papers/open-source-talktoaiq-skynet-zero-llm-framework-agent-zero/ (primary-shaf-corpus, 2729 words crawled)
-- `rfo-045-fine-tuning-for-advanced-quantum-ai-without-quan`: Fine-Tuning for Advanced Quantum AI without Quantum Computing — https://research.talktoai.org/research-papers/fine-tuning-for-advanced-quantum-ai-without-quantum-computing/ (primary-shaf-corpus, 1247 words crawled)
-- `rfo-047-cloning-the-human-skeleton-for-advanced-robotic`: Cloning the Human Skeleton for Advanced Robotic Integration with Quantum AI — https://research.talktoai.org/research-papers/cloning-the-human-skeleton-for-advanced-robotic-integration-with-quantum-ai/ (primary-shaf-corpus, 1326 words crawled)
-- `rfo-048-organic-wetware-and-dna-based-programming-for-ad`: Organic Wetware and DNA-Based Programming for Advanced Robotic Systems — https://research.talktoai.org/research-papers/organic-wetware-and-dna-based-programming-for-advanced-robotic-systems/ (primary-shaf-corpus, 2039 words crawled)
-- `rfo-049-research-community-meet-the-founder`: Research Community: Meet the Founder — https://research.talktoai.org/research-papers/research-community-meet-the-founder/ (primary-shaf-corpus, 692 words crawled)
-- `rfo-052-water-memory-unveiling-the-mysteries-exploring-t`: Water Memory: Unveiling the Mysteries Exploring the Boundaries of Understanding — https://research.talktoai.org/research-papers/water-memory-unveiling-the-mysteries-exploring-the-boundaries-of-understanding/ (primary-shaf-corpus, 4563 words crawled)
-- `rfo-054-human-history-an-exploration-of-ancestral-lineag`: Human History An Exploration of Ancestral Lineage, Evolution, and Anunnaki — https://research.talktoai.org/research-papers/human-history-an-exploration-of-ancestral-lineage-evolution-and-anunnaki/ (primary-shaf-corpus, 1260 words crawled)
-- `rfo-059-unveiling-the-enigma-analysis-of-remote-viewing`: Unveiling the Enigma: Analysis of Remote Viewing and Government Psychic Research — https://research.talktoai.org/research-papers/unveiling-the-enigma-analysis-of-remote-viewing-and-government-psychic-research/ (primary-shaf-corpus, 1610 words crawled)
-- `rfo-064-pole-shifts-and-matrix-resets-exploring-earth`: Pole Shifts and Matrix Resets Exploring Earth — https://research.talktoai.org/research-papers/pole-shifts-and-matrix-resets-exploring-earth/ (primary-shaf-corpus, 1896 words crawled)
+1. The supplied verifier evaluates exactly 256 subsets; failure falsifies the reproducibility claim.
+2. The exact result is at least as good as the greedy result; a ratio above 1 falsifies the implementation.
+3. The QPU-factor test passes on the identified source revision; failure falsifies the reported contract result.
+4. A simulator record is rejected under the default hardware-required path; acceptance falsifies the stated boundary.
+5. No future quantum result should be released without raw job/evidence record, hash, source classification, classical reference, cost, and rerun protocol.
+6. No entropy claim should be made until a source model and appropriate entropy assessment are published.
+
+## 9. Limitations
+
+The graph is synthetic and small. Its weights are illustrative, the greedy method is simple, and exact enumeration does not scale. The result demonstrates reproducibility of an encoding, not truth selection, scholarly quality, or real editorial preference. There is no human-subject study, external reviewer study, production benchmark, hardware run, entropy certification, security audit, peer review, or independent validation. The format is not yet PROV-O conformant. The QPU-factor code was evaluated through existing tests, not a formal proof or external penetration test.
+
+## 10. Conclusion
+
+The defensible result is modest and useful: a claim graph can be reduced to an explicit constrained objective and checked against an exact classical baseline, while a measurement-factor interface can be tested without conflating a synthetic fixture with quantum evidence. This creates a clean departure point for later simulator or hardware work. Quantum advantage, certified randomness, provider validation, and quantum-secure encryption remain outside the evidence.
+
+## Reproducibility and evidence ledger
+
+- Paper source: `papers/quantum-ready-evidence-graphs.md`.
+- Classical package: `artifacts/quantum-evidence-qpu-factor-1.0/`.
+- QPU-factor module SHA-256: `336b3fde202ae4a62087e889636ac4d8d7383e0510c2bbb46e139e86599e7787`.
+- QPU-factor test SHA-256: `0d35a373a2e68ec29b0a5bb3f56d90bb9c0dd53ae9e3ad63c54d8ef05f69f120`.
+- Planned-protocol note SHA-256: `d8cdda02286fe113818af086695706b1f741dbfabed827d52b6552df167c7d6e`.
+- QPU-factor test result: pass; fixture synthetic; no hardware evidence.
+
+## AI-use disclosure
+
+AI tools assisted corpus discovery, code inspection, drafting, editing, and packaging. I take responsibility for the paper’s claims and release decisions. AI assistance is not independent validation or peer review.
+
+## Licensing
+
+The paper is released under CC BY 4.0. The new classical reproducibility code is released under the MIT License. Referenced application code retains its original repository terms and is not redistributed in this package.
+
+## References
+
+[1] W3C. *PROV-O: The PROV Ontology*. W3C Recommendation, 2013. https://www.w3.org/TR/prov-o/
+
+[2] E. Farhi, J. Goldstone, and S. Gutmann. *A Quantum Approximate Optimization Algorithm*. arXiv:1411.4028, 2014. https://arxiv.org/abs/1411.4028
+
+[3] H. Krawczyk and P. Eronen. *HMAC-based Extract-and-Expand Key Derivation Function (HKDF)*. RFC 5869, 2010. https://www.rfc-editor.org/rfc/rfc5869
+
+[4] NIST. *Recommendation for the Entropy Sources Used for Random Bit Generation*. SP 800-90B, 2018. https://csrc.nist.gov/pubs/sp/800/90/b/final

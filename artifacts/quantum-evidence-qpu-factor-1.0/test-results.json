@@ -1,0 +1,40 @@
+{
+  "schema": "researchforum.claim-graph-result.v1",
+  "algorithm_boundary": "classical-only",
+  "instance_sha256": "b97803e79c15b44bd7454913b2f9cc9d11916591895124a680c6dee81ec1ff6c",
+  "exact": {
+    "selected": [
+      "C1",
+      "C2",
+      "C5",
+      "C6",
+      "C8"
+    ],
+    "score": 28.4,
+    "cost": 11,
+    "subsets_evaluated": 256,
+    "feasible_subsets": 85
+  },
+  "greedy": {
+    "selected": [
+      "C1",
+      "C2",
+      "C4",
+      "C5",
+      "C8"
+    ],
+    "score": 26.585,
+    "cost": 10,
+    "order": [
+      "C4",
+      "C2",
+      "C8",
+      "C1",
+      "C5",
+      "C6",
+      "C3",
+      "C7"
+    ]
+  },
+  "greedy_to_exact_ratio": 0.936092
+}

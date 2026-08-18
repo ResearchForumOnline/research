@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Quantum-Ready Evidence Graphs and QPU-Factor Evaluation 1.0"
+message: "Please cite this software and accompanying working paper."
+type: software
+authors:
+  - family-names: Hussain
+    given-names: Shafaet Brady
+date-released: 2026-08-18
+license: MIT
+repository-code: "https://github.com/ResearchForumOnline/research"
