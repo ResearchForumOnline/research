@@ -1,0 +1,12 @@
+{
+  "schema": "researchforum.genetic-formula-audit.v1",
+  "implementation_boundary": "independent exact mirror",
+  "findings": {
+    "y_is_invariant": true,
+    "independent_not_recursive": true,
+    "invalid_log_inputs_collapse": true,
+    "zero_step_differs_from_sides": true,
+    "large_growth_can_overflow": true
+  },
+  "all_findings_reproduced": true
+}

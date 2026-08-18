@@ -1,0 +1,18 @@
+{
+  "schema": "researchforum.recursive-adaptation.v1",
+  "parameters": {
+    "initial": 0,
+    "target": 1,
+    "rate": 0.2,
+    "steps": 20
+  },
+  "final": 0.9884707849539315,
+  "checks": {
+    "deterministic": true,
+    "closed_form": true,
+    "bounded": true,
+    "monotone": true,
+    "error_contracts": true
+  },
+  "all_checks_pass": true
+}

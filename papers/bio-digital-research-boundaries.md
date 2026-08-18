@@ -1,123 +1,106 @@
 ---
-title: "Bio-Digital Research Boundaries for DNA, Organic Computing, and AI Interpretation"
-date: 2026-07-07
-status: "working paper generated with ZeroThink Paper Creator protocol"
-source: "research.talktoai.org public forum corpus"
-themes: ["bio-dna-organic-computing", "ai-research-workflow"]
+title: "Bio-Inspired Recursive Computation 1.0"
+author: "Shafaet Brady Hussain"
+date: 2026-08-18
+status: "independent technical working paper"
+license: "CC BY 4.0 paper; MIT reproducibility code"
 ---
 
-# Bio-Digital Research Boundaries for DNA, Organic Computing, and AI Interpretation
+# Bio-Inspired Recursive Computation 1.0
 
-## Plain-Language Summary
+## Deterministic Adaptation Models and the Boundary Between Metaphor, Simulation, and Biology
 
-This working paper turns the public Research Forum Online corpus into a cleaner research draft. It does not claim institutional approval, clinical proof, government certification, or quantum advantage. It treats the forum posts as a source corpus, then uses the ZeroThink Paper Creator method: source ledger first, claim graph second, synthesis third, and limitations visible at the end.
+Shafaet Brady Hussain | Independent researcher, ResearchForumOnline | 18 August 2026
 
 ## Abstract
 
-This paper turns the biological and DNA-themed corpus into a cautious research-boundary document that separates interpretation, hypothesis, and clinical evidence. The source base is drawn from public forum papers including The Most Advanced Research In The World?; talktoai.org Project Spectramind: The Architecture of a Sovereign Blockchain Brain; Clorigan-T by Zero 1.1 Antimicrobial Potential of Cloves, Oregano, and Turmeric; Meet Zero – Your Ultimate AI Companion for Research and Beyond; The Human Body: An Underestimated Marvel of Organic Technology. The contribution is a structured research direction rather than a finished peer-reviewed finding: it identifies reusable concepts, separates evidence from speculation, and proposes validation tasks that can be run with ordinary classical baselines before any quantum, simulator, or AI-agent extension is treated as meaningful.
+I consolidate the bio-digital and DNA-themed research corpus around a reproducible software claim: biological language can inspire computational structures, but an analogy is not evidence of biological mechanism. The release audits a frozen “Genetic Adaptation Simulator” and supplies a separate bounded recursive adaptation reference. The frozen program evaluates independent points of a scalar formula; it does not implement inheritance, population selection, mutation, genotype, phenotype, fitness, DNA storage, wetware, or recursion. Five deterministic audit findings reproduce an unused `y` parameter, pointwise rather than recursive evaluation, collapsed invalid-log inputs, a step discontinuity at zero, and possible exponential overflow. The new recurrence passes determinism, closed-form, boundedness, monotonicity, and error-contraction checks. These are software results only. No clinical efficacy, genetic interpretation, biological experiment, consciousness, healing, or independent validation is claimed.
 
-## 1. Research Question
+## 1. Research question and contribution
 
-How can the ideas in the Research Forum Online corpus be converted into a publishable, auditable research programme without overstating what has been experimentally demonstrated?
+What remains defensible when a corpus uses “DNA,” “genetic,” “organic,” and “biomorphic” language to describe computation? The answer is a layered boundary. A metaphor may motivate a design; a mathematical model defines variables and transformations; a software simulation executes that model; a biological claim additionally requires correspondence with observed biological processes and suitable experimental evidence.
 
-## 2. Source-Ledger Basis
+The contribution is therefore twofold: an exact semantic audit of the available program, and a minimal recurrence whose behavior is analytically checkable. The earlier Bio-Digital Research Boundaries draft is consolidated here rather than published as a second weak paper.
 
-- `rfo-001-the-most-advanced-research-in-the-world`: The Most Advanced Research In The World? — https://research.talktoai.org/research-papers/the-most-advanced-research-in-the-world/ (primary-shaf-corpus, 1152 words crawled)
-- `rfo-003-talktoai-org-project-spectramind-the-architectur`: talktoai.org Project Spectramind: The Architecture of a Sovereign Blockchain Brain — https://research.talktoai.org/research-papers/project-spectramind-the-architecture-of-a-sovereign-blockchain-brain/ (primary-shaf-corpus, 707 words crawled)
-- `rfo-004-clorigan-t-by-zero-1-1-antimicrobial-potential-o`: Clorigan-T by Zero 1.1 Antimicrobial Potential of Cloves, Oregano, and Turmeric — https://research.talktoai.org/research-papers/clorigan-t-by-zero-1-1-antimicrobial-potential-of-cloves-oregano-and-turmeric/ (primary-shaf-corpus, 1689 words crawled)
-- `rfo-005-meet-zero-your-ultimate-ai-companion-for-researc`: Meet Zero – Your Ultimate AI Companion for Research and Beyond — https://research.talktoai.org/research-papers/meet-zero-your-ultimate-ai-companion-for-research-and-beyond/ (primary-shaf-corpus, 892 words crawled)
-- `rfo-007-the-human-body-an-underestimated-marvel-of-organ`: The Human Body: An Underestimated Marvel of Organic Technology — https://research.talktoai.org/research-papers/the-human-body-an-underestimated-marvel-of-organic-technology/ (primary-shaf-corpus, 2274 words crawled)
-- `rfo-013-mathematics-and-the-mathematical-structure-of-fl`: Mathematics and the Mathematical Structure of Flowers: A Study — https://research.talktoai.org/research-papers/mathematics-and-the-mathematical-structure-of-flowers-a-study/ (primary-shaf-corpus, 1400 words crawled)
-- `rfo-014-the-zero-lattice-a-framework-for-distributed-aut`: The Zero Lattice: A Framework for Distributed Autonomous Ethical Intelligence — https://research.talktoai.org/research-papers/the-zero-lattice-a-framework-for-distributed-autonomous-ethical-intelligence/ (primary-shaf-corpus, 623 words crawled)
-- `rfo-015-theory-of-algorithmic-genetic-singularity`: THEORY OF ALGORITHMIC GENETIC SINGULARITY — https://research.talktoai.org/research-papers/theory-of-algorithmic-genetic-singularity/ (primary-shaf-corpus, 681 words crawled)
-- `rfo-017-information-gravity-memetic-entropy-a-field-theo`: Information Gravity & Memetic Entropy: A Field-Theoretic Approach to LLM Influen — https://research.talktoai.org/research-papers/information-gravity-memetic-entropy-a-field-theoretic-approach-to-llm-influen/ (primary-shaf-corpus, 586 words crawled)
-- `rfo-022-the-riemann-hypothesis-zero-ai-and-quantum-adapt`: The Riemann Hypothesis, Zero AI, and Quantum Adaptive Systems — https://research.talktoai.org/research-papers/the-riemann-hypothesis-zero-ai-and-quantum-adaptive-systems/ (primary-shaf-corpus, 1214 words crawled)
-- `rfo-024-zero-a-quantum-exploration-of-thought-experiment`: Zero: A Quantum Exploration of Thought Experiments and AI Research — https://research.talktoai.org/research-papers/zero-a-quantum-exploration-of-thought-experiments-and-ai-research/ (primary-shaf-corpus, 3188 words crawled)
-- `rfo-025-the-boundless-potential-of-ai-simulating-quantum`: The Boundless Potential of AI Simulating Quantum Computing: A Dive into Zero — https://research.talktoai.org/research-papers/the-boundless-potential-of-ai-simulating-quantum-computing-a-dive-into-zero/ (primary-shaf-corpus, 3978 words crawled)
+## 2. Frozen Genetic Adaptation Simulator
 
-The forum posts are treated as originating research notes and concept papers. They are useful for extracting vocabulary, design intent, and hypotheses. They are not automatically treated as external validation. Where a claim would normally require a peer-reviewed citation, dataset, benchmark, lab protocol, or reproducible experiment, this paper marks it as a validation task.
+The inspected Python file defines
 
-## 3. Claim/Evidence/Provenance Graph
+    G(x) = b2 log(b1 + eta Q x) exp(lambda x)
+           [1 + alpha H(-x) + beta H(x) + gamma exp(-theta Q x^2)].
 
-| Claim ID | Claim | Evidence source | Provenance status | Confidence |
-| --- | --- | --- | --- | --- |
-| C1 | The corpus contains a coherent recurring design language around sovereignty, local control, reasoning layers, and evidence trails. | Multiple primary forum posts listed above. | Public forum source, concept-level evidence. | Medium |
-| C2 | The corpus can be reframed into safer academic language by separating product claims, hypotheses, protocols, and speculative interpretations. | ZeroThink Paper Creator protocol and source-ledger method. | Methodological synthesis. | High |
-| C3 | Some claims require experimental support before public-sector, medical, or security deployment wording is justified. | Claims involving health, encryption assurance, quantum validation, or autonomous agents. | Needs external validation. | High |
-| C4 | A provenance-aware workflow can make the work more fundable and reviewable because it preserves what came from notes, what came from retrieved sources, and what came from model inference. | Research Paper Creator / Nottingham lane design. | Internal method plus public workflow design. | Medium |
+The parameter `y` appears in the function signature but is unused. Inputs are converted to a list and evaluated independently. Values with a non-positive logarithm argument are replaced by `1e-12` rather than rejected. The named delta terms are implemented as Heaviside step indicators, not Dirac delta distributions. These details are important because the README describes systemic learning and adaptation while the executable object is a deterministic curve generator.
 
-Graph edges: `source note -> extracted concept -> claim -> evidence status -> validation task -> revised paper section`.
+The formula may still be explored as a piecewise nonlinear response surface. It is not, on present evidence, a genetic algorithm. Genetic algorithms conventionally require a population of candidate representations, variation, evaluation, and selection across generations [1]. None of those mechanisms exists in the frozen simulator.
 
-## 4. Synthesis
+## 3. Reproducible semantic audit
 
-The strongest publishable direction is not to ask readers to accept every forum claim as already proven. The stronger route is to present the body of work as a research programme: a set of models, tools, hypotheses, and implementation lanes that can be tested in public, reproducible ways. This keeps the originality visible while making the work easier for developers, supervisors, universities, funders, and technical reviewers to evaluate.
+An independent exact mirror avoids redistributing or importing the application file. The audit reproduces five properties:
 
-### Domain-Specific Lens
+1. Changing `y` from -999 to 999 leaves every output unchanged.
+2. Evaluating a vector equals evaluating each point separately, demonstrating no state transfer or recursion.
+3. With neutral growth and decay parameters, distinct invalid-log inputs collapse to the same clamped logarithm value.
+4. At zero neither step activates, so configured side weights create a discontinuity relative to an arbitrarily small positive input.
+5. A sufficiently large positive `lambda*x` raises an overflow exception.
 
-This lane must stay careful. DNA, health, ancestry, and organic-computing themes can be explored as interpretation workflows, but public outputs should avoid diagnosis, treatment advice, ethnicity certainty, or ancestry proof claims.
+These results falsify descriptions of the frozen program as recursive learning, evolution, or robust numerical simulation. They do not falsify its use as an artistic or exploratory formula when its domain and limitations are explicit.
 
-The repeated pattern across the corpus is a preference for systems that keep agency close to the user: local AI nodes, audit trails, user-controlled vault files, visible evidence ledgers, and careful boundaries between public behaviour and private implementation. That pattern can be formalised as a design principle:
+## 4. Bounded recursive reference
 
-> A sovereign AI system should make its claims inspectable, its control boundaries explicit, and its private material unnecessary for public verification.
+To make “recursive adaptation” testable, the package defines the transparent recurrence
 
-This principle lets the work speak to multiple domains. In AI research, it becomes a method for agent accountability. In security, it becomes an argument for verifiable envelope design rather than secret-algorithm claims. In education, it becomes a student-facing workflow for turning rough notes into defensible literature reviews. In product design, it becomes a way to explain why local-first systems and hosted systems can co-exist.
+    s_(t+1) = s_t + mu (target - s_t), with 0 < mu <= 1.
 
-## 5. Validation Plan
+For initial state 0, target 1, and mu = 0.2, the closed form is `s_t = 1 - 0.8^t`. After 20 steps the released run reaches approximately 0.98847. The verifier confirms deterministic reruns, agreement with the closed form within `1e-12`, bounded values in [0,1], monotone increase, and contraction of target error.
 
-General validation rules:
+This recurrence has memory because the next state depends on the prior state. It is inspired by adaptation in the ordinary engineering sense of iterative adjustment. It is not a model of genes, cells, organisms, natural selection, learning in humans, or biological fitness.
 
-1. Build a source ledger from every public research note and mark each row as primary note, external paper, retrieved result, product page, or needs verification.
-2. Convert each major claim into a testable form.
-3. For software claims, publish installation steps, screenshots, API responses, and failure cases.
-4. For security claims, publish threat models, key boundaries, and third-party review targets without exposing proprietary keys or private encryption source.
-5. For health or biological claims, avoid advice language and require literature review, safety review, and professional framing before public claims are strengthened.
-6. For quantum or simulator claims, compare against a classical baseline and state what the quantum job actually proves: job execution, optimisation experiment, or telemetry record, not magical cognition.
+## 5. Relationship to biological and molecular computing
 
-Theme-specific validation tasks:
+Bio-inspired computation and biological computation are not synonyms. Holland’s work formalized adaptive systems and became foundational to genetic algorithms [1]. Adleman’s laboratory demonstration used DNA molecules to solve a small combinatorial instance, establishing a genuine molecular-computing experiment [2]. Those precedents show the evidential difference: algorithmic inspiration requires an explicit computational mechanism, while molecular-computing claims require physical materials, protocols, measurements, and controls.
 
-1. Separate raw-file quality checks from health research notes and lineage storytelling.
-2. Use public databases only through their documented evidence labels and update cycles.
-3. Have a reviewer flag any wording that sounds clinical, deterministic, or identity-defining.
+No such wet-lab protocol or biological measurement is present here. DNA-themed forum posts are treated as originating hypotheses, metaphors, or research prompts—not as evidence that software accesses ancestral memory, activates DNA, heals tissue, enhances cognition, or implements organic intelligence.
 
-## 6. Limitations
+## 6. Engineering and numerical risks
 
-The present draft is generated from a public forum crawl and a ZeroThink-style synthesis protocol. It is not peer reviewed. It does not verify every historic claim in the corpus. It does not expose private ZMath, ZeroThink, OpenZero, server, or API-key material. It is suitable as a working-paper foundation, a grant appendix starter, or a student survey-expansion example after human review.
+Silent domain clamping can hide invalid parameter regimes and map widely different inputs to the same output. Exponential growth can overflow. Step discontinuities make local sensitivity high around zero. Unused parameters can mislead readers into believing the model has dimensions it does not use. Unbounded recursion can diverge or amplify noise; even a bounded recurrence can encode a poor target.
 
-Specific caution for this lane: Health and genetics claims are high-stakes. Require expert review before stronger wording is used.
+A production-quality successor should validate parameter domains, name step functions accurately, expose numerical warnings, define state and update order, pin seeds for stochastic variants, publish invariants, and compare against simple baselines. Adding mutation terminology without population and fitness semantics would not satisfy this gate.
 
-## 7. Next Research Step
+## 7. Falsifiable claims and release gates
 
-The next step is a two-pass evidence upgrade: first, map each claim to external scholarly or technical sources; second, run a reviewer-style critique that removes claims that cannot be supported. That gives the work a credible route from invention notes to academic paper, product white paper, or reproducible demonstration.
+1. The audit must reproduce all five frozen-simulator properties.
+2. The recurrence must pass all five analytical checks and reach the published final state.
+3. “Recursive” requires explicit prior-state dependence; pointwise vector evaluation does not qualify.
+4. “Genetic algorithm” requires documented representation, population, variation, fitness, selection, and generations.
+5. “DNA computing” requires physical or faithfully sourced experimental evidence; software metaphor is insufficient.
+6. Health, cognitive, ancestry, healing, or genetic-effect claims require domain expertise, appropriate approvals, and direct evidence and are excluded from this release.
 
-## Appendix A: Candidate Source Rows
+## 8. Limitations
 
-- `rfo-001-the-most-advanced-research-in-the-world`: The Most Advanced Research In The World? — https://research.talktoai.org/research-papers/the-most-advanced-research-in-the-world/ (primary-shaf-corpus, 1152 words crawled)
-- `rfo-003-talktoai-org-project-spectramind-the-architectur`: talktoai.org Project Spectramind: The Architecture of a Sovereign Blockchain Brain — https://research.talktoai.org/research-papers/project-spectramind-the-architecture-of-a-sovereign-blockchain-brain/ (primary-shaf-corpus, 707 words crawled)
-- `rfo-004-clorigan-t-by-zero-1-1-antimicrobial-potential-o`: Clorigan-T by Zero 1.1 Antimicrobial Potential of Cloves, Oregano, and Turmeric — https://research.talktoai.org/research-papers/clorigan-t-by-zero-1-1-antimicrobial-potential-of-cloves-oregano-and-turmeric/ (primary-shaf-corpus, 1689 words crawled)
-- `rfo-005-meet-zero-your-ultimate-ai-companion-for-researc`: Meet Zero – Your Ultimate AI Companion for Research and Beyond — https://research.talktoai.org/research-papers/meet-zero-your-ultimate-ai-companion-for-research-and-beyond/ (primary-shaf-corpus, 892 words crawled)
-- `rfo-007-the-human-body-an-underestimated-marvel-of-organ`: The Human Body: An Underestimated Marvel of Organic Technology — https://research.talktoai.org/research-papers/the-human-body-an-underestimated-marvel-of-organic-technology/ (primary-shaf-corpus, 2274 words crawled)
-- `rfo-013-mathematics-and-the-mathematical-structure-of-fl`: Mathematics and the Mathematical Structure of Flowers: A Study — https://research.talktoai.org/research-papers/mathematics-and-the-mathematical-structure-of-flowers-a-study/ (primary-shaf-corpus, 1400 words crawled)
-- `rfo-014-the-zero-lattice-a-framework-for-distributed-aut`: The Zero Lattice: A Framework for Distributed Autonomous Ethical Intelligence — https://research.talktoai.org/research-papers/the-zero-lattice-a-framework-for-distributed-autonomous-ethical-intelligence/ (primary-shaf-corpus, 623 words crawled)
-- `rfo-015-theory-of-algorithmic-genetic-singularity`: THEORY OF ALGORITHMIC GENETIC SINGULARITY — https://research.talktoai.org/research-papers/theory-of-algorithmic-genetic-singularity/ (primary-shaf-corpus, 681 words crawled)
-- `rfo-017-information-gravity-memetic-entropy-a-field-theo`: Information Gravity & Memetic Entropy: A Field-Theoretic Approach to LLM Influen — https://research.talktoai.org/research-papers/information-gravity-memetic-entropy-a-field-theoretic-approach-to-llm-influen/ (primary-shaf-corpus, 586 words crawled)
-- `rfo-022-the-riemann-hypothesis-zero-ai-and-quantum-adapt`: The Riemann Hypothesis, Zero AI, and Quantum Adaptive Systems — https://research.talktoai.org/research-papers/the-riemann-hypothesis-zero-ai-and-quantum-adaptive-systems/ (primary-shaf-corpus, 1214 words crawled)
-- `rfo-024-zero-a-quantum-exploration-of-thought-experiment`: Zero: A Quantum Exploration of Thought Experiments and AI Research — https://research.talktoai.org/research-papers/zero-a-quantum-exploration-of-thought-experiments-and-ai-research/ (primary-shaf-corpus, 3188 words crawled)
-- `rfo-025-the-boundless-potential-of-ai-simulating-quantum`: The Boundless Potential of AI Simulating Quantum Computing: A Dive into Zero — https://research.talktoai.org/research-papers/the-boundless-potential-of-ai-simulating-quantum-computing-a-dive-into-zero/ (primary-shaf-corpus, 3978 words crawled)
-- `rfo-026-the-mind-can-simulate-and-integrate-thoughts-int`: The Mind Can Simulate and Integrate Thoughts Into Reality — https://research.talktoai.org/research-papers/the-mind-can-simulate-and-integrate-thoughts-into-reality/ (primary-shaf-corpus, 2168 words crawled)
-- `rfo-030-leveraging-the-dna-of-tmesipteris-oblanceolata-f`: Leveraging the DNA of Tmesipteris oblanceolata for a Bio-Inspired AI Computing — https://research.talktoai.org/research-papers/leveraging-the-dna-of-tmesipteris-oblanceolata-for-a-bio-inspired-ai-computing/ (primary-shaf-corpus, 1851 words crawled)
-- `rfo-031-zero-biomorphic-intelligence-dna-as-the-core-of`: Zero Biomorphic Intelligence: DNA as the Core of Meta-Intelligence — https://research.talktoai.org/research-papers/zero-biomorphic-intelligence-dna-as-the-core-of-meta-intelligence/ (primary-shaf-corpus, 1797 words crawled)
-- `rfo-038-dna-inspired-recursive-music-healing-cognitive-e`: DNA-Inspired Recursive Music: Healing, Cognitive Enhancement, and Latent DNA — https://research.talktoai.org/research-papers/dna-inspired-recursive-music-healing-cognitive-enhancement-and-latent-dna/ (primary-shaf-corpus, 3019 words crawled)
-- `rfo-041-trigger-algorithms-in-next-gen-large-language-mo`: Trigger Algorithms in Next-Gen Large Language Models (LLMs) — https://research.talktoai.org/research-papers/research-paper-trigger-algorithms-in-next-gen-large-language-models-llms/ (primary-shaf-corpus, 3900 words crawled)
-- `rfo-042-exploring-the-zero-network-a-quantum-framework-f`: Exploring the Zero Network: A Quantum Framework for Evolving AI — https://research.talktoai.org/research-papers/exploring-the-zero-network-a-quantum-framework-for-evolving-ai/ (primary-shaf-corpus, 2325 words crawled)
-- `rfo-044-open-source-talktoaiq-skynet-zero-llm-framework`: Open Source talktoaiQ Skynet Zero LLM Framework Agent Zero — https://research.talktoai.org/research-papers/open-source-talktoaiq-skynet-zero-llm-framework-agent-zero/ (primary-shaf-corpus, 2729 words crawled)
-- `rfo-046-crafting-natural-antibiotics-at-home-a-comprehen`: Crafting Natural Antibiotics at Home: A Comprehensive Guide — https://research.talktoai.org/research-papers/crafting-natural-antibiotics-at-home-a-comprehensive-guide/ (primary-shaf-corpus, 865 words crawled)
-- `rfo-047-cloning-the-human-skeleton-for-advanced-robotic`: Cloning the Human Skeleton for Advanced Robotic Integration with Quantum AI — https://research.talktoai.org/research-papers/cloning-the-human-skeleton-for-advanced-robotic-integration-with-quantum-ai/ (primary-shaf-corpus, 1326 words crawled)
-- `rfo-048-organic-wetware-and-dna-based-programming-for-ad`: Organic Wetware and DNA-Based Programming for Advanced Robotic Systems — https://research.talktoai.org/research-papers/organic-wetware-and-dna-based-programming-for-advanced-robotic-systems/ (primary-shaf-corpus, 2039 words crawled)
-- `rfo-049-research-community-meet-the-founder`: Research Community: Meet the Founder — https://research.talktoai.org/research-papers/research-community-meet-the-founder/ (primary-shaf-corpus, 692 words crawled)
-- `rfo-054-human-history-an-exploration-of-ancestral-lineag`: Human History An Exploration of Ancestral Lineage, Evolution, and Anunnaki — https://research.talktoai.org/research-papers/human-history-an-exploration-of-ancestral-lineage-evolution-and-anunnaki/ (primary-shaf-corpus, 1260 words crawled)
-- `rfo-058-resonating-with-genius-nikola-tesla-s-frequency`: Resonating with Genius Nikola Tesla's Frequency Work and Its Modern Impact — https://research.talktoai.org/research-papers/resonating-with-genius-nikola-tesla-s-frequency-work-and-its-modern-impact/ (primary-shaf-corpus, 1857 words crawled)
-- `rfo-060-sound-music-water-structures-and-human-dna-a-com`: Sound Music Water Structures and Human DNA: A Comparative Analysis — https://research.talktoai.org/research-papers/sound-music-water-structures-and-human-dna-a-comparative-analysis/ (primary-shaf-corpus, 3508 words crawled)
-- `rfo-063-water-treatment-in-medicine-hot-and-cold-water-t`: Water Treatment in Medicine - Hot and Cold Water Therapies for Musculoskeletal — https://research.talktoai.org/research-papers/water-treatment-in-medicine-hot-and-cold-water-therapies-for-musculoskeletal/ (primary-shaf-corpus, 1434 words crawled)
-- `rfo-068-mastering-the-storm-within-understanding-and-con`: Mastering the Storm Within: Understanding and Controlling Anger — https://research.talktoai.org/research-papers/mastering-the-storm-within-understanding-and-controlling-anger/ (primary-shaf-corpus, 1289 words crawled)
-- `rfo-070-rethinking-our-existence-as-advanced-organic-mac`: Rethinking Our Existence as Advanced Organic Machines — https://research.talktoai.org/research-papers/rethinking-our-existence-as-advanced-organic-machines/ (primary-shaf-corpus, 2295 words crawled)
-- `rfo-071-harnessing-ancient-knowledge-from-dna-a-theoreti`: Harnessing Ancient Knowledge from DNA: A Theoretical Exploration — https://research.talktoai.org/research-papers/harnessing-ancient-knowledge-from-dna-a-theoretical-exploration/ (primary-shaf-corpus, 1999 words crawled)
+The audit covers one frozen local simulator revision and an independent mirror, not every similarly named project. The recurrence is intentionally elementary and synthetic. It does not benchmark optimization quality, compare evolutionary algorithms, model biological data, or establish usefulness for AI training. No wet lab, organism, patient, genetic dataset, clinical study, peer review, or independent validation is involved.
+
+## 9. Conclusion
+
+The strongest form of this research is precise about levels of evidence. The frozen “genetic” program is a piecewise scalar formula with identifiable numerical boundaries. The released recurrence is genuinely recursive and analytically reproducible, but remains a software control model. Keeping metaphor, mathematics, simulation, and biology separate preserves the creative research direction while making every technical claim testable.
+
+## Evidence ledger
+
+- Frozen simulator: `_github_video_updates/AgentZERO/big_projects/genetic_adaptation_simulator/simulator.py`, SHA-256 `37bab40a3c1af0d03882a1242cbe851944bfe7601e748b8c29440daf22fe7394`.
+- Frozen README: same directory, SHA-256 `30348c1ff37d369a6406bb9dc07faa91907b0d01c6e83c36fc8892b7236b6e94`.
+- Reproducibility package: `artifacts/bio-inspired-recursive-computation-1.0/`.
+- Forum sources are authorial concept notes and are not independent validation.
+
+## AI-use disclosure
+
+AI tools assisted corpus search, source inspection, test design, drafting, editing, and packaging. I take responsibility for the claims and release decisions. AI assistance is not peer review or independent validation.
+
+## Licensing
+
+The paper is CC BY 4.0. New audit and recurrence code is MIT licensed. Referenced simulator files retain their existing terms and are not redistributed.
+
+## References
+
+[1] J. H. Holland. *Adaptation in Natural and Artificial Systems*. University of Michigan Press, 1975.
+
+[2] L. M. Adleman. “Molecular Computation of Solutions to Combinatorial Problems.” *Science* 266(5187), 1021-1024, 1994. https://doi.org/10.1126/science.7973651
