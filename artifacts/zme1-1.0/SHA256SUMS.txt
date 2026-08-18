@@ -1,0 +1,7 @@
+05513a09808932eb14cc03bc8e2688c6513bc3fc0935d762bd4011496085f0ab  papers/zmath-shield-zme1-evidence-containers-1.0.md
+e111728afce29510392694544f28659085c56563c3722a14e07dc65bb5817f53  ZMath-Shield-ZME1-Evidence-Containers-1.0-Shafaet-Brady-Hussain.pdf
+143f5b4a7e1a0012769ef7351298e6f9f5866885b340e404b2806543341e10b4  ZMath-Shield-ZME1-Evidence-Containers-1.0-Shafaet-Brady-Hussain.docx
+53f44d6b43004f10ba38b1719a73586beb8cdf4042291bcc9a59ff8c4df2515d  artifacts/zme1-1.0/container.schema.json
+459ad53970aed93831d01c9f968e4c4f28ea4765ad2171c26eebf722fa08ea50  artifacts/zme1-1.0/structural-vectors.json
+9fc6230efdc704dba43cc67d22464afa935729eb21d295bae56e41a6ea80572f  artifacts/zme1-1.0/verify_structure.py
+9ee3638b00a4452900fada401d017a73c9b06c77ea3abeb227f77ca9fd902c99  artifacts/zme1-1.0/test-results.json

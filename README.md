@@ -26,6 +26,7 @@ This repo is designed for clean, citeable public work:
 | [Zero Boundary Algebra 1.1: Formal Specification](papers/zero-boundary-algebra-formal-specification-1.1.md) | Expanded typed algebra, executable verifier, property results, encryption-profile audit, privacy/governance analysis, and falsifiable evaluation protocol |
 | [Zero Boundary Algebra 1.0: Formal Specification](papers/zero-boundary-algebra-formal-specification-1.0.md) | Preserved first formal release |
 | [ZeroThink 1.0: A Reproducible Architecture for Evidence-Gated AI Agent Services](papers/zerothink-reproducible-architecture-1.0.md) | Consolidated architecture, dated positive and negative evidence, executable release-invariant tests, and falsifiable baselines |
+| [ZMath Shield and ZME1 1.0: Authenticated Evidence Containers](papers/zmath-shield-zme1-evidence-containers-1.0.md) | Standard-primitive envelope specification, frozen source hashes, regression evidence, threat model, and structural negative vectors |
 | [Zero Boundary Algebra as a Provenance Workflow](papers/zero-boundary-algebra-provenance-workflow.md) | Public mathematical/workflow framing |
 | [ZeroThink as a Sovereign Reasoning Layer](papers/zerothink-sovereign-reasoning-layer.md) | Research writing and audit workflow |
 | [OpenZero and Local-First AI Nodes](papers/openzero-local-first-ai-nodes.md) | CPU-friendly sovereign agents |

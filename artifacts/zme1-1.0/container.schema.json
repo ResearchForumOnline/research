@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ZME1 public container structure",
+  "type": "object",
+  "required": ["header", "ciphertext"],
+  "properties": {
+    "header": {
+      "type": "object",
+      "required": ["format", "version", "profile", "payload", "createdAt", "kdf", "cipher"],
+      "properties": {
+        "format": {"const": "ZME1"},
+        "version": {"const": 1},
+        "profile": {"enum": ["ZSHIELD-PBKDF2-AESGCM-1", "ZMATH-PBKDF2-HKDF-AESGCM-2", "ZMATH-PBKDF2-HKDF-AESGCM-QPUFACTOR-3"]},
+        "payload": {"type": "object", "required": ["name", "type", "size", "kind"], "properties": {"name": {"type": "string"}, "type": {"type": "string"}, "size": {"type": "integer", "minimum": 0, "maximum": 52428800}, "kind": {"type": "string"}}, "additionalProperties": true},
+        "createdAt": {"type": "string"},
+        "kdf": {"type": "object", "required": ["name", "iterations", "salt", "patternRequired"], "properties": {"name": {"type": "string"}, "iterations": {"type": "integer", "minimum": 600000, "maximum": 1200000}, "salt": {"type": "string"}, "mixSalt": {"type": "string"}, "patternRequired": {"type": "boolean"}, "quantumFactorRequired": {"type": "boolean"}, "quantumFactorCommitment": {"type": "string"}}, "additionalProperties": true},
+        "cipher": {"type": "object", "required": ["name", "iv", "tagLength"], "properties": {"name": {"const": "AES-256-GCM"}, "iv": {"type": "string"}, "tagLength": {"const": 128}}, "additionalProperties": false},
+        "context": {"type": "object"}
+      },
+      "additionalProperties": false
+    },
+    "ciphertext": {"type": "string"}
+  },
+  "additionalProperties": false
+}

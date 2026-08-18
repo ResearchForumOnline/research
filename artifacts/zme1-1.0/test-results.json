@@ -1,0 +1,1 @@
+{"run_date":"2026-08-18","public_runtime_programs":{"zshield-core.test.mjs":"PASS","qpu-factor-core.test.mjs":"PASS"},"structural_companion":{"expectations":4,"matched":4},"scope":"Author-run snapshot regression and structural checks; not an independent cryptographic audit."}
