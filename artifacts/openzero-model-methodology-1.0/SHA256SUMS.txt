@@ -1,0 +1,5 @@
+99c47400d6a0835346054914e42661640e7f75767e6f00c04f869ba08ed16724  papers/openzero-model-dataset-methodology-1.0.md
+1eeda6496b830ada61f233ef044fe517bbc5acf8dff7a709d714b73281965c17  OpenZero-Model-and-Dataset-Methodology-1.0-Shafaet-Brady-Hussain.pdf
+71b109ec86e0545ae16337b7e2206c33e8bbe1ff92c478b1984f55e6f599955d  OpenZero-Model-and-Dataset-Methodology-1.0-Shafaet-Brady-Hussain.docx
+4440695e1c82c5beae271944cc9886727340eb5768d48898a02264a96ec0ba36  artifacts/openzero-model-methodology-1.0/methodology-manifest.json
+bbc01e17ca30eb11fa557eda8beac03c1cac9b9eb1d277df70928b178d2dd3ad  artifacts/openzero-model-methodology-1.0/verify_methodology.py

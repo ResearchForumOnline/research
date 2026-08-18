@@ -29,6 +29,7 @@ This repo is designed for clean, citeable public work:
 | [ZMath Shield and ZME1 1.0: Authenticated Evidence Containers](papers/zmath-shield-zme1-evidence-containers-1.0.md) | Standard-primitive envelope specification, frozen source hashes, regression evidence, threat model, and structural negative vectors |
 | [Zmail and CallChat 1.0: Layered Protected Communications](papers/zmail-callchat-protected-communications-1.0.md) | Evidence-bounded email, Matrix messaging, object, device, and call-media protection with explicit downgrade rules |
 | [OpenZero 1.0: A Local-First Agent Runtime](papers/openzero-local-first-agent-runtime-1.0.md) | Frozen runtime architecture, serving-path failures, offline boundaries, and explicit tool-authority risks |
+| [OpenZero Model and Dataset Methodology 1.0](papers/openzero-model-dataset-methodology-1.0.md) | Deterministic private-corpus curation, prompt-group isolation, QLoRA experiment gates, and rights-bounded release controls |
 | [Zero Boundary Algebra as a Provenance Workflow](papers/zero-boundary-algebra-provenance-workflow.md) | Public mathematical/workflow framing |
 | [ZeroThink as a Sovereign Reasoning Layer](papers/zerothink-sovereign-reasoning-layer.md) | Research writing and audit workflow |
 | [OpenZero and Local-First AI Nodes](papers/openzero-local-first-ai-nodes.md) | CPU-friendly sovereign agents |

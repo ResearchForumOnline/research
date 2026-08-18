@@ -1,4 +1,5 @@
 from pathlib import Path
+import argparse
 import re
 from xml.sax.saxutils import escape
 
@@ -16,10 +17,18 @@ from reportlab.lib.units import inch
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, KeepTogether
 
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "papers" / "openzero-local-first-agent-runtime-1.0.md"
-OUTDIR = ROOT / "publication_work" / "openzero-runtime-1.0"
-DOCX = OUTDIR / "OpenZero-Local-First-Agent-Runtime-1.0-Shafaet-Brady-Hussain.docx"
-PDF = OUTDIR / "OpenZero-Local-First-Agent-Runtime-1.0-Shafaet-Brady-Hussain.pdf"
+parser = argparse.ArgumentParser()
+parser.add_argument("--source", default="papers/openzero-local-first-agent-runtime-1.0.md")
+parser.add_argument("--outdir", default="publication_work/openzero-runtime-1.0")
+parser.add_argument("--stem", default="OpenZero-Local-First-Agent-Runtime-1.0-Shafaet-Brady-Hussain")
+parser.add_argument("--running-title", default="OPENZERO 1.0 | LOCAL-FIRST AGENT RUNTIME")
+parser.add_argument("--pdf-title", default="OpenZero 1.0: A Local-First Agent Runtime with Observable Serving-Path Boundaries")
+parser.add_argument("--pdf-subject", default="Local-first agent runtime, serving-path evaluation, tool authority, offline deployment, and reproducibility")
+args = parser.parse_args()
+SRC = ROOT / args.source
+OUTDIR = ROOT / args.outdir
+DOCX = OUTDIR / f"{args.stem}.docx"
+PDF = OUTDIR / f"{args.stem}.pdf"
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
 NAVY = RGBColor(11, 37, 69)
@@ -119,7 +128,7 @@ def build_docx(blocks):
     for name,size,color,before,after in (("Heading 1",16,BLUE,18,10),("Heading 2",13,BLUE,12,6),("Heading 3",12,RGBColor(31,77,120),8,4)):
         s=doc.styles[name]; s.font.name="Calibri"; s._element.rPr.rFonts.set(qn("w:ascii"),"Calibri"); s.font.size=Pt(size); s.font.bold=True; s.font.color.rgb=color; s.paragraph_format.space_before=Pt(before); s.paragraph_format.space_after=Pt(after)
     header=sec.header.paragraphs[0]; header.alignment=WD_ALIGN_PARAGRAPH.RIGHT
-    set_font(header.add_run("OPENZERO 1.0 | LOCAL-FIRST AGENT RUNTIME"),size=8,color=MUTED)
+    set_font(header.add_run(args.running_title),size=8,color=MUTED)
     footer=sec.footer.paragraphs[0]; footer.alignment=WD_ALIGN_PARAGRAPH.CENTER
     set_font(footer.add_run("Shafaet Brady Hussain  |  "),size=8,color=MUTED); add_page_number(footer)
     first_h1=True
@@ -135,7 +144,7 @@ def build_docx(blocks):
                 doc.add_heading(text,level=min(level,3))
         elif block[0]=="paragraph":
             text=block[1]
-            p=doc.add_paragraph(); p.alignment=WD_ALIGN_PARAGRAPH.JUSTIFY; p.paragraph_format.space_after=Pt(8); p.paragraph_format.line_spacing=1.333
+            p=doc.add_paragraph(); p.alignment=WD_ALIGN_PARAGRAPH.LEFT if re.search(r"[0-9a-f]{40,}|https?://", text) else WD_ALIGN_PARAGRAPH.JUSTIFY; p.paragraph_format.space_after=Pt(8); p.paragraph_format.line_spacing=1.333
             inline_runs(p,text)
         elif block[0]=="list":
             _,ordered,items=block
@@ -190,7 +199,10 @@ def build_pdf(blocks):
             elif level==2 and len(story)<5:
                 story.append(Paragraph(clean_pdf_text(text),subtitle))
             else: story.append(Paragraph(clean_pdf_text(text),{1:h1,2:h2,3:h3}[min(level,3)]))
-        elif block[0]=="paragraph": story.append(Paragraph(clean_pdf_text(block[1]),body))
+        elif block[0]=="paragraph":
+            text = block[1]
+            style = ParagraphStyle("BodyLeftCode", parent=body, alignment=TA_LEFT) if re.search(r"[0-9a-f]{40,}|https?://", text) else body
+            story.append(Paragraph(clean_pdf_text(text), style))
         elif block[0]=="list":
             _,ordered,items=block
             for i,item in enumerate(items,1): story.append(Paragraph((f"{i}. " if ordered else "&#8226; ")+clean_pdf_text(item),bullet))
@@ -201,8 +213,8 @@ def build_pdf(blocks):
                 t=Table(data,colWidths=[6.5*inch/len(data[0])]*len(data[0]),repeatRows=1,hAlign="LEFT")
                 t.setStyle(TableStyle([("GRID",(0,0),(-1,-1),.4,colors.HexColor("#B9C3CF")),("BACKGROUND",(0,0),(-1,0),colors.HexColor("#F4F6F9")),("FONTNAME",(0,0),(-1,0),"Helvetica-Bold"),("VALIGN",(0,0),(-1,-1),"TOP"),("LEFTPADDING",(0,0),(-1,-1),5),("RIGHTPADDING",(0,0),(-1,-1),5),("TOPPADDING",(0,0),(-1,-1),4),("BOTTOMPADDING",(0,0),(-1,-1),4)])); story += [t,Spacer(1,6)]
     def footer(canvas,doc):
-        canvas.saveState(); canvas.setFont("Helvetica",7.5); canvas.setFillColor(colors.HexColor("#595959")); canvas.drawString(inch,.55*inch,"OPENZERO 1.0 | LOCAL-FIRST AGENT RUNTIME"); canvas.drawRightString(7.5*inch,.55*inch,f"Shafaet Brady Hussain | {doc.page}"); canvas.restoreState()
-    pdf=SimpleDocTemplate(str(PDF),pagesize=letter,rightMargin=inch,leftMargin=inch,topMargin=.85*inch,bottomMargin=.8*inch,title="OpenZero 1.0: A Local-First Agent Runtime with Observable Serving-Path Boundaries",author="Shafaet Brady Hussain",subject="Local-first agent runtime, serving-path evaluation, tool authority, offline deployment, and reproducibility")
+        canvas.saveState(); canvas.setFont("Helvetica",7.5); canvas.setFillColor(colors.HexColor("#595959")); canvas.drawString(inch,.55*inch,args.running_title); canvas.drawRightString(7.5*inch,.55*inch,f"Shafaet Brady Hussain | {doc.page}"); canvas.restoreState()
+    pdf=SimpleDocTemplate(str(PDF),pagesize=letter,rightMargin=inch,leftMargin=inch,topMargin=.85*inch,bottomMargin=.8*inch,title=args.pdf_title,author="Shafaet Brady Hussain",subject=args.pdf_subject)
     pdf.build(story,onFirstPage=footer,onLaterPages=footer)
 
 blocks=parse_markdown(); build_docx(blocks); build_pdf(blocks)

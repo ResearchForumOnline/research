@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "seed": 20260809,
+  "input_rows": 4380,
+  "accepted": 2743,
+  "train": 2606,
+  "eval": 137,
+  "rejected": {"malformed": 0, "duplicate": 1637, "secret_like": 0},
+  "sources": [
+    {"id": "openzero-advanced-research-v1-sft", "rows": 361, "sha256": "d56b6f12036b537e6d97a2e8273eac5e7cc4b68a6019e5af0c1ae835961656d4"},
+    {"id": "openzero-zero-advanced-v2", "rows": 1986, "sha256": "79a5235cefacb52dd67c368ec36d843c379fcc12aece5bedc400c5de7ff976a8"},
+    {"id": "openzero-zero-gemma4-e4b-v1", "rows": 2033, "sha256": "2f28bcc9774d12ec932eb9a55871ebef76b7b60b1ff4d52803ce6fbf86f09150"}
+  ],
+  "outputs": {
+    "train": {"rows": 2606, "sha256": "88b4927bc1b5123270e8d25be29217ebfcf9612bdf91c0e5a28e708bd1f5da6a"},
+    "eval": {"rows": 137, "sha256": "7daa719b1c4068304d5cb3c42249e30e36f60e5edb1ab7812391a4b1ce32bd78"}
+  },
+  "redistribution": "blocked_pending_rights_review",
+  "training_claim": "methodology_only"
+}
