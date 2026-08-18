@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this architecture or its conformance companion, please cite the paper."
+title: "ZeroThink 1.0: A Reproducible Architecture for Evidence-Gated AI Agent Services"
+version: "1.0.0"
+type: article
+authors:
+  - family-names: Hussain
+    given-names: Shafaet Brady
+date-released: 2026-08-18
+license: CC-BY-4.0
+repository-code: "https://github.com/ResearchForumOnline/research"

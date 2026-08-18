@@ -1,0 +1,9 @@
+{
+  "suite": "ZeroThink 1.0 executable conformance companion",
+  "run_date": "2026-08-18",
+  "runtime": "Python 3, standard library only",
+  "vectors": 6,
+  "expectations_matched": 6,
+  "unexpected_results": 0,
+  "scope": "Release-state invariants only; not factual correctness, security certification, or independent validation."
+}

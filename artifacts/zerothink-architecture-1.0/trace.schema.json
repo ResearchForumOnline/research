@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ResearchForumOnline/research/artifacts/zerothink-architecture-1.0/trace.schema.json",
+  "title": "ZeroThink 1.0 conformance trace",
+  "type": "object",
+  "required": ["trace_id", "states", "permissions", "evidence_gate", "findings", "release"],
+  "properties": {
+    "trace_id": {"type": "string", "minLength": 1},
+    "states": {
+      "type": "array",
+      "minItems": 2,
+      "items": {"enum": ["RECEIVED", "PREFLIGHT", "EVIDENCE", "CANDIDATES", "VERIFY", "ROUTE", "RELEASED", "ABSTAINED", "DENIED"]}
+    },
+    "permissions": {
+      "type": "object",
+      "required": ["source", "granted"],
+      "properties": {
+        "source": {"enum": ["trusted_policy", "operator", "untrusted_content"]},
+        "granted": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "evidence_gate": {"type": "object", "required": ["completed"], "properties": {"completed": {"type": "boolean"}}, "additionalProperties": false},
+    "findings": {"type": "array", "items": {"type": "object", "required": ["severity", "code"], "properties": {"severity": {"enum": ["info", "warning", "hard_failure"]}, "code": {"type": "string", "minLength": 1}}, "additionalProperties": true}},
+    "release": {"type": "object", "required": ["decision", "authority"], "properties": {"decision": {"enum": ["release", "abstain", "deny"]}, "authority": {"enum": ["release_guard", "none"]}}, "additionalProperties": false}
+  },
+  "additionalProperties": false
+}
