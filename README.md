@@ -31,6 +31,7 @@ This repo is designed for clean, citeable public work:
 | [OpenZero 1.0: A Local-First Agent Runtime](papers/openzero-local-first-agent-runtime-1.0.md) | Frozen runtime architecture, serving-path failures, offline boundaries, and explicit tool-authority risks |
 | [OpenZero Model and Dataset Methodology 1.0](papers/openzero-model-dataset-methodology-1.0.md) | Deterministic private-corpus curation, prompt-group isolation, QLoRA experiment gates, and rights-bounded release controls |
 | [ZeroMint AIOS Engineering Evaluation 1.0](papers/zeromint-aios-engineering-evaluation-1.0.md) | Live distribution metadata, split-image and torrent integrity checks, installer boundaries, and supply-chain gaps |
+| [Cymatics Zero Platform Evaluation 1.0](papers/cymatics-zero-platform-evaluation-1.0.md) | Synthetic-corpus and browser-audio audit, live count inconsistency, and generator reproducibility failure |
 | [Zero Boundary Algebra as a Provenance Workflow](papers/zero-boundary-algebra-provenance-workflow.md) | Public mathematical/workflow framing |
 | [ZeroThink as a Sovereign Reasoning Layer](papers/zerothink-sovereign-reasoning-layer.md) | Research writing and audit workflow |
 | [OpenZero and Local-First AI Nodes](papers/openzero-local-first-ai-nodes.md) | CPU-friendly sovereign agents |

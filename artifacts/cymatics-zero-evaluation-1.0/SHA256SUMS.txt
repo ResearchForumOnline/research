@@ -1,0 +1,5 @@
+1caa82c8851377fb319975a52dfa53560666a12765fcce35f83d5472950f0cda  papers/cymatics-zero-platform-evaluation-1.0.md
+80cdc48c17fa5737427fdf2ad47c2ea74a10d5a642809507d6b79ad05f98dda2  Cymatics-Zero-Platform-Evaluation-1.0-Shafaet-Brady-Hussain.pdf
+640ee7a5011fa613c3b015000b005a1b303e94726749f002bd6bf86658b4c949  Cymatics-Zero-Platform-Evaluation-1.0-Shafaet-Brady-Hussain.docx
+4b943b11a61d4f9db1aea4a24545fd2b6fe26f0cc898650ee3408bb06673c1b7  artifacts/cymatics-zero-evaluation-1.0/evaluation-summary.json
+c81c7b3594c5c1060ba824051994af71dc1fd57f6cab04f05d063e72340e86a3  artifacts/cymatics-zero-evaluation-1.0/verify_summary.py

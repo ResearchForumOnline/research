@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "manifest": {"count": 3000, "unique_ids": 3000, "sha256": "c78cd76f2da991d6964ce84766c3a266cb46d4a6e559175c421988c721d57620"},
+  "families": {"chladni_square": 600, "faraday_interference": 600, "radial_bessel_inspired": 600, "lissajous_rotor": 600, "zero_metatron_lattice": 600},
+  "svg_xml_pass": 3000,
+  "medical_boundary_pass": 3000,
+  "frequency_hz": {"min": 108.057, "max": 1113.999},
+  "amplitude_norm": {"min": 0.15, "max": 0.95},
+  "generator_sha256": "05230a8b36a63d764654424fa2b3825095521f41aceaab22d8eefc1f2fbb6aff",
+  "sample_regeneration": {"sampled": 25, "byte_matches": 0, "mismatches": 25},
+  "live": {"manifest_count": 3000, "html_claim_count": 4111, "bundle_sha256": "cbe17ce571becc5bbedd0b70afef50c17c98f59de3aa728de3aa766a25008ae2"},
+  "physical_experiment": "not_run",
+  "medical_claim": "none"
+}
