@@ -21,6 +21,20 @@ This repo is designed for clean, citeable public work:
 
 ## New Working Papers
 
+### TalkToAi Code 8.0 systems research (27 September 2026)
+
+Five author-led engineering working papers by **Shafaet Brady Hussain** examine distinct, testable parts of a local and self-hosted coding agent. They are source-grounded preprints with explicit limits, not peer-reviewed claims of AGI or superiority over other assistants. The [frozen evidence ledger](sources/talktoai-code-8-evidence-ledger.md) links the public source commit, file hashes, release and cross-platform workflow.
+
+| Paper | Research question |
+| --- | --- |
+| [Outcome-First Task Navigation](papers/outcome-first-local-agents-2026.md) | Can bounded Desktop discovery and privacy-aware public-doc preflight reduce setup work without leaking request text? |
+| [Bounded Long-Session Agents](papers/bounded-long-session-agents-2026.md) | How should an agent distinguish continued activity from observed progress and verified completion? |
+| [Tool-Protocol Reliability for Local Models](papers/tool-protocol-reliability-local-models-2026.md) | Where do model-to-tool interactions fail, and how should protocol fidelity be measured? |
+| [Reversible Recursive Source Improvement](papers/reversible-recursive-agent-improvement-2026.md) | When does an isolated source candidate qualify as a checked or measured improvement? |
+| [Release Evidence Boundaries](papers/agent-release-evidence-boundaries-2026.md) | What evidence supports source, installer, platform, runtime and task-outcome claims separately? |
+
+The papers disclose AI assistance and the author's association with the evaluated application. Each states what the current release does and what a future controlled study would need to establish.
+
 | Paper | Focus |
 | --- | --- |
 | [Zero Boundary Algebra 1.1: Formal Specification](papers/zero-boundary-algebra-formal-specification-1.1.md) | Expanded typed algebra, executable verifier, property results, encryption-profile audit, privacy/governance analysis, and falsifiable evaluation protocol |
