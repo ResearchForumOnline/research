@@ -21,6 +21,11 @@ This repo is designed for clean, citeable public work:
 
 ## New Working Papers
 
+### Zero Boundary Algebra: reset compatibility (27 September 2026)
+
+[**Reset Compatibility in Zero Boundary Algebra — Six-Element Transformation Monoids and Conservative Validator Synthesis**](papers/zba-reset-compatibility-0.1.md), by **Shafaet Brady Hussain**. Complete proofs classify the reset–mirror monoid, refine the validator contract, and quantify conservative repair. Includes [LaTeX manuscript](papers/zba-reset-compatibility-0.1.tex) and [reproducibility artifacts](artifacts/zba-reset-compatibility-0.1/README.md): 496 small validator cases and 248 feasible synthesis inputs passed. Working paper with AI assistance disclosed; no global-priority or external-peer-review claim.
+
+
 ### TalkToAi Code 8.0 systems research (27 September 2026)
 
 Five author-led engineering working papers by **Shafaet Brady Hussain** examine distinct, testable parts of a local and self-hosted coding agent. They are source-grounded preprints with explicit limits, not peer-reviewed claims of AGI or superiority over other assistants. The [frozen evidence ledger](sources/talktoai-code-8-evidence-ledger.md) links the public source commit, file hashes, release and cross-platform workflow.

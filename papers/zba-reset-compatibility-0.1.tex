@@ -1,0 +1,242 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=27mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,array}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\im}{\operatorname{im}}
+\title{Reset Compatibility in Zero Boundary Algebra:\\Six-Element Transformation Monoids and\\Conservative Validator Synthesis}
+\author{Shafaet Brady Hussain\\Independent researcher}
+\date{27 September 2026\\\small Working paper, version 0.1; author review pending}
+\begin{document}
+\maketitle
+\begin{abstract}
+A reset whose destination depends on validation need not commute with a symmetry, even when both destinations are fixed by that symmetry. We study this issue in the reset--mirror fragment of Zero Boundary Algebra (ZBA) 1.1. For a nonidentity involution on a finite set with two fixed anchors, and an arbitrary Boolean validator, we prove that the generated transformation monoid has at most six elements. Its size is exactly 3, 4, 5, or 6; a complete classification depends only on the validator's anchor values and mirror invariance. We derive exact counts of validators in each class, identify necessary and sufficient conditions for reset idempotence and commutation, and construct the greatest conservative anchored invariant validator when one exists. The latter construction applies the classical Pawlak lower approximation; an exact deletion formula quantifies its cost. Algorithmically independent finite enumeration checks 496 validators and 248 feasible repair inputs. A 36-state ZBA fibre gives a worked application. The contribution is a specification refinement and executable algebraic audit, without a claim of global mathematical priority or physical discovery.
+\end{abstract}
+\section{Problem and contribution}
+ZBA 1.1 models a state using asset, polarity, boundary phase, depth, policy, lineage, commitment, and evidence coordinates \cite{zba}. Its mirror changes polarity; its structural reset sets polarity and phase to neutral and boundary, respectively, and selects evidence according to validation. The published general commutation argument requires an additional condition: validation must be invariant under mirror. Its concrete reference implementation already meets this condition.
+
+This paper makes that dependency explicit and asks a broader question: what is the entire algebra of repeated resets and mirrors when the validator is arbitrary? Rather than postulating all reset laws, we derive them from a small observable contract. The results are:
+\begin{enumerate}
+\item exact criteria for idempotence and commutation;
+\item a six-element normal-form bound and complete cardinality classification;
+\item closed-form counts across all validators on a fixed labelled state space;
+\item a greatest conservative repair with an exact acceptance-loss formula;
+\item reproducible independent closure enumeration and a ZBA-specific counterexample.
+\end{enumerate}
+Transformation monoids and approximation by equivalence classes are established mathematics. Our repair uses Pawlak's lower approximation \cite{pawlak,yao}. The classification is proved here for this restricted contract; the literature review does not establish that no equivalent theorem has appeared elsewhere. No claim about cryptographic security, new arithmetic, or physical laws follows from these results.
+
+\section{A precise finite contract}
+Let $X$ be a finite labelled set with $N\geq4$ elements. Let $M:X\to X$ satisfy $M^2=\id$ and $M\ne\id$. Choose distinct anchors $a_0,a_1\in X$ fixed individually by $M$. A validator is any function $v:X\to\{0,1\}$, and its reset is
+\[
+ R(x)=a_{v(x)}.
+\]
+Write $g:\{0,1\}\to\{0,1\}$ for the anchor map $g(i)=v(a_i)$. Composition is right to left: $AB=A\circ B$. Let $T=\langle M,R\rangle$ denote the monoid including the identity transformation.
+
+An invariant validator satisfies $vM=v$. An anchored validator satisfies $v(a_0)=0$ and $v(a_1)=1$. These are separate requirements. They are not assumed in the general classification.
+
+In full ZBA, reset retains several coordinates. Therefore two globally fixed anchors would misrepresent the full state space. Our application fixes the retained coordinates and operates on one invariant structural fibre. It also omits appended audit history. Equality here means equality of transformations of $X$, not equality of audit trails.
+
+\section{Which reset laws actually hold?}
+\begin{proposition}\label{prop:laws}
+For every validator, $MR=R$. Moreover,
+\[
+ RM=MR\quad\Longleftrightarrow\quad vM=v,
+ \qquad
+ R^2=R\quad\Longleftrightarrow\quad gv=v.
+\]
+The latter condition is equivalent to $g=\id$ or $v$ being constant.
+\end{proposition}
+\begin{proof}
+Both possible outputs of $R$ are fixed by $M$, proving $MR=R$. Since the two anchors are distinct, $R(Mx)=R(x)$ is equivalent to $v(Mx)=v(x)$ for every $x$. Also $R^2(x)=a_{g(v(x))}$, so idempotence is equivalent to $g(v(x))=v(x)$. If $v$ is nonconstant, its image is both bits, forcing $g=\id$. If $v\equiv b$, then $g(b)=v(a_b)=b$, so idempotence holds.
+\end{proof}
+
+\paragraph{A four-state counterexample.}
+Take $X=\{a_0,a_1,u,t\}$, let $M$ swap $u,t$ and fix the anchors, and set $v(a_0)=v(t)=0$, $v(a_1)=v(u)=1$. The reset is idempotent because $g=\id$, but $RM(u)=a_0$ and $MR(u)=a_1$. Thus idempotence alone does not imply compatibility with mirror.
+
+\paragraph{Consequences for specifications.}
+A general reset API should specify validator invariance if commutation is required. Describing validation as stable can express idempotence, but does not by itself state invariance under an independent symmetry. This distinction refines ZBA's generic contract; it does not contradict the evidence-only reference validator.
+
+\section{Complete transformation-monoid classification}
+\begin{theorem}[Normal forms]\label{thm:normal}
+Every element of $T$ belongs to
+\[
+ \{\id,M,R,RM,R^2,R^2M\}.
+\]
+In particular, $|T|\leq6$.
+\end{theorem}
+\begin{proof}
+Use $M^2=\id$ and $MR=R$ to eliminate every occurrence of $M$ except possibly at the far right of a word containing $R$. Every such word is $R^n$ or $R^nM$ with $n\geq1$. Induction gives
+\[
+ R^n(x)=a_{g^{n-1}(v(x))}.
+\]
+There are four unary Boolean maps. If $g=\id$, all positive powers equal $R$. If $g$ swaps the bits, positive powers alternate between $R$ and $R^2$. If $g$ is constant, all powers from the second onward equal $R^2$. Hence the displayed set contains every element.
+\end{proof}
+
+\begin{theorem}[Exact size]\label{thm:size}
+The size of $T$ is given by Table~\ref{tab:size}. All four sizes occur.
+\end{theorem}
+\begin{table}[ht]
+\centering
+\begin{tabular}{lll}
+\toprule
+Anchor map $g$ & Additional condition & $|T|$\\
+\midrule
+Identity & $vM=v$ & 3\\
+Identity & $vM\ne v$ & 4\\
+Bit swap & $vM=v$ & 4\\
+Bit swap & $vM\ne v$ & 6\\
+Constant $b$ & $v\equiv b$ & 3\\
+Constant $b$ & $v$ nonconstant, $vM=v$ & 4\\
+Constant $b$ & $vM\ne v$ & 5\\
+\bottomrule
+\end{tabular}
+\caption{Complete classification under the finite contract.}\label{tab:size}
+\end{table}
+\begin{proof}
+The identity and $M$ are distinct permutations of rank $N$. Every word containing $R$ has rank at most two, so cannot equal either permutation.
+
+If $g=\id$, $R^2=R$ and only $R,RM$ remain. These coincide exactly when $vM=v$ by Proposition~\ref{prop:laws}.
+
+If $g$ swaps bits, $v$ is nonconstant. The two maps $R,RM$ restrict to the swap on the anchors, while $R^2,R^2M$ restrict to the identity there. Thus no map in the first pair equals one in the second. Within either pair equality holds exactly when $vM=v$, since $g$ is injective. There are consequently two or four reset-containing elements.
+
+If $g\equiv b$, then $R^2$ and $R^2M$ are the same constant map $x\mapsto a_b$. When $v\equiv b$, this is also $R=RM$. Otherwise $v$ is nonconstant, so $R,RM$ have rank two and differ from the rank-one constant. Their equality again holds exactly under invariance. This proves every row.
+
+To witness all sizes already on four states, use the involution of the previous section. The bit tuples $(v(a_0),v(a_1),v(u),v(t))$ equal to $(0,1,0,0)$, $(0,1,0,1)$, $(0,0,0,1)$, and $(1,0,0,1)$ give sizes 3, 4, 5, and 6 respectively.
+\end{proof}
+
+The size-three case is the two-element group with an absorbing zero adjoined: $MR=RM=R$ and $R^2=R$. This familiar structure should not be described as an entirely new algebra. In the constant-anchor case, $R^2$ has rank one; in the other nonconstant cases no rank-one map occurs. Accordingly, a two-anchor reset is not automatically a synchronizing transformation in the usual automata terminology \cite{volkov}.
+
+\section{Exact enumeration of validators}
+Let $K$ be the number of $M$-orbits. The anchors form two singleton orbits. Put $H=2^{N-2}$ and $J=2^{K-2}$.
+\begin{theorem}[Counting labelled validators]\label{thm:counts}
+Among the $2^N$ validators on the fixed labelled set with fixed $M,a_0,a_1$, the numbers producing each monoid size are
+\begin{align*}
+ C_3&=J+2,& C_4&=H+2J-2,\\
+ C_5&=2(H-J),& C_6&=H-J.
+\end{align*}
+\end{theorem}
+\begin{proof}
+Each of the four prescribed anchor maps leaves $N-2$ state labels free, giving $H$ validators. Invariant validators are constant on orbits, leaving $K-2$ orbit labels free, giving $J$ for each anchor map. The identity-anchor class contributes $J$ to size three and $H-J$ to size four. The swap class contributes $J$ to size four and $H-J$ to size six. Each constant-anchor class contains exactly one constant validator, contributing one to size three, $J-1$ to size four, and $H-J$ to size five. Adding the four classes gives the formula. Their sum is $4H=2^N$.
+\end{proof}
+These count validators, not isomorphism classes of abstract monoids. No probability distribution over real-world policies is implied by counting them uniformly.
+
+\section{Conservative validator synthesis}
+Write $w\leq v$ for pointwise Boolean order: a repaired policy may remove acceptance but cannot create it. We seek a validator $w$ satisfying
+\[
+ w\leq v,\qquad wM=w,\qquad w(a_0)=0,\quad w(a_1)=1.
+\]
+\begin{theorem}[Greatest conservative anchored repair]\label{thm:repair}
+Such a validator exists if and only if $v(a_1)=1$. If feasible, its unique greatest member is
+\[
+ w_*(x)=\begin{cases}
+ 0,&x=a_0,\\
+ v(x)\wedge v(Mx),&x\ne a_0.
+ \end{cases}
+\]
+Its reset is both idempotent and mirror commuting.
+\end{theorem}
+\begin{proof}
+Necessity follows from $1=w(a_1)\leq v(a_1)$. Suppose $v(a_1)=1$. Because both anchors are singleton orbits, the displayed formula is invariant and has the required anchor labels. It is pointwise below $v$. For any other admissible $w$, invariance and conservativity imply $w(x)=w(Mx)\leq v(Mx)$ and $w(x)\leq v(x)$. Therefore $w(x)\leq v(x)\wedge v(Mx)$ away from $a_0$, and both are zero at $a_0$. Thus $w\leq w_*$. Its anchored values imply idempotence; invariance implies commutation.
+\end{proof}
+
+\begin{corollary}[Exact acceptance loss]\label{cor:loss}
+Let $D(v)=\{x\in X:v(x)\ne v(Mx)\}$. If repair is feasible, the number of accepted states removed by $w_*$ is
+\[
+ L(v)=v(a_0)+\frac{|D(v)|}{2}.
+\]
+This repair uniquely minimizes the number of removed acceptances among admissible validators.
+\end{corollary}
+\begin{proof}
+Every discordant orbit is a two-cycle with one accepted and one rejected element. Repair rejects both, removing exactly one acceptance. Such an orbit contributes two elements to $D(v)$. Concordant orbits lose no acceptance, except that the fixed reject anchor loses one exactly when $v(a_0)=1$. This proves the formula. Since every admissible validator is pointwise below $w_*$, any different one removes at least one additional accepted state.
+\end{proof}
+
+\paragraph{Relation to rough sets.}
+Let $A=v^{-1}(1)$ and let $E$ be the equivalence relation whose classes are $M$-orbits. Pawlak's lower approximation is
+\[
+ \underline{E}(A)=\{x:[x]_E\subseteq A\}.
+\]
+Its indicator is $v(x)\wedge v(Mx)$. The repair is therefore the indicator of $\underline{E}(A)\setminus\{a_0\}$, subject to $a_1\in A$. The greatest-subset interpretation is classical \cite{pawlak,yao}; the anchored feasibility and exact deletion accounting express its use in this reset contract.
+
+\paragraph{When repair is appropriate.}
+Conservative synthesis is suitable only if mirror-related states are intended to have the same authorization. A directional policy may deliberately distinguish them. In that case noncommutation can be correct, and automatically applying this repair would discard legitimate capabilities. A diagnostic should report the violated contract and a counterexample before any policy change.
+
+\section{Application to the public ZBA reference}
+Freeze the retained coordinates of a ZBA structural state and let
+\[
+ X=P\times B\times E,\qquad |P|=3,\quad |B|=3,\quad |E|=4.
+\]
+Here $P$ consists of negative, neutral, and positive polarity; $B$ has the three boundary phases; $E$ has the four evidence statuses. Mirror swaps the two nonneutral polarities. There are 12 fixed neutral states and 12 two-cycles, giving $N=36$ and $K=24$. The anchors have neutral polarity, boundary phase, and rejected or checked evidence respectively.
+
+The reference code uses $v_0(x)=1$ exactly when the old evidence is not rejected. This validator is anchored and invariant, so its monoid has exactly three elements. By contrast,
+\[
+ v_1(p,b,e)=[p\ne\text{negative}]\wedge[e\ne\text{rejected}]
+\]
+is anchored but not invariant. For a positive, emerging, claimed state $x$, $MR(x)=a_1$ but $RM(x)=a_0$. Its reset remains idempotent, and its monoid has size four.
+
+Across all Boolean validators on this fixed fibre, Theorem~\ref{thm:counts} gives Table~\ref{tab:large}.
+\begin{table}[ht]
+\centering
+\begin{tabular}{rr}
+\toprule
+Monoid size & Number of validators\\
+\midrule
+3 & 4,194,306\\
+4 & 17,188,257,790\\
+5 & 34,351,349,760\\
+6 & 17,175,674,880\\
+\midrule
+Total & 68,719,476,736\\
+\bottomrule
+\end{tabular}
+\caption{Formula-derived distribution for $N=36$, $K=24$. The $2^{36}$ validators were not exhaustively executed.}\label{tab:large}
+\end{table}
+
+\section{Reproducible verification and source custody}
+The companion \texttt{verify\_reset\_algebra.py} uses Python's standard library. Transformations are represented explicitly as tuples of images. Its closure computation composes generators until no new transformations appear, independently of the normal-form prediction. It enumerates every Boolean validator for one documented involution at each $N=4,\ldots,8$, compares measured closure sizes with the classification, checks the two compatibility equivalences, and compares repair against independently enumerated admissible policies.
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+\toprule
+$N$ & Validators & Size 3 & Size 4 & Size 5 & Size 6\\
+\midrule
+4 & 16 & 4 & 6 & 4 & 2\\
+5 & 32 & 6 & 14 & 8 & 4\\
+6 & 64 & 6 & 22 & 24 & 12\\
+7 & 128 & 10 & 46 & 48 & 24\\
+8 & 256 & 18 & 94 & 96 & 48\\
+\bottomrule
+\end{tabular}
+\caption{Exhaustive checks for the five specified small involutions.}\label{tab:checks}
+\end{table}
+All 496 validator cases passed. The 248 feasible repair inputs also passed. The checker includes four explicit 36-state fixtures realizing sizes 3 through 6 and an idempotent noncommuting counterexample. These finite checks support implementation reproducibility; the proofs establish the general statements. They are not benchmarks of an AI model or evidence of physical performance.
+
+Run \texttt{python verify\_reset\_algebra.py} from the artifact directory. Assertion failure produces a nonzero exit status; the accompanying \texttt{results.json} records inputs, outcomes, and the distinction between enumeration and formula-derived counts.
+
+Public source snapshots were retrieved on 27 September 2026. The GitHub specification and reference implementation at revision \texttt{2991a3c97d9b} are byte-identical to their Hugging Face counterparts at revision \texttt{12ac9a62d2cf}. Full revisions, retrieval URLs, byte sizes, and SHA-256 digests are recorded in \texttt{source-manifest.json}. The preserved copies are under \texttt{sources/}. This paper does not use private credentials, unpublished personal data, or confidential implementation material.
+
+\section{Engineering use and further questions}
+A practical reset-contract checker can return four concrete outputs: whether reset is idempotent, whether it commutes with mirror, a failing state when either property fails, and the finite set of distinct operation behaviours. If invariant authorization is a product requirement, it can additionally return the greatest conservative candidate and the exact number of acceptances it removes. This reduces an ambiguous policy question to a finite inspectable contract.
+
+Several extensions require separate work. If symmetry permutes rather than fixes anchors, $MR=R$ need not hold and the six-element classification no longer follows. With more than two validation outcomes, iterates of the induced anchor map can have longer periods and transient chains. Stateful validators, time-varying authorization, or appended provenance require a different state model. None of those broader systems is claimed to have been classified here.
+
+The useful next empirical step is to apply the checker to real, explicitly finite authorization policies and report which invariance assumptions are actually intended. Such a study should distinguish a mathematical contract violation from a product defect; they are not interchangeable.
+
+\section{Conclusion}
+Reset compatibility is controlled by validation, not only by the geometry of the reset destinations. For two fixed anchors and an involutive mirror, this observation yields a complete small-monoid classification, exact validator counts, and a conservative synthesis rule with quantified cost. In ZBA 1.1 it strengthens the generic specification while confirming the compatibility of the concrete evidence-only reset. The resulting contribution is a compact, independently checkable piece of formal mathematics with a direct policy-auditing use.
+
+\paragraph{Authorship and assistance.}
+Prepared as a research draft for Shafaet Brady Hussain, whose public ZBA work supplies the application and baseline. AI assistance was used for drafting, derivation, source comparison, independent critique, and verification-code preparation. The named author should review the proofs, attribution, and claims before public submission. This draft has not undergone external peer review.
+
+\begin{thebibliography}{9}
+\bibitem{zba} S. B. Hussain. \emph{Zero Boundary Algebra: Formal Specification 1.1}. Public preprint, 18 August 2026. \href{https://github.com/ResearchForumOnline/research/blob/2991a3c97d9bb3d6c27f3fd7674ae93020f2a49a/papers/zero-boundary-algebra-formal-specification-1.1.md}{GitHub pinned specification}; \href{https://huggingface.co/datasets/researchforumonline/zero-boundary-algebra}{Hugging Face companion release}.
+\bibitem{pawlak} Z. Pawlak. Rough sets. \emph{International Journal of Computer \& Information Sciences} 11, 341--356 (1982). \href{https://doi.org/10.1007/BF01001956}{doi:10.1007/BF01001956}.
+\bibitem{yao} Y. Y. Yao. Constructive and algebraic methods of the theory of rough sets. \emph{Information Sciences} 109(1--4), 21--47 (1998). \href{https://www2.cs.uregina.ca/~yyao/PAPERS/is_constructive.pdf}{Author-hosted manuscript}.
+\bibitem{volkov} M. V. Volkov. Synchronization of finite automata. \emph{Russian Mathematical Surveys} 77(5), 819--891 (2022). \href{https://doi.org/10.4213/rm10005e}{doi:10.4213/rm10005e}.
+\end{thebibliography}
+\end{document}

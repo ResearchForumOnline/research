@@ -1,0 +1,29 @@
+{
+  "retrieved": "2026-09-27",
+  "sources": [
+    {
+      "file": "sources/github-spec.md",
+      "url": "https://raw.githubusercontent.com/ResearchForumOnline/research/2991a3c97d9bb3d6c27f3fd7674ae93020f2a49a/papers/zero-boundary-algebra-formal-specification-1.1.md",
+      "sha256": "80510016d6ff53a28c0a04c2c41a5b53ad5e1da1e325a01cec10d7ff06b6f598",
+      "bytes": 55869
+    },
+    {
+      "file": "sources/github-reference.py",
+      "url": "https://raw.githubusercontent.com/ResearchForumOnline/research/2991a3c97d9bb3d6c27f3fd7674ae93020f2a49a/artifacts/zba-1.1/zba_reference.py",
+      "sha256": "fc717e1c60c3a42fab83f80370f4dbc31b33d6ff95fcdc643b94bba3bc5328d6",
+      "bytes": 5431
+    },
+    {
+      "file": "sources/huggingface-spec.md",
+      "url": "https://huggingface.co/datasets/researchforumonline/zero-boundary-algebra/resolve/12ac9a62d2cfbf50f3d33fbc6db19b406d31c4b1/zero-boundary-algebra-formal-specification-1.1.md",
+      "sha256": "80510016d6ff53a28c0a04c2c41a5b53ad5e1da1e325a01cec10d7ff06b6f598",
+      "bytes": 55869
+    },
+    {
+      "file": "sources/huggingface-reference.py",
+      "url": "https://huggingface.co/datasets/researchforumonline/zero-boundary-algebra/resolve/12ac9a62d2cfbf50f3d33fbc6db19b406d31c4b1/zba_reference.py",
+      "sha256": "fc717e1c60c3a42fab83f80370f4dbc31b33d6ff95fcdc643b94bba3bc5328d6",
+      "bytes": 5431
+    }
+  ]
+}
