@@ -8,8 +8,8 @@ license: "CC BY 4.0"
 
 # Release Evidence Boundaries for Cross-Platform, Self-Hosted AI Agents
 
-**Shafaet Brady Hussain**  
-Independent researcher, ResearchForumOnline, United Kingdom  
+**Shafaet Brady Hussain**
+Independent researcher, ResearchForumOnline, United Kingdom
 27 September 2026
 
 ## Abstract

@@ -8,8 +8,8 @@ license: "CC BY 4.0"
 
 # Bounded Continuation and Progress Evidence in Long-Session Coding Agents
 
-**Shafaet Brady Hussain**  
-Independent researcher, ResearchForumOnline, United Kingdom  
+**Shafaet Brady Hussain**
+Independent researcher, ResearchForumOnline, United Kingdom
 27 September 2026
 
 ## Abstract

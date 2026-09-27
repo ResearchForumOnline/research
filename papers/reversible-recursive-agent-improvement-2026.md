@@ -8,8 +8,8 @@ license: "CC BY 4.0"
 
 # Reversible Recursive Source Improvement with Candidate Isolation
 
-**Shafaet Brady Hussain**  
-Independent researcher, ResearchForumOnline, United Kingdom  
+**Shafaet Brady Hussain**
+Independent researcher, ResearchForumOnline, United Kingdom
 27 September 2026
 
 ## Abstract

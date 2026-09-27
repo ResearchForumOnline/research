@@ -8,8 +8,8 @@ license: "CC BY 4.0"
 
 # Outcome-First Task Navigation for Local and Self-Hosted Coding Agents
 
-**Shafaet Brady Hussain**  
-Independent researcher, ResearchForumOnline, United Kingdom  
+**Shafaet Brady Hussain**
+Independent researcher, ResearchForumOnline, United Kingdom
 27 September 2026
 
 ## Abstract
