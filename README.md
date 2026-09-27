@@ -21,6 +21,10 @@ This repo is designed for clean, citeable public work:
 
 ## New Working Papers
 
+### Boundary Completion and Cycle Memory (PDF draft, 27 September 2026)
+
+[**Boundary Completion and Cycle Memory in Zero Boundary Algebra**](papers/zba-boundary-completion-cycle-memory-0.1.md) by **Shafaet Brady Hussain**. The index links the [original 17-page PDF](papers/ZBA_368_Boundary_Completion_and_Cycle_Memory.pdf), covering guarded phase transitions, endpoint algebra and cycle memory, validator equivariance, and auditable histories. The supplied PDF is preserved without modification; it identifies itself as working research draft 0.1 and contains an AI-assistance disclosure. Claims and scope limits are described in the paper.
+
 ### Zero Boundary Algebra: reset compatibility (27 September 2026)
 
 [**Reset Compatibility in Zero Boundary Algebra — Six-Element Transformation Monoids and Conservative Validator Synthesis**](papers/zba-reset-compatibility-0.1.md), by **Shafaet Brady Hussain**. Complete proofs classify the reset–mirror monoid, refine the validator contract, and quantify conservative repair. Includes [LaTeX manuscript](papers/zba-reset-compatibility-0.1.tex) and [reproducibility artifacts](artifacts/zba-reset-compatibility-0.1/README.md): 496 small validator cases and 248 feasible synthesis inputs passed. Working paper with AI assistance disclosed; no global-priority or external-peer-review claim.
