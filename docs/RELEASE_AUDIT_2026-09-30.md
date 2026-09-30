@@ -80,9 +80,13 @@ Original 0.3.32 release assets were retained.
 [TalkToAI](https://talktoai.org/) was updated through the existing free Cloudflare
 Pages project. The reviewed production upload contained 81 files, 27 HTML pages
 and 400 checked internal references with zero local validation errors. Its ZIP
-SHA-256 was `0e106c52b44f81b2bcd399ed749999e98983767edc49ae06e59fa52c2a0c2856`.
+SHA-256 for the final status upload was
+`1297aee15fad0a6ac1960fe9c16934e6d88a9af1b59dddceedbdf127418823a2`.
 Publication text now describes confirmed Store versions, and privacy and download
-pages no longer describe those updates as awaiting publication.
+pages no longer describe those updates as awaiting publication. The final
+[production deployment](https://f945168a.talktoai-org.pages.dev/), verified through
+canonical talktoai.org pages, also distinguishes the public Antivirus 0.3.33
+GitHub download from its pending Store certification.
 
 Three scoped HTTPS redirects restore existing ZSEC update, intelligence and rule
 paths to the existing signed GitHub Pages publisher. Product and privacy pages
