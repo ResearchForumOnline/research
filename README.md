@@ -1,23 +1,24 @@
 # ResearchForumOnline Research
 
-Public research-paper releases generated from the public [Research Forum Online](https://research.talktoai.org) corpus using the ZeroThink Paper Creator method.
+Preserved public research papers, mathematical specifications and reproducibility artifacts by Shafaet Brady Hussain and identified contributors. GitHub is the durable publication location; former hosted services are not required to read this repository.
 
 This repo is designed for clean, citeable public work:
 
 - source-ledger first
 - claim/evidence graph before synthesis
 - careful academic wording
-- no private ZMath, ZeroThink, server, or key material
+- no private policy services, prompts, server credentials, or key material
 - generated working papers ready for human review
 
-## Public Workflow Links
+## Preserved projects and source
 
-- [TalkToAI ecosystem](https://talktoai.org/) - public project hub, course, docs, and product routes.
-- [CallChat ZERO](https://callchat.org/) - Matrix-compatible secure communication and Shield licensing lane.
-- [Benchmark Results](BENCHMARKS.md) - Shafire, Spectra, TalkToAI, and OpenZero public benchmark snapshots.
-- [QuantumEncryption1 Paper Creator evidence workflow](https://quantumencryption1.com/paper-creator-evidence-workflow/) - student and research workflow for survey expansion, source ledgers, and claim/evidence/provenance graphs.
-- [Quantum-ready evidence workflow](https://quantumencryption1.com/quantum-evidence-workflow/) - controlled PoC lane for provenance graphs and classical versus simulator/quantum optimisation tests.
-- [ZeroThink Paper Creator](https://zerothink.talktoai.org/research-paper-creator) - live research-paper drafting tool.
+- [OpenZero](https://github.com/ResearchForumOnline/OpenZero): independent self-hosted AI runtime, local improvement and training workspaces, and optional operator-configured peer exchange.
+- [ZMath](https://github.com/ResearchForumOnline/ZMath): standalone browser encryption workspace and preserved public QuantumEncryption1 website material. Newly released author-owned code uses PolyForm Noncommercial 1.0.0; research already published under CC BY 4.0 retains that license.
+- [Preservation catalog](docs/PROJECT_PRESERVATION.md): project locations, source boundaries and archived-service status.
+- [Benchmark Results](BENCHMARKS.md): preserved public benchmark snapshots.
+- [TalkToAI](https://talktoai.org/): static public project hub; no central runtime is required.
+
+Historical papers may contain dated references to CallChat, ZeroThink, ResearchForumOnline or QuantumEncryption1 hosted services. Those references are part of the original evidence record, not a statement that the services are currently available.
 
 ## New Working Papers
 
@@ -88,4 +89,4 @@ python tools/build_research_release.py
 
 ## Safety Boundary
 
-Read [PUBLIC_RELEASE_BOUNDARY.md](PUBLIC_RELEASE_BOUNDARY.md) before adding material. This repo is public research text only. It does not publish proprietary encryption code, private prompts, keys, credentials, customer data, or live-server internals.
+Read [PUBLIC_RELEASE_BOUNDARY.md](PUBLIC_RELEASE_BOUNDARY.md) before adding material. This repo publishes research and reproducibility artifacts. The separately reviewed ZMath source release is linked above; private prompts, credentials, customer data and server policy internals remain excluded. Historical papers retain their original licenses and claims boundaries.
