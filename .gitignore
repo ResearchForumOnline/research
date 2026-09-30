@@ -1,4 +1,6 @@
 dist/
 __pycache__/
-*.pyc
+*.py[cod]
 tmp/
+.DS_Store
+Thumbs.db
