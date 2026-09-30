@@ -21,6 +21,27 @@ hold; the publisher completed Publish now under the owner's authorization, then
 verified public availability. This does not verify an installed upgrade on the
 owner's PC. Store updates and direct downloads have separate channels.
 
+### Later Antivirus compatibility update
+
+After that four-product publication check, a separately versioned Antivirus
+0.3.33 compatibility patch was released on GitHub and submitted to Microsoft.
+The [0.3.33 Windows release](https://github.com/ResearchForumOnline/ZSEC-Shield/releases/tag/v0.3.33-windows)
+is public and is the latest direct Antivirus release. Partner Center accepted
+the validated `ZSEC-Antivirus-0.3.33.0-x64.msix` into Submission 4 and shows
+**Update in certification**, with automatic publication after certification.
+The live Store package remains 0.3.32.0 at this audit checkpoint; submission is
+not certification or public availability of 0.3.33.0. Customer release notes and
+reviewer instructions were updated to describe the compatibility change and the
+remaining manual clean-device installation and upgrade acceptance checks.
+
+The uploaded MSIX is 36,417,247 bytes with SHA-256
+`fef4c46c0d95887fa153e292d9e359b5694ee0c0cf590485c2415adb1cf98f5f`.
+Its 1,086 runtime files match the fresh direct payload. The public direct ZIP is
+33,860,318 bytes with SHA-256
+`2613a665949187747ecfa38d202361a80a44b736e87fa1d9e2ae30e2d6ada1de`;
+its actual downloaded bytes, CRC and 1,107 manifest entries were verified.
+Original 0.3.32 release assets were retained.
+
 ## Source and package evidence
 
 - **TalkToAi Code:** fresh Windows installer and portable payload, all 23 packaged
@@ -77,6 +98,30 @@ identified: the complete intelligence feed is 2,379,423 bytes, exceeding the
 current downloader's 2 MiB cap despite the intelligence verifier's 8 MiB cap.
 Redirects alone do not resolve that client limit; its compatibility fix must have
 separate version and validation evidence.
+
+Antivirus 0.3.33 supplies that fix. A dedicated intelligence transport has a fixed
+8 MiB maximum, while the existing public application/rules transport retains
+its 2 MiB maximum and application metadata still has its 64 KiB verification
+limit. Signature verification, expiry, rollback resistance, credential-free
+HTTPS, bounded redirects and last-known-good retention remain enforced.
+The patch passed 327 tests plus 14 subtests, Ruff and mypy; large valid,
+oversized, tampered, expired and rollback cases are covered. The
+[release-source CI](https://github.com/ResearchForumOnline/ZSEC-Shield/actions/runs/36751698775)
+and [final publication-documentation CI](https://github.com/ResearchForumOnline/ZSEC-Shield/actions/runs/36752849970)
+passed.
+
+The [next protected signed publisher](https://github.com/ResearchForumOnline/ZSEC-Shield/actions/runs/36752105431)
+completed sequence 61, advertising exact 0.3.33 release metadata. Canonical
+talktoai.org application, intelligence and rule endpoints matched the GitHub
+mirror byte for byte and passed the unchanged bundled pinned-key, digest,
+expiry and signed-audit checks. The actual packaged client installed all 1,648
+advisories into disposable test state. The notice remains notification-only;
+automatic executable installation is disabled. Sequence 61 expires on
+7 October 2026 at 17:33:24 UTC and is maintained by the existing publisher,
+rather than a copied static snapshot. The advisory refresh failed closed, so
+the publisher reused the complete last validated catalog; this is not a claim
+that every advisory source was refreshed. See the
+[public signed verification receipt](https://github.com/ResearchForumOnline/ZSEC-Shield/blob/main/docs/releases/ZSEC_SIGNED_FEED_SEQUENCE_61.json).
 
 ## Other current public work
 
