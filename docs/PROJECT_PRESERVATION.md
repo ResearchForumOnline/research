@@ -7,6 +7,7 @@ Author: Shafaet Brady Hussain.
 | Work | Preserved location | Scope |
 | --- | --- | --- |
 | OpenZero runtime | https://github.com/ResearchForumOnline/OpenZero | Self-hosted code, source candidates, training workspace, independent nodes |
+| OpenZero static home | https://researchforumonline.github.io/OpenZero/ | Free static documentation and release links; no inference or required node |
 | ZMath implementation | https://github.com/ResearchForumOnline/ZMath | Browser encryption code, local workspace, synthetic tests and source hashes |
 | ZMath static app | https://researchforumonline.github.io/ZMath/ | Public static delivery; file/message encryption runs in the browser, no accounts or API |
 | QuantumEncryption1 public pages | https://github.com/ResearchForumOnline/ZMath/tree/main/archive/quantumencryption1 | Static historical archive of 17 former public pages; forms and APIs removed |
@@ -14,6 +15,7 @@ Author: Shafaet Brady Hussain.
 | Boundary completion and cycle memory | [Read preserved paper](../papers/zba-boundary-completion-cycle-memory-0.1.md) | Original uploaded working-paper PDF and index |
 | ZME1 research | [Read preserved paper](../papers/zmath-shield-zme1-evidence-containers-1.0.md) | Dated specification, source hashes, cryptographic claims and limitations |
 | Quantum evidence research | [Read preserved paper](../papers/quantum-ready-evidence-graphs.md) | Classical/synthetic evaluation, separate from hardware advantage claims |
+| Formatted paper archive | [11 PDF/DOCX pairs](../papers/formatted/README.md) | Original formatted copies of existing public manuscripts with byte hashes and original rights |
 
 ## Service status and interpretation
 

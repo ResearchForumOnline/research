@@ -15,6 +15,7 @@ This repo is designed for clean, citeable public work:
 - [OpenZero](https://github.com/ResearchForumOnline/OpenZero): independent self-hosted AI runtime, local improvement and training workspaces, and optional operator-configured peer exchange.
 - [ZMath](https://github.com/ResearchForumOnline/ZMath): standalone browser encryption workspace and preserved public QuantumEncryption1 website material. Newly released author-owned code uses PolyForm Noncommercial 1.0.0; research already published under CC BY 4.0 retains that license.
 - [Preservation catalog](docs/PROJECT_PRESERVATION.md): project locations, source boundaries and archived-service status.
+- [Formatted paper archive](papers/formatted/README.md): 11 previously public manuscripts preserved as original PDF and DOCX pairs, with individual rights and SHA-256 provenance.
 - [Benchmark Results](BENCHMARKS.md): preserved public benchmark snapshots.
 - [TalkToAI](https://talktoai.org/): static public project hub; no central runtime is required.
 
