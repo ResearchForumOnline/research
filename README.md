@@ -13,13 +13,17 @@ This repo is designed for clean, citeable public work:
 ## Preserved projects and source
 
 - [OpenZero](https://github.com/ResearchForumOnline/OpenZero): independent self-hosted AI runtime, local improvement and training workspaces, and optional operator-configured peer exchange.
-- [ZMath](https://github.com/ResearchForumOnline/ZMath): standalone browser encryption workspace and preserved public QuantumEncryption1 website material. Newly released author-owned code uses PolyForm Noncommercial 1.0.0; research already published under CC BY 4.0 retains that license.
+- [ZeroThink Local 1.0](https://github.com/ResearchForumOnline/ZeroThink): new Apache-2.0 open-source research engine and standalone CLI, with offline evidence maps, nine research processes, selected-source ledgers and optional bounded draft, critique and revision passes. [Download v1.0.0](https://github.com/ResearchForumOnline/ZeroThink/releases/tag/v1.0.0); no company endpoint, account or hosted database is required.
+- [ZMath Local 1.1](https://github.com/ResearchForumOnline/ZMath): standalone file/message encryption, the [dual-key notes and attachment vault](https://researchforumonline.github.io/ZMath/dual-key/), preserved signed device-envelope research and public QuantumEncryption1 website material. [Download v1.1.0](https://github.com/ResearchForumOnline/ZMath/releases/tag/v1.1.0). Newly released author-owned code uses PolyForm Noncommercial 1.0.0; research already published under CC BY 4.0 retains that license.
+- [ZERO ONE Desktop](https://github.com/ResearchForumOnline/ZERO-ONE-Desktop): the desktop integration project and [general Microsoft Store product listing](https://apps.microsoft.com/detail/9PMPR7PTW025). ZeroThink integration is being prepared for the 8.0 update; these links do not claim that version is certified, published or installed.
 - [Preservation catalog](docs/PROJECT_PRESERVATION.md): project locations, source boundaries and archived-service status.
 - [Formatted paper archive](papers/formatted/README.md): 11 previously public manuscripts preserved as original PDF and DOCX pairs, with individual rights and SHA-256 provenance.
 - [Benchmark Results](BENCHMARKS.md): preserved public benchmark snapshots.
 - [TalkToAI](https://talktoai.org/): static public project hub; no central runtime is required.
 
 Historical papers may contain dated references to CallChat, ZeroThink, ResearchForumOnline or QuantumEncryption1 hosted services. Those references are part of the original evidence record, not a statement that the services are currently available.
+
+The new ZeroThink Local source release is distinct from the historical ZeroThink service papers below. Source-ID checking and repeated model revision do not establish factual truth, scientific novelty or peer review. The dual-key vault uses standard AES-256-GCM layers; two layers do not constitute AES-512, and its small visual-pattern space does not replace a long unique passphrase. Preserved experimental signed-envelope code is not a live mail service or an independently certified protocol.
 
 ## New Working Papers
 
