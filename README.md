@@ -12,6 +12,8 @@ This repo is designed for clean, citeable public work:
 - no private policy services, prompts, server credentials, or key material
 - generated working papers ready for human review
 
+[Reviewed dataset catalog](https://github.com/ResearchForumOnline/research-datasets) · [23 October dataset release](https://github.com/ResearchForumOnline/research-datasets/releases/tag/datasets-2026.10.23). Original synthetic curricula, licensed mixtures, research reference packs and historical benchmark metrics are distributed separately with provenance, source-specific terms and checksums. Read the [AI dataset overlap and evaluation notes](https://github.com/ResearchForumOnline/research-datasets/blob/main/AI_DATASETS.md); component/variant counts are not independent examples, and publication does not establish model or biological validity.
+
 ## Preserved projects and source
 
 - [OpenZero 7.3.1](https://github.com/ResearchForumOnline/OpenZero/releases/tag/v7.3.1): independent self-hosted AI runtime, locally served browser client, explicit local/cloud model routing, local improvement and training workspaces, and optional operator-configured peer exchange. [Source](https://github.com/ResearchForumOnline/OpenZero). No owner-hosted login or coordinator is required for supported local operation; models and dependencies install separately.
