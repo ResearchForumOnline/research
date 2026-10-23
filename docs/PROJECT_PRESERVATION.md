@@ -2,6 +2,15 @@
 
 Author: Shafaet Brady Hussain.
 
+**23 October 2026 source update:** the original [ZeroThink DNA Lab v1.7.1 and
+full PHP application](https://github.com/ResearchForumOnline/ZeroThink/tree/main/web)
+are now published at [restoration commit 7e5f8bf](https://github.com/ResearchForumOnline/ZeroThink/commit/7e5f8bf07e6e57286d3bac35a83fd92e90c48add).
+The earlier Local engine is a separate companion. [OpenZero 7.3.1](https://github.com/ResearchForumOnline/OpenZero/releases/tag/v7.3.1)
+is also published with local browser assets and corrected model routing. The
+September table and preservation-kit evidence below retain their original dated
+scope; see the [current research/source catalog](OPEN_RESEARCH.md) for the new
+source links and limits.
+
 ## Durable locations
 
 | Work | Preserved location | Scope |

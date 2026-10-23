@@ -16,13 +16,14 @@ implementation and a complete application are different research outputs.
 | Boundary completion and cycle memory | [Original paper index](../papers/zba-boundary-completion-cycle-memory-0.1.md) | Preserved supplied PDF, working draft and its disclosures |
 | Reset compatibility | [Paper and proofs](../papers/zba-reset-compatibility-0.1.md) and [reproducibility package](../artifacts/zba-reset-compatibility-0.1/) | Transformation monoids, exhaustive small cases and validator synthesis |
 | Historical ZeroThink architecture | [Original architecture paper](../papers/zerothink-reproducible-architecture-1.0.md), [reference artifacts](../artifacts/zerothink-architecture-1.0/) and [formatted originals](../papers/formatted/) | Dated service architecture and evaluation evidence; these documents do not contain the full original hosted application |
-| ZeroThink application source | [ZeroThink repository](https://github.com/ResearchForumOnline/ZeroThink) | The September Local CLI release is a separate portable engine. Consult the repository's current README and source provenance for the full DNA lab restoration; the CLI alone does not preserve that application |
+| Original ZeroThink DNA Lab and full application | [Published full PHP source](https://github.com/ResearchForumOnline/ZeroThink/tree/main/web), [setup](https://github.com/ResearchForumOnline/ZeroThink/blob/main/web/README.md) and [exact restoration commit](https://github.com/ResearchForumOnline/ZeroThink/commit/7e5f8bf07e6e57286d3bac35a83fd92e90c48add) | Original DNA Lab v1.7.1 plus restored research/account-backed web source. The local DNA interface runs without MySQL or hosted login. Reference/model packs install separately; source and synthetic software checks are not biological validation |
+| ZeroThink Local companion | [Companion source and CLI](https://github.com/ResearchForumOnline/ZeroThink) | The September portable engine is a separate companion and is not the full original DNA Lab |
 | Bio-inspired computation | [Paper](../papers/bio-digital-research-boundaries.md) and [code](../artifacts/bio-inspired-recursive-computation-1.0/) | Deterministic formula audit and bounded recurrence, with biological-claim limits |
 | Probability of Goodness | [Paper](../papers/probability-of-goodness-ethical-routing.md) and [code](../artifacts/probability-goodness-routing-1.0/) | Routing audit, synthetic counterexamples and reference contract |
 | Quantum evidence graphs | [Paper](../papers/quantum-ready-evidence-graphs.md) and [code](../artifacts/quantum-evidence-qpu-factor-1.0/) | Classical/synthetic baseline and QPU-factor interface contract; no grant-funded hardware results are introduced by this catalog |
 | Offline circuit protocol | [ORP-001 source, fixtures and reproduction](../artifacts/offline-circuit-protocol-1.0/) | Newly frozen four-qubit, ten-circuit local-only protocol extracted from author-owned offline helpers; 17 software tests, no service results or external execution |
 | Research-corpus methods | [Paper](../papers/research-forum-corpus-synthesis-2026.md) and [code](../artifacts/research-corpus-claim-risk-1.0/) | Text-free metadata, title-based review queues and synthetic rule checks |
-| OpenZero methods | [Runtime paper](../papers/openzero-local-first-agent-runtime-1.0.md), [model methodology](../papers/openzero-model-dataset-methodology-1.0.md) and [application source](https://github.com/ResearchForumOnline/OpenZero) | Papers, frozen reference artifacts and the separately licensed application |
+| OpenZero methods and independent nodes | [Runtime paper](../papers/openzero-local-first-agent-runtime-1.0.md), [model methodology](../papers/openzero-model-dataset-methodology-1.0.md), [application source](https://github.com/ResearchForumOnline/OpenZero) and [7.3.1 download](https://github.com/ResearchForumOnline/OpenZero/releases/tag/v7.3.1) | Papers, frozen reference artifacts and the separately licensed application; 7.3.1 serves its required browser client locally and fixes explicit model routing and automatic-repair controls |
 | ZMath and protected communications | [ZME1 paper](../papers/zmath-shield-zme1-evidence-containers-1.0.md), [communications paper](../papers/zmail-callchat-protected-communications-1.0.md) and [application source](https://github.com/ResearchForumOnline/ZMath) | Standard-primitive protocols, reference evidence and the separately licensed browser application |
 | Engineering evaluation | [Cymatics](../papers/cymatics-zero-platform-evaluation-1.0.md), [ZeroMint](../papers/zeromint-aios-engineering-evaluation-1.0.md) and [TalkToAi Code systems papers](../sources/talktoai-code-8-evidence-ledger.md) | Source-grounded engineering preprints and their stated limitations |
 
@@ -75,9 +76,9 @@ the particular scope stated by their papers and artifact READMEs.
 
 ## Publication scope
 
-The original DNA lab source restoration is a separate application release task.
-This research catalog does not assert that the September Local CLI is the full
-lab or that every private research folder has been published. Personal genotype
+The original DNA lab source restoration is published in the linked application
+repository. The September Local CLI remains a separate companion. This catalog
+does not assert that every private research folder has been published. Personal genotype
 files, customer records, production databases, private correspondence, login and
 recovery material, deployment secrets and material subject to separate rights or
 publication agreements are outside this repository's publication scope. Public
