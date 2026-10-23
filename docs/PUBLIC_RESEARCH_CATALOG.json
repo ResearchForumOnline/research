@@ -1,0 +1,1325 @@
+{
+  "schema": "research-public-catalog.v1",
+  "scope": "Git-tracked papers, artifacts, sources and data in this public repository only",
+  "integrity_boundary": "Hashes describe bytes; they do not establish scientific validity, ownership, peer review or privacy clearance",
+  "rights_boundary": "Read LICENSE.md, file declarations, nearby notices and docs/OPEN_RESEARCH.md; no rights are inferred from public visibility alone",
+  "current_rights_notice": "LICENSE.md",
+  "counts": {
+    "archive-metadata": 2,
+    "formatted-manuscript": 22,
+    "manuscript": 31,
+    "manuscript-companion": 2,
+    "public-data-or-metadata": 13,
+    "reproducibility-artifact": 105,
+    "source-ledger": 2
+  },
+  "file_count": 177,
+  "files": [
+    {
+      "path": "artifacts/bio-inspired-recursive-computation-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 323,
+      "sha256": "7bf78013d04832d8abbcfdb4a3ff945d422325f1d687589dcffb014f18a8572d",
+      "nearby_notices": [
+        "artifacts/bio-inspired-recursive-computation-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/bio-inspired-recursive-computation-1.0/LICENSE",
+      "category": "reproducibility-artifact",
+      "bytes": 450,
+      "sha256": "28ce6050db942d64189b9f58e32882e2f29217219266169f57194d52b3ff01e2",
+      "nearby_notices": [
+        "artifacts/bio-inspired-recursive-computation-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/bio-inspired-recursive-computation-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 342,
+      "sha256": "1c958e8f4369a0f2a56502a51cb2e325daf6a4194bab9508c8f9afa3175bcf35",
+      "nearby_notices": [
+        "artifacts/bio-inspired-recursive-computation-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/bio-inspired-recursive-computation-1.0/RELEASE_NOTES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 263,
+      "sha256": "20f37ab8ca08fe453d6f106d56357652574312ad4f8918045f863134522a09b8",
+      "nearby_notices": [
+        "artifacts/bio-inspired-recursive-computation-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/bio-inspired-recursive-computation-1.0/SHA256SUMS",
+      "category": "reproducibility-artifact",
+      "bytes": 756,
+      "sha256": "4aa596670794dcbbc030696a009e2486cd89b938a18e0c0792ca67c83bf5cad5",
+      "nearby_notices": [
+        "artifacts/bio-inspired-recursive-computation-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/bio-inspired-recursive-computation-1.0/audit_simulator.py",
+      "category": "reproducibility-artifact",
+      "bytes": 1386,
+      "sha256": "bda73a4badfe7124be09819d830daf584a3f94464ec9f700bd02ac97131069a2",
+      "nearby_notices": [
+        "artifacts/bio-inspired-recursive-computation-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/bio-inspired-recursive-computation-1.0/recurrence-results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 347,
+      "sha256": "e7ad4220d93d4b2c522d11240fb3310d77e6b453c32423459d6f8109f5868254",
+      "nearby_notices": [
+        "artifacts/bio-inspired-recursive-computation-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/bio-inspired-recursive-computation-1.0/recursive_adaptation.py",
+      "category": "reproducibility-artifact",
+      "bytes": 1169,
+      "sha256": "d7c0c51ce3b0bd016bb0547504c4609e94165e7b03a9b05372645604b2f5b488",
+      "nearby_notices": [
+        "artifacts/bio-inspired-recursive-computation-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/bio-inspired-recursive-computation-1.0/simulator-audit-results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 358,
+      "sha256": "593a882c6f4be16f15ce40bdf3b87e8d79c5725bedf11c02554cae92c8327290",
+      "nearby_notices": [
+        "artifacts/bio-inspired-recursive-computation-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/bio-inspired-recursive-computation-1.0/verify_summary.py",
+      "category": "reproducibility-artifact",
+      "bytes": 312,
+      "sha256": "5cb6e62f21b7c3aacaeeab8e6f4a70ee2d98f0b9742f1c650439862951bf9439",
+      "nearby_notices": [
+        "artifacts/bio-inspired-recursive-computation-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/cymatics-zero-evaluation-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 329,
+      "sha256": "2e65bb2ebc13c858e518c5b6877c0aeb55e32bd47f2e7c7a0820af07a815855c"
+    },
+    {
+      "path": "artifacts/cymatics-zero-evaluation-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 332,
+      "sha256": "5ec657607f56882b9f94ed874ddf09b99f8955b909fbc152f0c9a7311d528212"
+    },
+    {
+      "path": "artifacts/cymatics-zero-evaluation-1.0/RELEASE_NOTES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 525,
+      "sha256": "8ac77fbec284ac4042d6a382ed5b8202059af29cb72d75daaf35d41a6e4aa33c"
+    },
+    {
+      "path": "artifacts/cymatics-zero-evaluation-1.0/SHA256SUMS.txt",
+      "category": "reproducibility-artifact",
+      "bytes": 627,
+      "sha256": "cf260567833d2d1561e8b30d9a8a73bc98c83489874dfd898cf89a5c8fc00fa0"
+    },
+    {
+      "path": "artifacts/cymatics-zero-evaluation-1.0/evaluation-summary.json",
+      "category": "reproducibility-artifact",
+      "bytes": 844,
+      "sha256": "4b943b11a61d4f9db1aea4a24545fd2b6fe26f0cc898650ee3408bb06673c1b7"
+    },
+    {
+      "path": "artifacts/cymatics-zero-evaluation-1.0/verify_summary.py",
+      "category": "reproducibility-artifact",
+      "bytes": 888,
+      "sha256": "c81c7b3594c5c1060ba824051994af71dc1fd57f6cab04f05d063e72340e86a3"
+    },
+    {
+      "path": "artifacts/openzero-model-methodology-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 335,
+      "sha256": "bfca7f3cedea6bd8e2af2e365395ce26d8c7016fe2f3405326cd93fbb08d90bd"
+    },
+    {
+      "path": "artifacts/openzero-model-methodology-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 364,
+      "sha256": "862e920fe3bec0ece99c055f4c8bd26e9cf58e51fee66c3fbe08d42a5e690deb"
+    },
+    {
+      "path": "artifacts/openzero-model-methodology-1.0/RELEASE_NOTES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 606,
+      "sha256": "e43c0e644bbc779141042d3323b9fe0d9b5440123cac5b498040506ef12fab5a"
+    },
+    {
+      "path": "artifacts/openzero-model-methodology-1.0/SHA256SUMS.txt",
+      "category": "reproducibility-artifact",
+      "bytes": 648,
+      "sha256": "057a70f14c558842be9bbd2e6380da7517f4fefad082d44227647a669453b5c4"
+    },
+    {
+      "path": "artifacts/openzero-model-methodology-1.0/methodology-manifest.json",
+      "category": "reproducibility-artifact",
+      "bytes": 939,
+      "sha256": "4440695e1c82c5beae271944cc9886727340eb5768d48898a02264a96ec0ba36"
+    },
+    {
+      "path": "artifacts/openzero-model-methodology-1.0/verify_methodology.py",
+      "category": "reproducibility-artifact",
+      "bytes": 1781,
+      "sha256": "bbc01e17ca30eb11fa557eda8beac03c1cac9b9eb1d277df70928b178d2dd3ad"
+    },
+    {
+      "path": "artifacts/openzero-runtime-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 396,
+      "sha256": "8111a2ef51e57ce64b7455d605cb8bd8a1cdb60daefd05d72c433487bffc6c37"
+    },
+    {
+      "path": "artifacts/openzero-runtime-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 269,
+      "sha256": "9a26437e38f9d0d64ef83160ea4d58ca40c8c0a76cae3658be0cda843c00f986"
+    },
+    {
+      "path": "artifacts/openzero-runtime-1.0/RELEASE_NOTES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 686,
+      "sha256": "28053eae13b543b1cbc28644e76fe4d05c3ffa752d435033d9287a2397e2ddf5"
+    },
+    {
+      "path": "artifacts/openzero-runtime-1.0/SHA256SUMS.txt",
+      "category": "reproducibility-artifact",
+      "bytes": 731,
+      "sha256": "aa17e1c6d116611812626a6485d13613b7b442da89c010a1eed091d87cd5c0ac"
+    },
+    {
+      "path": "artifacts/openzero-runtime-1.0/action-boundaries.json",
+      "category": "reproducibility-artifact",
+      "bytes": 685,
+      "sha256": "2437b840d1e467b0c822995425c101c2383259238be201b8275e393dde7c3de9"
+    },
+    {
+      "path": "artifacts/openzero-runtime-1.0/test-results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 369,
+      "sha256": "58b621bf2463d04fd475c6005805efdc341c654de0de9c5cbbab3b10b9243acd"
+    },
+    {
+      "path": "artifacts/openzero-runtime-1.0/verify_boundaries.py",
+      "category": "reproducibility-artifact",
+      "bytes": 863,
+      "sha256": "aff188ab7afc59182bc7dc6aa903690ca34d7e56d1974537699fab6e421e43b4"
+    },
+    {
+      "path": "artifacts/probability-goodness-routing-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 329,
+      "sha256": "fdf087c82cea5fb504907be86afac3f2b560848b44c94cb21df0b35273bcbb9e",
+      "nearby_notices": [
+        "artifacts/probability-goodness-routing-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/probability-goodness-routing-1.0/LICENSE",
+      "category": "reproducibility-artifact",
+      "bytes": 450,
+      "sha256": "28ce6050db942d64189b9f58e32882e2f29217219266169f57194d52b3ff01e2",
+      "nearby_notices": [
+        "artifacts/probability-goodness-routing-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/probability-goodness-routing-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 280,
+      "sha256": "018c46bdff0c8bfe5b1e6d760337a6298eb27d49a2fe2c74a4c3887f5ae073d0",
+      "nearby_notices": [
+        "artifacts/probability-goodness-routing-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/probability-goodness-routing-1.0/RELEASE_NOTES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 242,
+      "sha256": "bdc75cb6cdaf1640a3dc46a4d8c6c3caea5e22cd0cf8ba924b187e8afbadc22e",
+      "nearby_notices": [
+        "artifacts/probability-goodness-routing-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/probability-goodness-routing-1.0/SHA256SUMS",
+      "category": "reproducibility-artifact",
+      "bytes": 564,
+      "sha256": "dc250a3cc1ed47046cf318eccbc88fb157ac846ded4d993ae63dff9607868473",
+      "nearby_notices": [
+        "artifacts/probability-goodness-routing-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/probability-goodness-routing-1.0/audit_goodness.py",
+      "category": "reproducibility-artifact",
+      "bytes": 2259,
+      "sha256": "8389054299cbecca3478f72ba0ff6de4552d7887d0f020bef55d77d20a748374",
+      "nearby_notices": [
+        "artifacts/probability-goodness-routing-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/probability-goodness-routing-1.0/test-results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 1107,
+      "sha256": "9954bcd5041822cdd3b231422d7f0254dc4b271a60c8d90342851b343e4d993d",
+      "nearby_notices": [
+        "artifacts/probability-goodness-routing-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/probability-goodness-routing-1.0/verify_summary.py",
+      "category": "reproducibility-artifact",
+      "bytes": 382,
+      "sha256": "830113ddd460fad934e281e580e19410cb6490538186681770a8738b0edb5f0a",
+      "nearby_notices": [
+        "artifacts/probability-goodness-routing-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/protected-communications-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 405,
+      "sha256": "8d11be5f8f0b85ebb8497e0be56c077424bda97e5d413ea7e9b09e8d7110c559"
+    },
+    {
+      "path": "artifacts/protected-communications-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 289,
+      "sha256": "adc0ed611e60a5f262f7ccd556f8e305a17c3a46a47b06901cd835e266722805"
+    },
+    {
+      "path": "artifacts/protected-communications-1.0/RELEASE_NOTES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 686,
+      "sha256": "bba8aa22d8bda573b4d23128b961a8653a1fb4b9417f50c877d9141ece09d53c"
+    },
+    {
+      "path": "artifacts/protected-communications-1.0/SHA256SUMS.txt",
+      "category": "reproducibility-artifact",
+      "bytes": 760,
+      "sha256": "6f53b5142c7d257d886715c8f2db8d61de0feccda694325540d86700d0f3b6d3"
+    },
+    {
+      "path": "artifacts/protected-communications-1.0/layer-model.json",
+      "category": "reproducibility-artifact",
+      "bytes": 533,
+      "sha256": "7b3b6e18c199ed5b2adb120ac1c2f4707f145dfc188fa79930e9493655c61b8e"
+    },
+    {
+      "path": "artifacts/protected-communications-1.0/test-results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 378,
+      "sha256": "75977a4d011d633226833faca5b5afd27ffae8b1fd73df759274e73f12218fd4"
+    },
+    {
+      "path": "artifacts/protected-communications-1.0/verify_claims.py",
+      "category": "reproducibility-artifact",
+      "bytes": 763,
+      "sha256": "385b88f2df0f86c607cad8dac54b93aa6c9251a19d0b79e55e2765c027f4dcdb"
+    },
+    {
+      "path": "artifacts/quantum-evidence-qpu-factor-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 344,
+      "sha256": "a82189536dcd026bab208ff11abe083021040f596ecd5e71f3854e196ba45d9f",
+      "nearby_notices": [
+        "artifacts/quantum-evidence-qpu-factor-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/quantum-evidence-qpu-factor-1.0/LICENSE",
+      "category": "reproducibility-artifact",
+      "bytes": 1078,
+      "sha256": "7f93291e8a95988b6ee553800b9b39cca0384f7b0e4800fb8e50e0acc0e0e717",
+      "nearby_notices": [
+        "artifacts/quantum-evidence-qpu-factor-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/quantum-evidence-qpu-factor-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 466,
+      "sha256": "b1f228402510ed0238671e693374b953cee05fdb4a33377481d03d1e450bd4aa",
+      "nearby_notices": [
+        "artifacts/quantum-evidence-qpu-factor-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/quantum-evidence-qpu-factor-1.0/RELEASE_NOTES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 317,
+      "sha256": "ff324a10cd03b6ce1212685a24e652dcce0696a4f417b6700255dd636a190302",
+      "nearby_notices": [
+        "artifacts/quantum-evidence-qpu-factor-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/quantum-evidence-qpu-factor-1.0/SHA256SUMS",
+      "category": "reproducibility-artifact",
+      "bytes": 662,
+      "sha256": "98f6603a7bcf354d6296b7c037f1891c91164b10a2f8318b12e79b95e261b311",
+      "nearby_notices": [
+        "artifacts/quantum-evidence-qpu-factor-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/quantum-evidence-qpu-factor-1.0/claim-graph-instance.json",
+      "category": "reproducibility-artifact",
+      "bytes": 606,
+      "sha256": "b97803e79c15b44bd7454913b2f9cc9d11916591895124a680c6dee81ec1ff6c",
+      "nearby_notices": [
+        "artifacts/quantum-evidence-qpu-factor-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/quantum-evidence-qpu-factor-1.0/evaluate_claim_graph.py",
+      "category": "reproducibility-artifact",
+      "bytes": 2272,
+      "sha256": "fa0f2d71d862f98a6a13c62c4d131dc85f2cba6bb4537a2c3e0b2db2e7d749a9",
+      "nearby_notices": [
+        "artifacts/quantum-evidence-qpu-factor-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/quantum-evidence-qpu-factor-1.0/test-results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 672,
+      "sha256": "3e757da3efbc0c946c6394d87746219876544b6c53f703c89506d9b9b21618ba",
+      "nearby_notices": [
+        "artifacts/quantum-evidence-qpu-factor-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/quantum-evidence-qpu-factor-1.0/verify_summary.py",
+      "category": "reproducibility-artifact",
+      "bytes": 476,
+      "sha256": "5c495db33835798a31e8fb9624f5f3965ac03554202aaf5cf9ade8b888816d02",
+      "nearby_notices": [
+        "artifacts/quantum-evidence-qpu-factor-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/research-corpus-claim-risk-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 338,
+      "sha256": "275ba46336f4c3e8b18f22d6fe41b353747ea703b36db7840d671d525a14ea8e",
+      "nearby_notices": [
+        "artifacts/research-corpus-claim-risk-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/research-corpus-claim-risk-1.0/LICENSE",
+      "category": "reproducibility-artifact",
+      "bytes": 450,
+      "sha256": "28ce6050db942d64189b9f58e32882e2f29217219266169f57194d52b3ff01e2",
+      "nearby_notices": [
+        "artifacts/research-corpus-claim-risk-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/research-corpus-claim-risk-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 368,
+      "sha256": "7f8b98695774e70f4f3167eb93f54e7f427d015ed4ae74a6b9fd9c9812a0a26c",
+      "nearby_notices": [
+        "artifacts/research-corpus-claim-risk-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/research-corpus-claim-risk-1.0/RELEASE_NOTES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 256,
+      "sha256": "a190ef93589647a59a6e431cf1c5858cc830aa49b404d342e0646d7fc8e8612a",
+      "nearby_notices": [
+        "artifacts/research-corpus-claim-risk-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/research-corpus-claim-risk-1.0/SHA256SUMS",
+      "category": "reproducibility-artifact",
+      "bytes": 751,
+      "sha256": "7fb40fca06a532a10863945340f4a332601f4f33af9534b9d2da345cbccf3b01",
+      "nearby_notices": [
+        "artifacts/research-corpus-claim-risk-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/research-corpus-claim-risk-1.0/benchmark-results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 880,
+      "sha256": "6c0a65cb80780c9a624ca3840d297cd0d5c564d19d9a5395b59f527a3dbeb2cb",
+      "nearby_notices": [
+        "artifacts/research-corpus-claim-risk-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/research-corpus-claim-risk-1.0/benchmark_corpus.py",
+      "category": "reproducibility-artifact",
+      "bytes": 3138,
+      "sha256": "a7a0c30e7dbbf53d0743896f215358e1ec7cbc4b8e8139df3bd4fc6887ab6cc1",
+      "nearby_notices": [
+        "artifacts/research-corpus-claim-risk-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/research-corpus-claim-risk-1.0/frozen-source-metadata.json",
+      "category": "reproducibility-artifact",
+      "bytes": 77039,
+      "sha256": "5e2aff5068d10a246064e7ca30989f5306c5c1ef2a2c4b344584ef3547749547",
+      "nearby_notices": [
+        "artifacts/research-corpus-claim-risk-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/research-corpus-claim-risk-1.0/prepare_metadata.py",
+      "category": "reproducibility-artifact",
+      "bytes": 786,
+      "sha256": "6fd932ae5e4161d5139ea347e51217ab185e39fa6a4fa7561c8bbc9ec0f45f3f",
+      "nearby_notices": [
+        "artifacts/research-corpus-claim-risk-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/research-corpus-claim-risk-1.0/verify_summary.py",
+      "category": "reproducibility-artifact",
+      "bytes": 438,
+      "sha256": "21a94d075bfc0e988766e2dc23f061b971cc68d7fb1fdd9a8b75436e1211eecb",
+      "nearby_notices": [
+        "artifacts/research-corpus-claim-risk-1.0/LICENSE"
+      ]
+    },
+    {
+      "path": "artifacts/zba-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 704,
+      "sha256": "b85f03afca1be85462ef57ac8bce6c632eb60d36f983da5cfb1a9f2fc54342f0"
+    },
+    {
+      "path": "artifacts/zba-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 555,
+      "sha256": "1d8a7d1eff3839f832d17abccdb1b8e660565ce890ad397dd3c9ce15d9bfbf37"
+    },
+    {
+      "path": "artifacts/zba-1.0/zba.schema.json",
+      "category": "reproducibility-artifact",
+      "bytes": 1724,
+      "sha256": "b7dd568df834be5678f34e0bb9a6dd9f48c19dc7ba9baac53d9bbfbfd15a1e2e"
+    },
+    {
+      "path": "artifacts/zba-1.1/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 727,
+      "sha256": "8a0435816e8a5c654557e3842a57779387c49ec8697c3b27b8850cdbe7be94b1"
+    },
+    {
+      "path": "artifacts/zba-1.1/ENCRYPTION_PROFILE_AUDIT.md",
+      "category": "reproducibility-artifact",
+      "bytes": 2644,
+      "sha256": "118a8932dcdbb5e55ae497582f1a21b17fb1c07f468397dde4a0374956aafba8"
+    },
+    {
+      "path": "artifacts/zba-1.1/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 716,
+      "sha256": "11879640ba6f795c285575ac520c27c7e94d140745aa58713bf08d54c01f7b29"
+    },
+    {
+      "path": "artifacts/zba-1.1/property-check-results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 2865,
+      "sha256": "7966f7ec559c270b8973bfcf910e81fc4c62287786fb948730da9628f124e1da"
+    },
+    {
+      "path": "artifacts/zba-1.1/property_check.py",
+      "category": "reproducibility-artifact",
+      "bytes": 4127,
+      "sha256": "7ba0e544be0fec93dc719cedcc8419545860fd86ad98165cd99336a35279898c"
+    },
+    {
+      "path": "artifacts/zba-1.1/test-vectors.json",
+      "category": "reproducibility-artifact",
+      "bytes": 3906,
+      "sha256": "630f451533699adc55b3adf5b508e87f1ee4d4e1a673541a4ae81456befda952"
+    },
+    {
+      "path": "artifacts/zba-1.1/zba.schema.json",
+      "category": "reproducibility-artifact",
+      "bytes": 1724,
+      "sha256": "31583c4a305322338489fc597ccb22a8c1a65ab4955bffe05d8c78d864faadb7"
+    },
+    {
+      "path": "artifacts/zba-1.1/zba_reference.py",
+      "category": "reproducibility-artifact",
+      "bytes": 5431,
+      "sha256": "fc717e1c60c3a42fab83f80370f4dbc31b33d6ff95fcdc643b94bba3bc5328d6"
+    },
+    {
+      "path": "artifacts/zba-reset-compatibility-0.1/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 1255,
+      "sha256": "bd3fc38b2f7a8633ce693f3477d39b7efb914d3baf7da8ab9632a42621074289"
+    },
+    {
+      "path": "artifacts/zba-reset-compatibility-0.1/SHA256SUMS.txt",
+      "category": "reproducibility-artifact",
+      "bytes": 716,
+      "sha256": "2a19b66876e84e34f6f3f73394e7c88f2a46f6d13a3d13a3ec83c12b962da733"
+    },
+    {
+      "path": "artifacts/zba-reset-compatibility-0.1/results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 6677,
+      "sha256": "ed3d5d041352a11c3c7c1b5e7902c237812d8ccd00b7b48032f4da09f617b9a2"
+    },
+    {
+      "path": "artifacts/zba-reset-compatibility-0.1/source-manifest.json",
+      "category": "reproducibility-artifact",
+      "bytes": 1405,
+      "sha256": "c5ceaf67f934f55b445913393484827af1a6be5b3081095c71c87e88ff08a34a"
+    },
+    {
+      "path": "artifacts/zba-reset-compatibility-0.1/sources/github-reference.py",
+      "category": "reproducibility-artifact",
+      "bytes": 5431,
+      "sha256": "fc717e1c60c3a42fab83f80370f4dbc31b33d6ff95fcdc643b94bba3bc5328d6"
+    },
+    {
+      "path": "artifacts/zba-reset-compatibility-0.1/sources/github-spec.md",
+      "category": "reproducibility-artifact",
+      "bytes": 55869,
+      "sha256": "80510016d6ff53a28c0a04c2c41a5b53ad5e1da1e325a01cec10d7ff06b6f598",
+      "title": "Zero Boundary Algebra 1.1: A Typed State Calculus for Directional Boundaries, Mirror Symmetry, and Tamper-Evident Provenance",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0 for the paper; reference artifacts under MIT"
+    },
+    {
+      "path": "artifacts/zba-reset-compatibility-0.1/sources/huggingface-reference.py",
+      "category": "reproducibility-artifact",
+      "bytes": 5431,
+      "sha256": "fc717e1c60c3a42fab83f80370f4dbc31b33d6ff95fcdc643b94bba3bc5328d6"
+    },
+    {
+      "path": "artifacts/zba-reset-compatibility-0.1/sources/huggingface-spec.md",
+      "category": "reproducibility-artifact",
+      "bytes": 55869,
+      "sha256": "80510016d6ff53a28c0a04c2c41a5b53ad5e1da1e325a01cec10d7ff06b6f598",
+      "title": "Zero Boundary Algebra 1.1: A Typed State Calculus for Directional Boundaries, Mirror Symmetry, and Tamper-Evident Provenance",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0 for the paper; reference artifacts under MIT"
+    },
+    {
+      "path": "artifacts/zba-reset-compatibility-0.1/verify_reset_algebra.py",
+      "category": "reproducibility-artifact",
+      "bytes": 6926,
+      "sha256": "b6b36ec0dd6a4ef68f1ed9b23f06c542c16f63616f7659d2438dd65b11723d4f"
+    },
+    {
+      "path": "artifacts/zeromint-aios-evaluation-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 332,
+      "sha256": "9fa1a56f95ab06bb854243c6fd802f5bd2040508b9605252cdbf8b4f435d7853"
+    },
+    {
+      "path": "artifacts/zeromint-aios-evaluation-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 338,
+      "sha256": "fbc1cb0f4f589ccf4525bb5327265bd5ea36b0c9fbe1a5189c767d26825fd673"
+    },
+    {
+      "path": "artifacts/zeromint-aios-evaluation-1.0/RELEASE_NOTES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 572,
+      "sha256": "53a828172589597dbb92fc92ae648178d94760b1a20e9dc64f2ae32ccbff0937"
+    },
+    {
+      "path": "artifacts/zeromint-aios-evaluation-1.0/SHA256SUMS.txt",
+      "category": "reproducibility-artifact",
+      "bytes": 634,
+      "sha256": "9ac557ed0604f15f77767ffeeac2b1aa14a199f1c74fdfe6ce433afbd298fb28"
+    },
+    {
+      "path": "artifacts/zeromint-aios-evaluation-1.0/release-evidence.json",
+      "category": "reproducibility-artifact",
+      "bytes": 992,
+      "sha256": "c7b3b8539bad4a791dc98cb703c655c9975c7a5d295c54c914d76796c64a1f0f"
+    },
+    {
+      "path": "artifacts/zeromint-aios-evaluation-1.0/verify_release.py",
+      "category": "reproducibility-artifact",
+      "bytes": 1884,
+      "sha256": "707fc40ea34104cd2e06611e7e5a6ee84d6ed746d3ce6ce194e63a9eafed7ecc"
+    },
+    {
+      "path": "artifacts/zerothink-architecture-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 410,
+      "sha256": "1127561e1e1e376897832061195a94727ebbe0ff9338696e28b62cf68344deee"
+    },
+    {
+      "path": "artifacts/zerothink-architecture-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 561,
+      "sha256": "a96b26002ba57c3c0ada8bf66f4123726887ed8a89f926aba904312de43e3280"
+    },
+    {
+      "path": "artifacts/zerothink-architecture-1.0/RELEASE_NOTES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 880,
+      "sha256": "087773c7028428eab6449d842f58576d7f944485744379afdb4a79da97a23ec2"
+    },
+    {
+      "path": "artifacts/zerothink-architecture-1.0/SHA256SUMS.txt",
+      "category": "reproducibility-artifact",
+      "bytes": 876,
+      "sha256": "6ca11293d14bade624d4cd80ce02e0b076887890cf4014bb44e3a26b5d8c697a"
+    },
+    {
+      "path": "artifacts/zerothink-architecture-1.0/conformance-results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 333,
+      "sha256": "e6b0821c5782238c68d4ca6272d996b5a321d1890c8d166593a6dffe6fa04d57"
+    },
+    {
+      "path": "artifacts/zerothink-architecture-1.0/test-vectors.json",
+      "category": "reproducibility-artifact",
+      "bytes": 2103,
+      "sha256": "ad52a6a57f021e44a2ff1906d7a0463e30bec52d9118cff7abb20e0d25209fd6"
+    },
+    {
+      "path": "artifacts/zerothink-architecture-1.0/trace.schema.json",
+      "category": "reproducibility-artifact",
+      "bytes": 1544,
+      "sha256": "eeb53a0ee1c44737a6543209995c77b4dbbe4d65c0ff7934cad093e5eb7f8959"
+    },
+    {
+      "path": "artifacts/zerothink-architecture-1.0/verify_conformance.py",
+      "category": "reproducibility-artifact",
+      "bytes": 2617,
+      "sha256": "0656a5ce79e64e5af25400814dc41c81379a54610773e10f36b82028b07e9193"
+    },
+    {
+      "path": "artifacts/zme1-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 410,
+      "sha256": "7feb7d9d89fa3b2e2c919a6c59b3249784c4dce0e7aa1aa03ce673861e114cf2"
+    },
+    {
+      "path": "artifacts/zme1-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 402,
+      "sha256": "b649f6654c5d3b3ca733ad073912525f9a034bb27f2edd6da57b463a67ab7a5f"
+    },
+    {
+      "path": "artifacts/zme1-1.0/RELEASE_NOTES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 741,
+      "sha256": "b5136828a27025fad8f7cf86bbf9d8a30e1cc0efcea3fa62b649d66b049b97a7"
+    },
+    {
+      "path": "artifacts/zme1-1.0/SHA256SUMS.txt",
+      "category": "reproducibility-artifact",
+      "bytes": 811,
+      "sha256": "ed117dbbeb40453dd59d0bb762609950d144f5b8a5ab71662212085ecc681fd0"
+    },
+    {
+      "path": "artifacts/zme1-1.0/container.schema.json",
+      "category": "reproducibility-artifact",
+      "bytes": 1679,
+      "sha256": "53f44d6b43004f10ba38b1719a73586beb8cdf4042291bcc9a59ff8c4df2515d"
+    },
+    {
+      "path": "artifacts/zme1-1.0/structural-vectors.json",
+      "category": "reproducibility-artifact",
+      "bytes": 1866,
+      "sha256": "459ad53970aed93831d01c9f968e4c4f28ea4765ad2171c26eebf722fa08ea50"
+    },
+    {
+      "path": "artifacts/zme1-1.0/test-results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 277,
+      "sha256": "9ee3638b00a4452900fada401d017a73c9b06c77ea3abeb227f77ca9fd902c99"
+    },
+    {
+      "path": "artifacts/zme1-1.0/verify_structure.py",
+      "category": "reproducibility-artifact",
+      "bytes": 1886,
+      "sha256": "9fc6230efdc704dba43cc67d22464afa935729eb21d295bae56e41a6ea80572f"
+    },
+    {
+      "path": "data/benchmarks/openzero-api-exact-answer-2026-07-08.csv",
+      "category": "public-data-or-metadata",
+      "bytes": 5034,
+      "sha256": "cb64cae33952abea068a3db1b500dd7711cbd8f3824114edc87929072ef9a18b"
+    },
+    {
+      "path": "data/benchmarks/openzero-api-exact-answer-summary-2026-07-08.json",
+      "category": "public-data-or-metadata",
+      "bytes": 961,
+      "sha256": "79f09f9386274e88350bdc840fc103428a4c84fb98e7a3d057ff8a5d63970aec"
+    },
+    {
+      "path": "data/benchmarks/openzero-spectra-talktoaiq-benchmark-2026-07-08.csv",
+      "category": "public-data-or-metadata",
+      "bytes": 19568,
+      "sha256": "66da62479f28a95b3cbe61633eb9e1cf2fd8fd1597af2d802612020e944716e1"
+    },
+    {
+      "path": "data/benchmarks/openzero-spectra-talktoaiq-benchmark-summary-2026-07-08.json",
+      "category": "public-data-or-metadata",
+      "bytes": 1368,
+      "sha256": "9807d76685b38c77364c3df6fac547f13fa94bec9a530e690b2b8b08eadd1026"
+    },
+    {
+      "path": "data/benchmarks/shafire-huggingface-models-2026-07-08.json",
+      "category": "public-data-or-metadata",
+      "bytes": 12195,
+      "sha256": "7a152052728c3e05a4b2a0029b0efdca2a96821cf361ba170087365437c327ef"
+    },
+    {
+      "path": "data/benchmarks/shafire-spectra-talktoaiq-artifacts-2026-07-08.json",
+      "category": "public-data-or-metadata",
+      "bytes": 5598,
+      "sha256": "2bfc5918d9fb3c30844aa76c2d40c5a3c94bd1e395cb6aceb5862e85b5ae2d42"
+    },
+    {
+      "path": "data/benchmarks/zerothink-authenticated-intelligence-benchmark-2026-07-09-spectra8-only.csv",
+      "category": "public-data-or-metadata",
+      "bytes": 4374,
+      "sha256": "346e57f3807bc8ac8d3372f6822d3d0a90753875eae72a6fc45ee3bfa5877a03"
+    },
+    {
+      "path": "data/benchmarks/zerothink-authenticated-intelligence-benchmark-2026-07-09.csv",
+      "category": "public-data-or-metadata",
+      "bytes": 12592,
+      "sha256": "d559e039bb0973035d8412846033d5084bf5de3e1bb7fe00d02ae87e96e6136b"
+    },
+    {
+      "path": "data/benchmarks/zerothink-authenticated-intelligence-benchmark-summary-2026-07-09-spectra8-only.json",
+      "category": "public-data-or-metadata",
+      "bytes": 3461,
+      "sha256": "c1591700f11def6f8c779f86273dc619831bdd1a0e97d46fd86807f514648d61"
+    },
+    {
+      "path": "data/benchmarks/zerothink-authenticated-intelligence-benchmark-summary-2026-07-09.json",
+      "category": "public-data-or-metadata",
+      "bytes": 7036,
+      "sha256": "7812e47978045f48593104b583cecc833db1e3691a139b61037bdda4a8f6ad69"
+    },
+    {
+      "path": "data/benchmarks/zerothink-system-benchmark-2026-07-09.csv",
+      "category": "public-data-or-metadata",
+      "bytes": 7974,
+      "sha256": "365aee09cad206aabdca6882bab191cc6197db2c2ca1b4b1ba728c313d7d16b9"
+    },
+    {
+      "path": "data/benchmarks/zerothink-system-benchmark-summary-2026-07-09.json",
+      "category": "public-data-or-metadata",
+      "bytes": 10085,
+      "sha256": "bed42b1667819741ffbb582522ee1bb5abb36928a1513a09df4d760b2c10a4a8"
+    },
+    {
+      "path": "data/research-forum-source-index.json",
+      "category": "public-data-or-metadata",
+      "bytes": 213346,
+      "sha256": "8f2e70b525c8276a8b2962a53f8dfb8adeb8c8df90d46f8b53173ee8b7e8d478"
+    },
+    {
+      "path": "papers/ZBA_368_Boundary_Completion_and_Cycle_Memory.pdf",
+      "category": "manuscript-companion",
+      "bytes": 366929,
+      "sha256": "26c6b4f4f555945d5e3e1fde4643ae95cb92d21fd4f088faa1f9355c2a587bac"
+    },
+    {
+      "path": "papers/agent-release-evidence-boundaries-2026.md",
+      "category": "manuscript",
+      "bytes": 7509,
+      "sha256": "07247278bf1d5a8826e5d2ca7206e5a16627fb6887abf4e908616b19da955540",
+      "title": "Release Evidence Boundaries for Cross-Platform, Self-Hosted AI Agents",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-09-27",
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "papers/bio-digital-research-boundaries.md",
+      "category": "manuscript",
+      "bytes": 9395,
+      "sha256": "aad17383e7af6e8e5ce5fb18515007753cae7e9024a6a9e16233635e1879eaa0",
+      "title": "Bio-Inspired Recursive Computation 1.0",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0 paper; MIT reproducibility code"
+    },
+    {
+      "path": "papers/botanical-formula-research-roadmap.md",
+      "category": "manuscript",
+      "bytes": 19400,
+      "sha256": "d8ce8c89802881a1b098ae80ab6c11ff502d91cae5d3cf3a4e34a151bfe4353c",
+      "title": "Botanical Formula Research Roadmap: From Forum Notes to Safe Experimental Design",
+      "date": "2026-07-07"
+    },
+    {
+      "path": "papers/bounded-long-session-agents-2026.md",
+      "category": "manuscript",
+      "bytes": 6857,
+      "sha256": "34e1da6dfc52e2cff34f70dc573e0c3fba276935d6c6d4d315a93bad4571644f",
+      "title": "Bounded Continuation and Progress Evidence in Long-Session Coding Agents",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-09-27",
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "papers/cymatics-zero-platform-evaluation-1.0.md",
+      "category": "manuscript",
+      "bytes": 13248,
+      "sha256": "1caa82c8851377fb319975a52dfa53560666a12765fcce35f83d5472950f0cda",
+      "title": "Cymatics Zero Platform Evaluation 1.0",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "papers/formatted/Cymatics-Zero-Platform-Evaluation-1.0-Shafaet-Brady-Hussain.docx",
+      "category": "formatted-manuscript",
+      "bytes": 45512,
+      "sha256": "640ee7a5011fa613c3b015000b005a1b303e94726749f002bd6bf86658b4c949",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/cymatics-zero-platform-evaluation-1.0.md"
+    },
+    {
+      "path": "papers/formatted/Cymatics-Zero-Platform-Evaluation-1.0-Shafaet-Brady-Hussain.pdf",
+      "category": "formatted-manuscript",
+      "bytes": 17951,
+      "sha256": "80cdc48c17fa5737427fdf2ad47c2ea74a10d5a642809507d6b79ad05f98dda2",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/cymatics-zero-platform-evaluation-1.0.md"
+    },
+    {
+      "path": "papers/formatted/OpenZero-Local-First-Agent-Runtime-1.0-Shafaet-Brady-Hussain.docx",
+      "category": "formatted-manuscript",
+      "bytes": 46670,
+      "sha256": "83ec259b375bca53a2bda856812bd2f87149da953a81d136636a8a3c180a2c72",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/openzero-local-first-agent-runtime-1.0.md"
+    },
+    {
+      "path": "papers/formatted/OpenZero-Local-First-Agent-Runtime-1.0-Shafaet-Brady-Hussain.pdf",
+      "category": "formatted-manuscript",
+      "bytes": 19706,
+      "sha256": "9820f9281408c66f7da06b5ad373999a01c1ac7216dfedf4e3c739a08dbd05c9",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/openzero-local-first-agent-runtime-1.0.md"
+    },
+    {
+      "path": "papers/formatted/OpenZero-Model-and-Dataset-Methodology-1.0-Shafaet-Brady-Hussain.docx",
+      "category": "formatted-manuscript",
+      "bytes": 45298,
+      "sha256": "71b109ec86e0545ae16337b7e2206c33e8bbe1ff92c478b1984f55e6f599955d",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/openzero-model-dataset-methodology-1.0.md"
+    },
+    {
+      "path": "papers/formatted/OpenZero-Model-and-Dataset-Methodology-1.0-Shafaet-Brady-Hussain.pdf",
+      "category": "formatted-manuscript",
+      "bytes": 16747,
+      "sha256": "1eeda6496b830ada61f233ef044fe517bbc5acf8dff7a709d714b73281965c17",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/openzero-model-dataset-methodology-1.0.md"
+    },
+    {
+      "path": "papers/formatted/README.md",
+      "category": "archive-metadata",
+      "bytes": 5817,
+      "sha256": "0e71b05d7e3fa154331577b19d8c1e678b006789dd3df188ee96ee47c84a3bae"
+    },
+    {
+      "path": "papers/formatted/SOURCE_MANIFEST.json",
+      "category": "archive-metadata",
+      "bytes": 29619,
+      "sha256": "739e2b81f1fdb15ed76c3613889f26406afc7e419de96889cfba915fd2256752"
+    },
+    {
+      "path": "papers/formatted/ZMath-Shield-ZME1-Evidence-Containers-1.0-Shafaet-Brady-Hussain.docx",
+      "category": "formatted-manuscript",
+      "bytes": 49503,
+      "sha256": "143f5b4a7e1a0012769ef7351298e6f9f5866885b340e404b2806543341e10b4",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/zmath-shield-zme1-evidence-containers-1.0.md"
+    },
+    {
+      "path": "papers/formatted/ZMath-Shield-ZME1-Evidence-Containers-1.0-Shafaet-Brady-Hussain.pdf",
+      "category": "formatted-manuscript",
+      "bytes": 27455,
+      "sha256": "e111728afce29510392694544f28659085c56563c3722a14e07dc65bb5817f53",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/zmath-shield-zme1-evidence-containers-1.0.md"
+    },
+    {
+      "path": "papers/formatted/ZeroMint-AIOS-Engineering-Evaluation-1.0-Shafaet-Brady-Hussain.docx",
+      "category": "formatted-manuscript",
+      "bytes": 44771,
+      "sha256": "7c9f1f73161afcf9aad1213906a9e8acd20ae9af11e5259d5daae71994359f29",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/zeromint-aios-engineering-evaluation-1.0.md"
+    },
+    {
+      "path": "papers/formatted/ZeroMint-AIOS-Engineering-Evaluation-1.0-Shafaet-Brady-Hussain.pdf",
+      "category": "formatted-manuscript",
+      "bytes": 15609,
+      "sha256": "effd4775242c66fe7eef9ca27d4ceeb97f4a29e55f4a1af0637dc9031a57da90",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/zeromint-aios-engineering-evaluation-1.0.md"
+    },
+    {
+      "path": "papers/formatted/ZeroThink-Reproducible-Architecture-1.0-Shafaet-Brady-Hussain.docx",
+      "category": "formatted-manuscript",
+      "bytes": 51289,
+      "sha256": "f4e09633137506b19344f5fd5e0e1bb6fd209e9c26ac54bb72dbde3f7c82f7a9",
+      "archive_recorded_rights": "No explicit license grant located; current rights reserved",
+      "archive_rights_evidence": "papers/zerothink-reproducible-architecture-1.0.md"
+    },
+    {
+      "path": "papers/formatted/ZeroThink-Reproducible-Architecture-1.0-Shafaet-Brady-Hussain.pdf",
+      "category": "formatted-manuscript",
+      "bytes": 29017,
+      "sha256": "d18a8c17a1515b1283290c1774c2f08f449cc0a1b85dc3ca185ac9e187ffac9e",
+      "archive_recorded_rights": "No explicit license grant located; current rights reserved",
+      "archive_rights_evidence": "papers/zerothink-reproducible-architecture-1.0.md"
+    },
+    {
+      "path": "papers/formatted/Zmail-CallChat-Protected-Communications-1.0-Shafaet-Brady-Hussain.docx",
+      "category": "formatted-manuscript",
+      "bytes": 47653,
+      "sha256": "76481d790847653023eb6de8a1d8ec509a0891af2e4817101ba8c56911cc387d",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/zmail-callchat-protected-communications-1.0.md"
+    },
+    {
+      "path": "papers/formatted/Zmail-CallChat-Protected-Communications-1.0-Shafaet-Brady-Hussain.pdf",
+      "category": "formatted-manuscript",
+      "bytes": 22527,
+      "sha256": "9cae5d611f7f18ca33842699f0334532a358996a4bfd568f6f7e8b06850c3e98",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/zmail-callchat-protected-communications-1.0.md"
+    },
+    {
+      "path": "papers/formatted/bio-inspired-recursive-computation-1.0.docx",
+      "category": "formatted-manuscript",
+      "bytes": 42728,
+      "sha256": "d0ede3c7fa218b0c16632f92f8fcd087c8394a6199b2d4f3ab73416a32201651",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/bio-digital-research-boundaries.md"
+    },
+    {
+      "path": "papers/formatted/bio-inspired-recursive-computation-1.0.pdf",
+      "category": "formatted-manuscript",
+      "bytes": 11796,
+      "sha256": "09858750d4ed64e4bd8b0bc5e093e2520419d84e504a65ea1ebb394776c5a732",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/bio-digital-research-boundaries.md"
+    },
+    {
+      "path": "papers/formatted/probability-of-goodness-decision-routing-1.0.docx",
+      "category": "formatted-manuscript",
+      "bytes": 42874,
+      "sha256": "7f5d46aca9be015a411f95607f1960b7d2a9ceb8c0dd5d92a07849f3611c6696",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/probability-of-goodness-ethical-routing.md"
+    },
+    {
+      "path": "papers/formatted/probability-of-goodness-decision-routing-1.0.pdf",
+      "category": "formatted-manuscript",
+      "bytes": 12041,
+      "sha256": "1756aea8e269c330d8e488a3d352da2e3817814bda4cc883bc20ff0828784252",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/probability-of-goodness-ethical-routing.md"
+    },
+    {
+      "path": "papers/formatted/quantum-ready-evidence-graphs-and-qpu-factor-evaluation-1.0.docx",
+      "category": "formatted-manuscript",
+      "bytes": 43332,
+      "sha256": "248ac9701f9c5a38efa013a70d70e0e99a0bc4f20d503f265780d06e699d357c",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/quantum-ready-evidence-graphs.md"
+    },
+    {
+      "path": "papers/formatted/quantum-ready-evidence-graphs-and-qpu-factor-evaluation-1.0.pdf",
+      "category": "formatted-manuscript",
+      "bytes": 12923,
+      "sha256": "76e363aa04db7897981cebcdfc9918d4733dd2f34b78cb0366ad3124ff4f2f53",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/quantum-ready-evidence-graphs.md"
+    },
+    {
+      "path": "papers/formatted/research-corpus-curation-and-claim-risk-benchmark-1.0.docx",
+      "category": "formatted-manuscript",
+      "bytes": 43215,
+      "sha256": "0a4b6ebd0f6edb42775af20861d32b2d3d6ee9efaa9f08e3343fbf61185efe65",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/research-forum-corpus-synthesis-2026.md"
+    },
+    {
+      "path": "papers/formatted/research-corpus-curation-and-claim-risk-benchmark-1.0.pdf",
+      "category": "formatted-manuscript",
+      "bytes": 12652,
+      "sha256": "1e7fab9c47587c4a4392797695d002505be7266fbc1d59f55654cc5e5e7919bd",
+      "archive_recorded_rights": "CC BY 4.0",
+      "archive_rights_evidence": "papers/research-forum-corpus-synthesis-2026.md"
+    },
+    {
+      "path": "papers/local-llm-serving-path-benchmark-2026-07-26.md",
+      "category": "manuscript",
+      "bytes": 8103,
+      "sha256": "bdda883a78f4b11a0cd0dd2d28ffafaa9e7b8703ff019d3f319210e6aea92c43"
+    },
+    {
+      "path": "papers/openzero-local-first-agent-runtime-1.0.md",
+      "category": "manuscript",
+      "bytes": 16069,
+      "sha256": "2e67862fab9264f37054fda9bb68092bbd2034f29437408ff6caa2466bf285d1",
+      "title": "OpenZero 1.0: A Local-First Agent Runtime with Observable Serving-Path Boundaries",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "papers/openzero-local-first-ai-nodes.md",
+      "category": "manuscript",
+      "bytes": 18252,
+      "sha256": "277423d2863b6584444556dcf53337a336c6acd5316626c82e4b06edc6f046a8",
+      "title": "OpenZero and Local-First AI Nodes for Low-Cost Sovereign Agents",
+      "date": "2026-07-07"
+    },
+    {
+      "path": "papers/openzero-model-dataset-methodology-1.0.md",
+      "category": "manuscript",
+      "bytes": 13284,
+      "sha256": "99c47400d6a0835346054914e42661640e7f75767e6f00c04f869ba08ed16724",
+      "title": "OpenZero Model and Dataset Methodology 1.0",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "papers/outcome-first-local-agents-2026.md",
+      "category": "manuscript",
+      "bytes": 7488,
+      "sha256": "cf66edfab28edd2df727d7e2641550d65e73b71186dd91b566306d458ec34c69",
+      "title": "Outcome-First Task Navigation for Local and Self-Hosted Coding Agents",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-09-27",
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "papers/probability-of-goodness-ethical-routing.md",
+      "category": "manuscript",
+      "bytes": 9816,
+      "sha256": "733e0cf82069763ef3caa9afd550b33fa74ee5af7b24be1c8c23319c67c4d1ea",
+      "title": "Probability of Goodness Decision Routing 1.0",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0 paper; MIT reproducibility code"
+    },
+    {
+      "path": "papers/quantum-ready-evidence-graphs.md",
+      "category": "manuscript",
+      "bytes": 11255,
+      "sha256": "57dc6fb2d2bf857390104f89814f80814e57b7eff574f43f44d45a42de4f4cc4",
+      "title": "Quantum-Ready Evidence Graphs and QPU-Factor Evaluation 1.0",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0 paper; MIT reproducibility code"
+    },
+    {
+      "path": "papers/research-forum-corpus-synthesis-2026.md",
+      "category": "manuscript",
+      "bytes": 10911,
+      "sha256": "fcdd6b94ae5481ac9fc141539b7768cd0a1a07f26e66ef20233b272ab8c3f6ea",
+      "title": "Research-Corpus Curation and Claim-Risk Benchmark 1.0",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0 paper; MIT reproducibility code"
+    },
+    {
+      "path": "papers/reversible-recursive-agent-improvement-2026.md",
+      "category": "manuscript",
+      "bytes": 6984,
+      "sha256": "3862c9856c75068932a9a95617b6d798ca42b16375a6fa2e39f0be94bf52d344",
+      "title": "Reversible Recursive Source Improvement with Candidate Isolation",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-09-27",
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "papers/shafire-openzero-local-benchmark-2026-07-08.md",
+      "category": "manuscript",
+      "bytes": 6345,
+      "sha256": "f794af87c6b18e5a3802e5adbee947d29e2e1bf355d27162c723b45b173e0e33"
+    },
+    {
+      "path": "papers/spectra-talktoaiq-openzero-benchmark-2026-07-08.md",
+      "category": "manuscript",
+      "bytes": 4660,
+      "sha256": "195d784a3d8c9e1bc622b26b765050fc3d79ba511f45977649ecc41801362061"
+    },
+    {
+      "path": "papers/tool-protocol-reliability-local-models-2026.md",
+      "category": "manuscript",
+      "bytes": 6504,
+      "sha256": "c52e0f01d77312b201717d878c34ebdb6e5ff5c47e782adee3d1a5c539246acd",
+      "title": "Tool-Protocol Reliability for Smaller Local Coding Models",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-09-27",
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "papers/zba-boundary-completion-cycle-memory-0.1.md",
+      "category": "manuscript",
+      "bytes": 1425,
+      "sha256": "e86301f310294b4c0e32d5ecdf889a75defc36917cb70ec1858dc8bbdd91ff5c"
+    },
+    {
+      "path": "papers/zba-reset-compatibility-0.1.md",
+      "category": "manuscript",
+      "bytes": 5707,
+      "sha256": "aa157e207542a15d26441caeda67100f0fd0418c0abf02fc42849b7eac86767e"
+    },
+    {
+      "path": "papers/zba-reset-compatibility-0.1.tex",
+      "category": "manuscript-companion",
+      "bytes": 19743,
+      "sha256": "954d4118d9d44040f57e74ab8f8bbcdd2be753e628024e39062ef187191eb4d5"
+    },
+    {
+      "path": "papers/zero-boundary-algebra-formal-specification-1.0.md",
+      "category": "manuscript",
+      "bytes": 32303,
+      "sha256": "ad9a6fb0ef1a07343c40d4a7ad286d6eac9c229fbfca2aa87a1b406e921ba7f9",
+      "title": "Zero Boundary Algebra 1.0: A Typed State Calculus for Directional Boundaries, Mirror Symmetry, and Tamper-Evident Provenance",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0 for the paper; reference artifacts under MIT"
+    },
+    {
+      "path": "papers/zero-boundary-algebra-formal-specification-1.1.md",
+      "category": "manuscript",
+      "bytes": 55869,
+      "sha256": "80510016d6ff53a28c0a04c2c41a5b53ad5e1da1e325a01cec10d7ff06b6f598",
+      "title": "Zero Boundary Algebra 1.1: A Typed State Calculus for Directional Boundaries, Mirror Symmetry, and Tamper-Evident Provenance",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0 for the paper; reference artifacts under MIT"
+    },
+    {
+      "path": "papers/zero-boundary-algebra-provenance-workflow.md",
+      "category": "manuscript",
+      "bytes": 19270,
+      "sha256": "8a69005ab0f8e56c7918e0f9e8888d55322c17a69ecdbd6a63ecc3a4bed45f48",
+      "title": "Zero Boundary Algebra as a Provenance Workflow for AI Research Notes",
+      "date": "2026-07-07"
+    },
+    {
+      "path": "papers/zeromint-aios-engineering-evaluation-1.0.md",
+      "category": "manuscript",
+      "bytes": 12167,
+      "sha256": "f4caae56724e550ea4830d89e0a4d8aa2ea046ac683012fd19e185c3cb2211b1",
+      "title": "ZeroMint AIOS Engineering Evaluation 1.0",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "papers/zerothink-authenticated-intelligence-benchmark-2026-07-09.md",
+      "category": "manuscript",
+      "bytes": 5771,
+      "sha256": "ab9f5672b52c3a1b54f358121f81b96320e8f55372ae07cdecb0436e7e388c2f"
+    },
+    {
+      "path": "papers/zerothink-public-boundary-evaluation-2026-07-26.md",
+      "category": "manuscript",
+      "bytes": 13496,
+      "sha256": "cdccb60aed865630c5bf1dca8b626723ca97462e89c857f5c4567a698b3af039"
+    },
+    {
+      "path": "papers/zerothink-reproducible-architecture-1.0.md",
+      "category": "manuscript",
+      "bytes": 24317,
+      "sha256": "2a40890f3eda366b604bcf456084787470e2d76f72cd68490cc5ea7901eb9858",
+      "title": "ZeroThink 1.0: A Reproducible Architecture for Evidence-Gated AI Agent Services",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18"
+    },
+    {
+      "path": "papers/zerothink-sovereign-reasoning-layer.md",
+      "category": "manuscript",
+      "bytes": 19303,
+      "sha256": "5f3350a64911f1a5d6620b583faa473ebbd62857f2324b88cdc090e7ab15ed61",
+      "title": "ZeroThink as a Sovereign Reasoning Layer: From Rough Notes to Auditable Research",
+      "date": "2026-07-07"
+    },
+    {
+      "path": "papers/zerothink-system-benchmark-2026-07-09.md",
+      "category": "manuscript",
+      "bytes": 4996,
+      "sha256": "d406ddb6611e6a8ce460d1d446f430b854c1e2ed9497272f168b437253f74d7b"
+    },
+    {
+      "path": "papers/zmail-callchat-protected-communications-1.0.md",
+      "category": "manuscript",
+      "bytes": 19145,
+      "sha256": "aebc9017eb39f35853918367778ab368bb0465b9c6092a8ae04d20d6637bccf1",
+      "title": "Zmail and CallChat 1.0: Layered Protected Communications Across Email, Messaging, and Calls",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "papers/zmath-shield-evidence-containers.md",
+      "category": "manuscript",
+      "bytes": 19403,
+      "sha256": "06b6f651a7126de5169094b5738093bd232e0945897a46d7adef27bdff4a2c5f",
+      "title": "ZMath Shield and Portable Evidence Containers: A Public Behaviour Specification",
+      "date": "2026-07-07"
+    },
+    {
+      "path": "papers/zmath-shield-zme1-evidence-containers-1.0.md",
+      "category": "manuscript",
+      "bytes": 23792,
+      "sha256": "05513a09808932eb14cc03bc8e2688c6513bc3fc0935d762bd4011496085f0ab",
+      "title": "ZMath Shield and ZME1 1.0: Authenticated Evidence Containers with Explicit Security Boundaries",
+      "author": "Shafaet Brady Hussain",
+      "date": "2026-08-18",
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "sources/research-forum-source-ledger.md",
+      "category": "source-ledger",
+      "bytes": 38485,
+      "sha256": "a867e8f4869d6ea7e62a6a4f9d2135a5929a6114aa5b69598a995939237e6692"
+    },
+    {
+      "path": "sources/talktoai-code-8-evidence-ledger.md",
+      "category": "source-ledger",
+      "bytes": 5360,
+      "sha256": "9782e58e8db24b76f1cd9b0ffbc665f1564c2f9e6126b6eaccb1de4c7adc4d5f"
+    }
+  ]
+}

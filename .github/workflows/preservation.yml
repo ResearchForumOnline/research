@@ -9,3 +9,5 @@ jobs:
         with:
           python-version: '3.12'
       - run: python tools/build_preservation_release.py
+      - run: python tools/audit_public_research.py
+      - run: python -m unittest discover -s tools -p test_audit_public_research.py

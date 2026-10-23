@@ -2,6 +2,8 @@
 
 Preserved public research papers, mathematical specifications and reproducibility artifacts by Shafaet Brady Hussain and identified contributors. GitHub is the durable publication location; former hosted services are not required to read this repository.
 
+[Reuse rights](LICENSE.md): the author's original manuscripts are CC BY 4.0 and original reproducibility code and maintenance tools are MIT. Third-party material, separately licensed applications and existing notices keep their own terms. The [research catalog](docs/OPEN_RESEARCH.md) distinguishes papers, reference implementations and full applications.
+
 This repo is designed for clean, citeable public work:
 
 - source-ledger first
@@ -17,6 +19,7 @@ This repo is designed for clean, citeable public work:
 - [ZMath Local 1.1](https://github.com/ResearchForumOnline/ZMath): standalone file/message encryption, the [dual-key notes and attachment vault](https://researchforumonline.github.io/ZMath/dual-key/), preserved signed device-envelope research and public QuantumEncryption1 website material. [Download v1.1.0](https://github.com/ResearchForumOnline/ZMath/releases/tag/v1.1.0). Newly released author-owned code uses PolyForm Noncommercial 1.0.0; research already published under CC BY 4.0 retains that license.
 - [ZERO ONE Desktop 8.0](https://github.com/ResearchForumOnline/ZERO-ONE-Desktop): the local ZeroThink integration is published in source and as [direct Windows x64, macOS Apple Silicon and Linux x64 downloads](https://github.com/ResearchForumOnline/ZERO-ONE-Desktop/releases/tag/v8.0.0), with [release and submission evidence](https://github.com/ResearchForumOnline/ZERO-ONE-Desktop/blob/main/docs/qa/RELEASE_8.0.0.md). Microsoft completed certification and publication: Partner Center confirmed the latest product is available, and live Submission3 offers version8.0.0.0 on 30 September 2026. [Microsoft Store listing](https://apps.microsoft.com/detail/9PMPR7PTW025). A Store-signed installation on this PC has not been verified.
 - [Preservation catalog](docs/PROJECT_PRESERVATION.md): project locations, source boundaries and archived-service status.
+- [Research and original-source catalog](docs/OPEN_RESEARCH.md): public manuscripts, reference code, application-source distinctions, reuse rights and an offline integrity check of every tracked research file.
 - [Published release audit, 30 September 2026](docs/RELEASE_AUDIT_2026-09-30.md): verified Store versions, current GitHub downloads, cross-platform repair and free static-site update evidence.
 - [Formatted paper archive](papers/formatted/README.md): 11 previously public manuscripts preserved as original PDF and DOCX pairs, with individual rights and SHA-256 provenance.
 - [Download the offline public preservation kit](https://github.com/ResearchForumOnline/research/releases/download/project-preservation-2026-09-30/public-preservation-kit-20260930.zip): five reviewed public source snapshots, 612 committed files, a start guide, source/license records and local verification checks. Keep your own copy; original licenses and paper disclosures remain intact. [Kit checksum](https://github.com/ResearchForumOnline/research/releases/download/project-preservation-2026-09-30/public-preservation-kit-20260930.zip.sha256).
