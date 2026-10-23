@@ -1,0 +1,318 @@
+{
+  "circuits": [
+    {
+      "circuit": [
+        {
+          "gate": "h",
+          "target": 2
+        },
+        {
+          "gate": "h",
+          "target": 2
+        }
+      ],
+      "circuit_sha256": "6d9f344d7615cf900d84ffabce06671e0d784f1b5aa97ebc2cf23b8ebfbf8c62",
+      "expected": {
+        "probabilities": {
+          "0": "1"
+        },
+        "type": "explicit_distribution"
+      },
+      "name": "zero_uncompute",
+      "order": 1,
+      "qubits": 4
+    },
+    {
+      "circuit": [
+        {
+          "gate": "x",
+          "target": 0
+        }
+      ],
+      "circuit_sha256": "78d666fc9ba63bae258f45fe1271b1c2f661f23171c4361c492ae2d1e6d97ba4",
+      "expected": {
+        "probabilities": {
+          "1": "1"
+        },
+        "type": "explicit_distribution"
+      },
+      "name": "least_significant_bit",
+      "order": 2,
+      "qubits": 4
+    },
+    {
+      "circuit": [
+        {
+          "gate": "x",
+          "target": 3
+        }
+      ],
+      "circuit_sha256": "c7336d823befa7118ff5a8b648aa00f42afee81e9e0b38b2cf8472e7c68f802b",
+      "expected": {
+        "probabilities": {
+          "8": "1"
+        },
+        "type": "explicit_distribution"
+      },
+      "name": "most_significant_bit",
+      "order": 3,
+      "qubits": 4
+    },
+    {
+      "circuit": [
+        {
+          "gate": "h",
+          "target": 0
+        },
+        {
+          "control": 0,
+          "gate": "x",
+          "target": 1
+        },
+        {
+          "control": 0,
+          "gate": "x",
+          "target": 1
+        },
+        {
+          "gate": "h",
+          "target": 0
+        }
+      ],
+      "circuit_sha256": "d8e44716130f39fcc6813e2222512945646e61068d3cdad4e6697149c911ab39",
+      "expected": {
+        "probabilities": {
+          "0": "1"
+        },
+        "type": "explicit_distribution"
+      },
+      "name": "pair_uncompute",
+      "order": 4,
+      "qubits": 4
+    },
+    {
+      "circuit": [
+        {
+          "gate": "h",
+          "target": 0
+        },
+        {
+          "gate": "h",
+          "target": 1
+        },
+        {
+          "gate": "h",
+          "target": 2
+        },
+        {
+          "gate": "h",
+          "target": 3
+        }
+      ],
+      "circuit_sha256": "9a0783a95ac633f8e65e5d378640804cf82454afc0c88ac31f67452f3e46a20f",
+      "expected": {
+        "probabilities": {
+          "0": "1/16",
+          "1": "1/16",
+          "10": "1/16",
+          "11": "1/16",
+          "12": "1/16",
+          "13": "1/16",
+          "14": "1/16",
+          "15": "1/16",
+          "2": "1/16",
+          "3": "1/16",
+          "4": "1/16",
+          "5": "1/16",
+          "6": "1/16",
+          "7": "1/16",
+          "8": "1/16",
+          "9": "1/16"
+        },
+        "type": "explicit_distribution"
+      },
+      "name": "uniform_forward",
+      "order": 5,
+      "qubits": 4
+    },
+    {
+      "circuit": [
+        {
+          "gate": "h",
+          "target": 3
+        },
+        {
+          "gate": "h",
+          "target": 2
+        },
+        {
+          "gate": "h",
+          "target": 1
+        },
+        {
+          "gate": "h",
+          "target": 0
+        }
+      ],
+      "circuit_sha256": "b9be9867fc5b51e1c9e8bc030d266acf6513fac0a2c6a5d98257c1ace447c9f7",
+      "expected": {
+        "probabilities": {
+          "0": "1/16",
+          "1": "1/16",
+          "10": "1/16",
+          "11": "1/16",
+          "12": "1/16",
+          "13": "1/16",
+          "14": "1/16",
+          "15": "1/16",
+          "2": "1/16",
+          "3": "1/16",
+          "4": "1/16",
+          "5": "1/16",
+          "6": "1/16",
+          "7": "1/16",
+          "8": "1/16",
+          "9": "1/16"
+        },
+        "type": "explicit_distribution"
+      },
+      "name": "uniform_reverse",
+      "order": 6,
+      "qubits": 4
+    },
+    {
+      "circuit": [
+        {
+          "gate": "h",
+          "target": 0
+        },
+        {
+          "gate": "rz",
+          "rotation": 0.0,
+          "target": 0
+        },
+        {
+          "gate": "h",
+          "target": 0
+        }
+      ],
+      "circuit_sha256": "98f2efa374950d20bbcabe13c2c0af0b5632d972422f91b51c0cca17be19c2a5",
+      "expected": {
+        "probabilities": {
+          "0": "1"
+        },
+        "type": "explicit_distribution"
+      },
+      "name": "interference_zero",
+      "order": 7,
+      "qubits": 4
+    },
+    {
+      "circuit": [
+        {
+          "gate": "h",
+          "target": 0
+        },
+        {
+          "gate": "rz",
+          "rotation": 3.141592653589793,
+          "target": 0
+        },
+        {
+          "gate": "h",
+          "target": 0
+        }
+      ],
+      "circuit_sha256": "ee09abf175c67e9dbd58dff844e276f005ede313b9d7270c08d5affc5a2b1b41",
+      "expected": {
+        "probabilities": {
+          "1": "1"
+        },
+        "type": "explicit_distribution"
+      },
+      "name": "interference_one",
+      "order": 8,
+      "qubits": 4
+    },
+    {
+      "circuit": [
+        {
+          "gate": "h",
+          "target": 0
+        },
+        {
+          "gate": "h",
+          "target": 1
+        },
+        {
+          "gate": "h",
+          "target": 2
+        },
+        {
+          "gate": "h",
+          "target": 3
+        }
+      ],
+      "circuit_sha256": "9a0783a95ac633f8e65e5d378640804cf82454afc0c88ac31f67452f3e46a20f",
+      "expected": {
+        "probabilities": {
+          "0": "1/16",
+          "1": "1/16",
+          "10": "1/16",
+          "11": "1/16",
+          "12": "1/16",
+          "13": "1/16",
+          "14": "1/16",
+          "15": "1/16",
+          "2": "1/16",
+          "3": "1/16",
+          "4": "1/16",
+          "5": "1/16",
+          "6": "1/16",
+          "7": "1/16",
+          "8": "1/16",
+          "9": "1/16"
+        },
+        "type": "explicit_distribution"
+      },
+      "name": "duplicate_uniform",
+      "order": 9,
+      "qubits": 4
+    },
+    {
+      "circuit": [
+        {
+          "gate": "h",
+          "target": 0
+        },
+        {
+          "gate": "rz",
+          "rotation": 3.141592653589793,
+          "target": 0
+        },
+        {
+          "gate": "h",
+          "target": 0
+        }
+      ],
+      "circuit_sha256": "ee09abf175c67e9dbd58dff844e276f005ede313b9d7270c08d5affc5a2b1b41",
+      "expected": {
+        "probabilities": {
+          "1": "1"
+        },
+        "type": "explicit_distribution"
+      },
+      "name": "duplicate_interference",
+      "order": 10,
+      "qubits": 4
+    }
+  ],
+  "execution": "LOCAL_EXACT_ONLY",
+  "external_execution_available": false,
+  "manifest_sha256": "775835a4e59da516146b946d0f3ef3fecc61acdb1e2b32539d7cc4ee0d41ecd5",
+  "protocol_id": "ORP-001",
+  "schema": "offline-research-protocol.v1",
+  "state_convention": "logical qubit i is integer bit 2**i",
+  "synthetic_inputs_only": true,
+  "version": "1.0.0"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "offline-research-environment.v1",
+  "python_minimum": "3.10",
+  "python_packages": [],
+  "network_required": false,
+  "external_jobs": 0,
+  "model_required": false,
+  "database_required": false,
+  "platform": "Python standard-library compatible desktop/server platforms",
+  "fixtures": "new local synthetic exact simulations"
+}

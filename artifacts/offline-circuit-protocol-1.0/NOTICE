@@ -1,0 +1,10 @@
+Offline Circuit Research Protocol 1.0 (ORP-001)
+Copyright (c) 2026 Shafaet Brady Hussain.
+
+Author-owned local analysis helpers were extracted under an explicit function
+allowlist from earlier internal research. PROVENANCE.json records the source
+hash and transformation. The manifest, synthetic fixtures, tests and public
+release documentation are a new release. No original private dataset, research
+PDF, external service output, account state or external submission client is
+included. Standard gates, probability formulae and mathematical ideas are not
+claimed as new inventions by this release.

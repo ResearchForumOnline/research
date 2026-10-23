@@ -10,10 +10,10 @@
     "manuscript": 31,
     "manuscript-companion": 2,
     "public-data-or-metadata": 13,
-    "reproducibility-artifact": 105,
+    "reproducibility-artifact": 125,
     "source-ledger": 2
   },
-  "file_count": 177,
+  "file_count": 197,
   "files": [
     {
       "path": "artifacts/bio-inspired-recursive-computation-1.0/CITATION.cff",
@@ -140,6 +140,206 @@
       "category": "reproducibility-artifact",
       "bytes": 888,
       "sha256": "c81c7b3594c5c1060ba824051994af71dc1fd57f6cab04f05d063e72340e86a3"
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/AI_ASSISTANCE.md",
+      "category": "reproducibility-artifact",
+      "bytes": 480,
+      "sha256": "62c8499c7866cd1a3a6229b77ec4c2de129eb3c5392fb36b1e68b1e90fcbe722",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/AUTHORS.md",
+      "category": "reproducibility-artifact",
+      "bytes": 604,
+      "sha256": "dd751b681f3a43caa8ec9b6a42de96c75084c7c41ec29629dd0edb497d1d6a26",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/CHANGELOG.md",
+      "category": "reproducibility-artifact",
+      "bytes": 638,
+      "sha256": "c4a1aa1986a9ca907c4a5c9c19a600048d21a5492e17d4c7321af15d1ef399a8",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/CITATION.cff",
+      "category": "reproducibility-artifact",
+      "bytes": 670,
+      "sha256": "aa37170cb6eed2ea2b9e98c8a38e1588ab9255d98cb89f065a6f451b2109d51d",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/CONFLICTS_AND_FUNDING.md",
+      "category": "reproducibility-artifact",
+      "bytes": 589,
+      "sha256": "bd794ef595afac0d7b59d41ac21e327d193152dd32fd5210f6812fa1369d0e48",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/DEPENDENCIES_AND_LICENSES.md",
+      "category": "reproducibility-artifact",
+      "bytes": 641,
+      "sha256": "e5fcffbe5e3111726368b195cb4c666946df01a98348a19e092bd40471dae436",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/LICENSE",
+      "category": "reproducibility-artifact",
+      "bytes": 1078,
+      "sha256": "aa675be52c0bccca52be164b569df6aa69eb60b8f3596cdf31759ac4e47efd46",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/NOTICE",
+      "category": "reproducibility-artifact",
+      "bytes": 599,
+      "sha256": "c4bbb6fec4fcb5fcf71cadafea845b72a01a6d793f33db2403daca9431a804a4",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/PROVENANCE.json",
+      "category": "reproducibility-artifact",
+      "bytes": 823,
+      "sha256": "188099bdd7b87d5257aa7079b7ba4d09a816f6af6088ec539bd84c9dd34a996d",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/README.md",
+      "category": "reproducibility-artifact",
+      "bytes": 3106,
+      "sha256": "e125acd51c8044a9b8455c014158b68eb826e215516d25f6f4703815b757c13c",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/SECURITY.md",
+      "category": "reproducibility-artifact",
+      "bytes": 694,
+      "sha256": "baf2701b1e81b1e89a390b0f8337d5d7573bbc30a9196407ea6537fb81321a8f",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/SHA256SUMS.txt",
+      "category": "reproducibility-artifact",
+      "bytes": 1553,
+      "sha256": "eaac0a61b52727a68c847beb5db9be120ad59904713d5a68f09e933813f4f5f9",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/environment-release.json",
+      "category": "reproducibility-artifact",
+      "bytes": 343,
+      "sha256": "38be9185e72fa7dfebc194cd84ee509838d73190f48d750aa7f2f7c7eb453761",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/local_analysis.json",
+      "category": "reproducibility-artifact",
+      "bytes": 1408,
+      "sha256": "3d79625a02b02135d864202770ebbf0aa292fac44703b5dcaeb05e9c2bc454c5",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/local_results.json",
+      "category": "reproducibility-artifact",
+      "bytes": 1226,
+      "sha256": "eacef35ec4ad62a883aff742b2a649b055b8666609d098d03a61c273d5f49335",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/manifest.json",
+      "category": "reproducibility-artifact",
+      "bytes": 6804,
+      "sha256": "8d180d9038b11245f7b84648cf429a7515aeefecfdeb0a414453442b6b49ede6",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/protocol.py",
+      "category": "reproducibility-artifact",
+      "bytes": 5912,
+      "sha256": "9e06edb0b7ccf405d4a0b719c0a11c990673e29de9797103baf8abeec545cec7",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/reference.py",
+      "category": "reproducibility-artifact",
+      "bytes": 7117,
+      "sha256": "e48c68c38ca1bb454a60dddc8f90ec1bfc299ed0c1d587defa9dbcb2c6155181",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/test_protocol.py",
+      "category": "reproducibility-artifact",
+      "bytes": 5588,
+      "sha256": "e6ee6d690c1f0397d34bf8628e223c089bf2fc2ec450fa19ce7dd7f3ffd9d619",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
+    },
+    {
+      "path": "artifacts/offline-circuit-protocol-1.0/verify_release.py",
+      "category": "reproducibility-artifact",
+      "bytes": 1789,
+      "sha256": "51cdba67e1bb33b4d99843e2e5ba4ee735b9bb953b294d588dea824d9ea02157",
+      "nearby_notices": [
+        "artifacts/offline-circuit-protocol-1.0/LICENSE",
+        "artifacts/offline-circuit-protocol-1.0/NOTICE"
+      ]
     },
     {
       "path": "artifacts/openzero-model-methodology-1.0/CITATION.cff",

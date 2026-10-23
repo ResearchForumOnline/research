@@ -1,0 +1,21 @@
+{
+  "schema": "offline-circuit-extraction.v1",
+  "source_role": "author-owned offline validation and exact-simulation helper",
+  "source_sha256": "dcf66f9eac5b873b434520add74517348b7a1f957cf7c18cdfb9b11b04e3e6c8",
+  "retained_functions": [
+    "_apply_controlled_x",
+    "_apply_single",
+    "canonical_bytes",
+    "canonical_sha256",
+    "expected_distribution",
+    "normalize_result",
+    "parse_rational",
+    "reconstructed_counts",
+    "simulate",
+    "total_variation",
+    "wilson_interval"
+  ],
+  "transformation": "Explicit function allowlist only; module execution, original manifest, product-specific analysis, account integration, endpoints and all historical output excluded. New protocol manifest and tests authored for this release.",
+  "historical_result_files_copied": 0,
+  "external_jobs_submitted": 0
+}

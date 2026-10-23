@@ -32,6 +32,10 @@ The new ZeroThink Local source release is distinct from the historical ZeroThink
 
 ## New Working Papers
 
+### Offline Circuit Research Protocol 1.0 (23 October 2026)
+
+[**ORP-001 source and reproduction**](artifacts/offline-circuit-protocol-1.0/README.md) publishes a provider-neutral subset of author-owned local validation research under MIT. It includes a newly frozen four-qubit, ten-circuit protocol, exact local synthetic fixtures, source-extraction provenance and 17 software checks, including bit mapping, analytic distributions, mutation rejection and execution with network sockets disabled. No historical compute-service result, account data, private PDF, submission client or physical-device finding is included. This is a reference-software release with explicit limits and AI assistance disclosed.
+
 ### Boundary Completion and Cycle Memory (PDF draft, 27 September 2026)
 
 [**Boundary Completion and Cycle Memory in Zero Boundary Algebra**](papers/zba-boundary-completion-cycle-memory-0.1.md) by **Shafaet Brady Hussain**. The index links the [original 17-page PDF](papers/ZBA_368_Boundary_Completion_and_Cycle_Memory.pdf), covering guarded phase transitions, endpoint algebra and cycle memory, validator equivariance, and auditable histories. The supplied PDF is preserved without modification; it identifies itself as working research draft 0.1 and contains an AI-assistance disclosure. Claims and scope limits are described in the paper.

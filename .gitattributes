@@ -1,3 +1,4 @@
 *.pdf binary
 *.docx binary
 *.zip binary
+artifacts/offline-circuit-protocol-1.0/** text eol=lf

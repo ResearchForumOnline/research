@@ -1,0 +1,62 @@
+{
+  "boundary": "Local synthetic software checks only; no device, biological, clinical, security-strength or product-quality finding.",
+  "circuits": [
+    {
+      "name": "zero_uncompute",
+      "passed": true,
+      "total_variation": 0.0
+    },
+    {
+      "name": "least_significant_bit",
+      "passed": true,
+      "total_variation": 0.0
+    },
+    {
+      "name": "most_significant_bit",
+      "passed": true,
+      "total_variation": 0.0
+    },
+    {
+      "name": "pair_uncompute",
+      "passed": true,
+      "total_variation": 0.0
+    },
+    {
+      "name": "uniform_forward",
+      "passed": true,
+      "total_variation": 0.0
+    },
+    {
+      "name": "uniform_reverse",
+      "passed": true,
+      "total_variation": 0.0
+    },
+    {
+      "name": "interference_zero",
+      "passed": true,
+      "total_variation": 0.0
+    },
+    {
+      "name": "interference_one",
+      "passed": true,
+      "total_variation": 0.0
+    },
+    {
+      "name": "duplicate_uniform",
+      "passed": true,
+      "total_variation": 0.0
+    },
+    {
+      "name": "duplicate_interference",
+      "passed": true,
+      "total_variation": 0.0
+    }
+  ],
+  "execution": "LOCAL_EXACT_ONLY",
+  "external_jobs": 0,
+  "manifest_sha256": "775835a4e59da516146b946d0f3ef3fecc61acdb1e2b32539d7cc4ee0d41ecd5",
+  "network_calls": 0,
+  "protocol_id": "ORP-001",
+  "schema": "offline-research-analysis.v1",
+  "status": "PASS"
+}

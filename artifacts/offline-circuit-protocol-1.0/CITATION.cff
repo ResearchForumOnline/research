@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this version when reusing its protocol or reference implementation."
+title: "Offline Circuit Research Protocol 1.0"
+type: software
+version: 1.0.0
+date-released: 2026-10-23
+authors:
+  - family-names: Hussain
+    given-names: Shafaet Brady
+license: MIT
+repository-code: "https://github.com/ResearchForumOnline/research"
+url: "https://github.com/ResearchForumOnline/research/tree/main/artifacts/offline-circuit-protocol-1.0"
+abstract: "A dependency-free, local-only synthetic protocol for circuit mapping, exact probability distributions and integrity checks. No external compute results or device-performance claims are included."

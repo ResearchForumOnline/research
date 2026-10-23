@@ -11,3 +11,6 @@ jobs:
       - run: python tools/build_preservation_release.py
       - run: python tools/audit_public_research.py
       - run: python -m unittest discover -s tools -p test_audit_public_research.py
+      - run: python artifacts/offline-circuit-protocol-1.0/verify_release.py
+      - run: python artifacts/offline-circuit-protocol-1.0/protocol.py
+      - run: python -m unittest discover -s artifacts/offline-circuit-protocol-1.0 -p test_protocol.py
